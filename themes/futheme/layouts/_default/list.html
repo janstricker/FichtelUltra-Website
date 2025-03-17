@@ -1,0 +1,28 @@
+{{ define "main" }}
+  <h1>{{ .Title }}</h1>
+  {{ .Content }}
+  
+  <!-- Display bundles for the current title section -->
+  {{ with .Resources }}
+    <div class="section-resources">
+      <h2>Resources in {{ $.Title }}</h2>
+      <ul>
+      {{ range . }}
+        <li>
+          {{ if eq .ResourceType "page" }}
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ else }}
+            {{ .Name }} ({{ .ResourceType }})
+          {{ end }}
+        </li>
+      {{ end }}
+      </ul>
+    </div>
+  {{ end }}
+
+  <!-- Display child pages -->
+  {{ range .Pages }}
+    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+    {{ .Summary }}
+  {{ end }}
+{{ end }}

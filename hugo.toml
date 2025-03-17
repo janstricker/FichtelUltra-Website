@@ -1,0 +1,7 @@
+baseURL = 'https://fichtelultra.de/'
+languageCode = 'de-DE'
+title = 'FichtelUltra'
+theme = 'futheme'
+
+[params]
+  homepageSections = ["about", "projects", "blog"]

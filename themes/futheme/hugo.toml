@@ -1,0 +1,9 @@
+[[menus.main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[module]
+  [module.hugoVersion]
+    extended = false
+    min = "0.116.0"
