@@ -13,6 +13,16 @@
   --neutral-overlay: rgba(255, 255, 255, 0.25);
   /* Spacing */
   --padding-inner: 4rem;
+  /* Sizing */
+  --sidebarWidth: clamp(160px, 25%, 320px);
+}
+
+.titleDefault {
+  font-weight: 400;
+}
+
+.titleActive {
+  font-weight: 800;
 }
 
 body {
@@ -26,12 +36,16 @@ body {
 }
 
 header {
-  padding: var(--padding-inner);
+  grid-area: header;
+  height: 33.3vh;
+  padding: 0 var(--padding-inner);
+  color: var(--neutral-weakest);
   flex: 1 0 auto;
   display: flex;
+  gap: 1rem;
   flex-direction: row;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   background-image: url('../fuheader.jpg');
   background-size: cover;
   background-position: center;
@@ -43,11 +57,11 @@ ul {
   padding: 0;
 }
 
-footer {;
-  width: 100%;
+footer {
+  grid-area: footer;
+  padding: 0 var(--padding-inner);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
-
 }
 
 a {
@@ -55,44 +69,46 @@ a {
   text-decoration: none;
 }
 
-
 .parent {
-  height: 100vh;
+  min-height: 100vh;
+  min-width: 100vw;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr; 
-  grid-template-rows: 1fr 1fr 1fr 4em; 
+  grid-template-columns: 1fr var(--sidebarWidth); 
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas:
+  "header side"
+  "main side"
+  "footer side";
   gap: 0px;
 }
-  
-.gridTop {
-  grid-column: span 3 / span 3;
-}
 
-.gridMain {
-  grid-column: span 3 / span 3;
-  grid-row: span 2 / span 2;
-  grid-column-start: 1;
-  grid-row-start: 2;
+.main {
+  grid-area: main;
   padding: var(--padding-inner);
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 1rem;
+  justify-content: center;
+  align-content: center;
 }
 
-.gridSide {
-  grid-row: span 3 / span 3;
-  grid-column-start: 4;
-  grid-row-start: 1;
+.side {
+  top: 0;
+  position: sticky;
+  align-self: start;
+  height: 100vh;
+  grid-area: side;
   margin: 0;
   padding: 0;
-}
-
-.gridBottom {
-  grid-column: span 4 / span 4;
-  grid-row-start: 4;
-  padding: 0 var(--padding-inner);
 }
       
 
 .menu {
+  top: 0;
+  position: sticky;
   height: 100%;
+  width:auto;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -121,7 +137,7 @@ a {
 
 .is-primary {
   background-color: var(--accent-1-strong);
-  color: var(--neutral-strongest);
+  color: var (--neutral-strongest);
 }
 .is-secondary {
   background-color: var(--base-weak);

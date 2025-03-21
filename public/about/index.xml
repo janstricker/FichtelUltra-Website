@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>About on FichtelUltra</title>
-    <link>http://localhost:1313/about/</link>
+    <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/</link>
     <description>Recent content in About on FichtelUltra</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 21:02:38 +0100</lastBuildDate>
+    <atom:link href="https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Aboutpost 1</title>
+      <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/aboutpost1/</link>
+      <pubDate>Wed, 12 Mar 2025 21:02:38 +0100</pubDate>
+      <guid>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/aboutpost1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Aboutpost 2</title>
+      <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/aboutpost2/</link>
+      <pubDate>Wed, 12 Mar 2025 21:02:38 +0100</pubDate>
+      <guid>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/about/aboutpost2/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>

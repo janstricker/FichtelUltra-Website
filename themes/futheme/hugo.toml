@@ -7,3 +7,5 @@ weight = 10
   [module.hugoVersion]
     extended = false
     min = "0.116.0"
+
+summaryLength = 10

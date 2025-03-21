@@ -5,3 +5,5 @@ theme = 'futheme'
 
 [params]
   homepageSections = ["about", "projects", "blog"]
+  titlePart1 = "Fichtel"
+  titlePart2 = "Ultra"

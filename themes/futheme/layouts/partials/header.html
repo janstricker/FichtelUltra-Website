@@ -1,3 +1,11 @@
-<header class="gridTop">
-    <a href="/"><h1>{{ site.Title }}</h1></a>
+<header>
+    <h1>
+        <a href="/">
+            <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
+            <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
+        </a>
+    </h1>
+    <h1 class="titleActive">
+        {{ .Title }}
+    </h1>
 </header>

@@ -2,11 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on FichtelUltra</title>
-    <link>http://localhost:1313/blog/</link>
+    <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/</link>
     <description>Recent content in Blog on FichtelUltra</description>
     <generator>Hugo</generator>
     <language>de-DE</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 12 Mar 2025 21:02:24 +0100</lastBuildDate>
+    <atom:link href="https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blogpost 1</title>
+      <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/blogpost1/</link>
+      <pubDate>Wed, 12 Mar 2025 21:02:24 +0100</pubDate>
+      <guid>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/blogpost1/</guid>
+      <description>Blog 1 Lorem ipsum dolor sit amet, consetetur</description>
+    </item>
+    <item>
+      <title>Blogpost 2</title>
+      <link>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/blogpost2/</link>
+      <pubDate>Wed, 12 Mar 2025 21:02:24 +0100</pubDate>
+      <guid>https://sturdy-memory-pw6p9654gxg35vq-1313.app.github.dev/blog/blogpost2/</guid>
+      <description>Blog 2 Lorem ipsum dolor sit amet, consetetur</description>
+    </item>
   </channel>
 </rss>

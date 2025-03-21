@@ -5,11 +5,14 @@
 </head>
 <body class="parent">
   {{ partial "header.html" . }}
-  {{ partial "menu.html" . }}
-<main class="main">
-    {{ block "main" . }}
-    {{ end }}
-</main>
-  {{ partial "footer.html" . }}
+  <menu class="gridSide">
+    {{ partial "menu.html" . }}
+  </menu>
+  <main class="gridMain">
+    {{ block "main" . }}{{ end }}
+  </main>
+  <footer class="gridBottom">
+    {{ partial "footer.html" . }}
+  </footer>
 </body>
 </html>
