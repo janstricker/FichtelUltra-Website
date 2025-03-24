@@ -3,6 +3,7 @@ date = '2025-03-12T21:02:24+01:00'
 draft = true
 title = 'Blogpost 1'
 summary = 'Blog 1 Lorem ipsum dolor sit amet, consetetur'
+color = '{{ .Parent.Params.color }}'
 +++
 
 # Blog 1

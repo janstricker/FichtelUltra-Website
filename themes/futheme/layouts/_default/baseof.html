@@ -3,10 +3,11 @@
 <head>
   {{ partial "head.html" . }}
 </head>
-<body class="parent">
+{{ $class := .Params.color | default "base" }}
+<body class="parent {{ $class }}">
   {{ partial "header.html" . }}
   {{ partial "menu.html" . }}
-<main class="main">
+<main class="{{ if .IsHome }}mainHome{{ end }}">
     {{ block "main" . }}
     {{ end }}
 </main>

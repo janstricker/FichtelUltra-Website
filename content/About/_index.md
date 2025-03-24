@@ -1,6 +1,6 @@
 +++
 title = 'About'
-menuClass = 'is-tertiary'
+color = 'tertiary'
 +++
 
 About

@@ -2,7 +2,7 @@
   {{ $sections := site.Sections }}
   <ul class="menu">
     {{ range $sections }}
-      {{ $class := .Params.menuClass | default "" }}
+      {{ $class := .Params.color | default "" }}
         <a class="menu-item {{ $class }}" href="{{ .Permalink }}">
           <li>
             {{ .Title }}
@@ -10,4 +10,4 @@
         </a>
     {{ end }}
   </ul>
-</menu class="gridSide">
+</menu>

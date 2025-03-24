@@ -1,4 +1,4 @@
-<header>
+<header class="{{ if .IsHome }}headerHome{{ end }}">
     <h1>
         <a href="/">
             <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
@@ -6,6 +6,8 @@
         </a>
     </h1>
     <h1 class="titleActive">
-        {{ .Title }}
+        <a href="/{{ .Section }}">
+            {{ .Section }}
+        </a>
     </h1>
 </header>

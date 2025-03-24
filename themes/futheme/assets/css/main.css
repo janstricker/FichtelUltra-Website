@@ -32,20 +32,28 @@ body {
   font-style: normal;
   line-height: 1.5;
   color: var(--neutral-strongest);
-  background-color: var(--base-strong);
+}
+h1 {
+  text-transform: capitalize;
 }
 
 header {
   grid-area: header;
-  height: 33.3vh;
+  height:auto;
+  color: var(--neutral-strongest);
   padding: 0 var(--padding-inner);
-  color: var(--neutral-weakest);
   flex: 1 0 auto;
   display: flex;
   gap: 1rem;
   flex-direction: row;
   align-items: center;
   justify-content: start;
+  background-color: inherit;
+}
+
+.headerHome {
+  height: 33.3vh;
+  color: var(--neutral-weakest);
   background-image: url('../fuheader.jpg');
   background-size: cover;
   background-position: center;
@@ -82,12 +90,17 @@ a {
   gap: 0px;
 }
 
-.main {
+main {
   grid-area: main;
   padding: var(--padding-inner);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
+  gap: 0;
+  justify-content: start;
+  align-content: start;
+}
+.mainHome{
   gap: 1rem;
   justify-content: center;
   align-content: center;
@@ -135,15 +148,19 @@ a {
   color:var(--neutral-weakest)
 }
 
-.is-primary {
+.primary {
   background-color: var(--accent-1-strong);
   color: var (--neutral-strongest);
 }
-.is-secondary {
+.secondary {
   background-color: var(--base-weak);
   color: var(--neutral-strongest);
 }
-.is-tertiary {
+.tertiary {
   background-color: var(--neutral-weakest);
+  color: var(--neutral-strongest);
+}
+.base {
+  background-color: var(--base-strong);
   color: var(--neutral-strongest);
 }

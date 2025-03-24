@@ -1,6 +1,6 @@
 +++
 title = 'Blog'
-menuClass = 'is-secondary'
+color = 'secondary'
 +++
 
 Blog
