@@ -1,4 +1,4 @@
 +++
 title = 'Running'
-color = 'primary'
+color = 'running'
 +++

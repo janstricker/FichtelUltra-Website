@@ -1,6 +1,6 @@
 +++
 title = 'About'
-color = 'tertiary'
+color = 'about'
 +++
 
 About

@@ -11,10 +11,21 @@
   --neutral-medium: #E3E5EF;
   --neutral-strongest: #221C13;
   --neutral-overlay: rgba(255, 255, 255, 0.25);
+  
+  --about:var(--neutral-weakest);
+  --onAbout:var(--neutral-strongest);
+
+  --blog:var(--base-weak);
+  --onBlog:var(--neutral-strongest);
+
+  --running:var(--accent-1-strong);
+  --onRunning: var(--neutral-strongest);
+
   /* Spacing */
   --padding-inner: 4rem;
   /* Sizing */
   --sidebarWidth: clamp(160px, 25%, 320px);
+
 }
 
 .titleDefault {
@@ -148,17 +159,21 @@ main {
   color:var(--neutral-weakest)
 }
 
-.primary {
-  background-color: var(--accent-1-strong);
-  color: var (--neutral-strongest);
+.running {
+  background-color: var(--running);
+  color: var(--onRunning);
 }
-.secondary {
-  background-color: var(--base-weak);
-  color: var(--neutral-strongest);
+.blog {
+  background-color: var(--blog);
+  color: var(--onBlog);
 }
-.tertiary {
-  background-color: var(--neutral-weakest);
-  color: var(--neutral-strongest);
+.about {
+  background-color: var(--about);
+  color: var(--onAbout);
+}
+.highlight {
+  background-color: var(--accent-2-strong);
+  color: var(--neutral-weakest);
 }
 .base {
   background-color: var(--base-strong);

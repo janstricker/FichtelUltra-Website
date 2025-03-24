@@ -1,6 +1,6 @@
 +++
 title = 'Blog'
-color = 'secondary'
+color = 'blog'
 +++
 
 Blog

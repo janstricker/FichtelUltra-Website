@@ -2,7 +2,7 @@
 date = '2025-03-12T21:02:12+01:00'
 draft = true
 title = 'Runningpost 2'
-color = 'primary'
+color = 'highlight'
 summary = 'Running 2 Lorem ipsum dolor sit amet, consetetur'
 +++
 
