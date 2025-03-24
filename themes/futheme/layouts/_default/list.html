@@ -1,27 +1,16 @@
 {{ define "main" }}
-
-  
-  <!-- Display bundles for the current title section -->
-  {{ with .Resources }}
-    <div class="section-resources">
-      <h2>Resources in {{ $.Title }}</h2>
-      <ul>
-      {{ range . }}
-        <li>
-          {{ if eq .ResourceType "page" }}
-            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-          {{ else }}
-            {{ .Name }} ({{ .ResourceType }})
-          {{ end }}
-        </li>
-      {{ end }}
-      </ul>
-    </div>
-  {{ end }}
-
   <!-- Display child pages -->
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+  {{ range $index, $element := .Pages }}
+  <a href="{{ $element.RelPermalink }}">
+  <article class="post {{ if modBool $index 2 }}even{{ end }}">
+        {{ with $element.Resources.GetMatch "images/*.jpg" }}
+          <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
+        {{ end }}
+      <div class="postContent">
+        <h2>{{ $element.LinkTitle }}</h2>
+        <p>{{ $element.Summary }}</p>
+      </div>
+  </article>
+  </a>
   {{ end }}
 {{ end }}

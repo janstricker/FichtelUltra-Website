@@ -25,7 +25,27 @@
   --padding-inner: 4rem;
   /* Sizing */
   --sidebarWidth: clamp(160px, 25%, 320px);
+}
 
+.running {
+  background-color: var(--running);
+  color: var(--onRunning);
+}
+.blog {
+  background-color: var(--blog);
+  color: var(--onBlog);
+}
+.about {
+  background-color: var(--about);
+  color: var(--onAbout);
+}
+.highlight {
+  background-color: var(--accent-2-strong);
+  color: var(--neutral-weakest);
+}
+.base {
+  background-color: var(--base-strong);
+  color: var(--neutral-strongest);
 }
 
 .titleDefault {
@@ -103,7 +123,6 @@ a {
 
 main {
   grid-area: main;
-  padding: var(--padding-inner);
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -111,8 +130,10 @@ main {
   justify-content: start;
   align-content: start;
 }
+
 .mainHome{
   gap: 1rem;
+  padding: var(--padding-inner);
   justify-content: center;
   align-content: center;
 }
@@ -127,7 +148,6 @@ main {
   padding: 0;
 }
       
-
 .menu {
   top: 0;
   position: sticky;
@@ -159,23 +179,24 @@ main {
   color:var(--neutral-weakest)
 }
 
-.running {
-  background-color: var(--running);
-  color: var(--onRunning);
+.post {
+  display: flex;
+  flex-direction: row;
+  background-color: inherit;
 }
-.blog {
-  background-color: var(--blog);
-  color: var(--onBlog);
+.post.even {
+  flex-direction: row-reverse;
 }
-.about {
-  background-color: var(--about);
-  color: var(--onAbout);
+
+.postImg {
+  width: 50%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
 }
-.highlight {
-  background-color: var(--accent-2-strong);
-  color: var(--neutral-weakest);
-}
-.base {
-  background-color: var(--base-strong);
-  color: var(--neutral-strongest);
+.postContent {
+  width: 50%;
+  padding: var(--padding-inner);
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
 }
