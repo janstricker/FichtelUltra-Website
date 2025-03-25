@@ -193,8 +193,16 @@ main {
   aspect-ratio: 1/1;
   object-fit: cover;
 }
-.postContent {
+.fallback {
   width: 50%;
+  aspect-ratio: 1/1;
+  background-color: rgba(0, 0, 0, 0.2);
+  mix-blend-mode: darken;
+}
+
+.postContent {
+  flex-grow: 1;
+  aspect-ratio: 1/1;
   padding: var(--padding-inner);
   display: flex;
   flex-direction: column;
