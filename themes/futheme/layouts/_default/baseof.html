@@ -7,7 +7,8 @@
 <body class="parent {{ $class }}">
   {{ partial "header.html" . }}
   {{ partial "menu.html" . }}
-<main class="{{ if .IsHome }}mainHome{{ end }}">
+<main class="
+  {{ if .IsHome }}mainHome{{else if .IsSection }}mainSection{{else if .IsPage }}mainPage{{ end }}">
     {{ block "main" . }}
     {{ end }}
 </main>

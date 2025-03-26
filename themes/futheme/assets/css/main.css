@@ -130,12 +130,23 @@ main {
   justify-content: start;
   align-content: start;
 }
-
-.mainHome{
+.mainHome {
   gap: 1rem;
   padding: var(--padding-inner);
   justify-content: center;
   align-content: center;
+}
+.mainContent {
+  gap: 1rem;
+  padding: var(--padding-inner);
+  justify-content: start;
+  align-content: start;
+}
+.mainPage {
+  gap: 1rem;
+  padding: var(--padding-inner);
+  justify-content: start;
+  align-content: start;
 }
 
 .side {
