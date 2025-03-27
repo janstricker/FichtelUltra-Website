@@ -3,11 +3,10 @@
 {{ range .context.Resources.Match (print $dir "/*") }}
   {{- $image := . -}}
   {{- $imageurl := $image.Permalink -}}
-  {{- $imagetitle := index (split $image.Name ".") 0 -}}
+  {{- $imagetitle := index (split (path.Base $image.Name) ".") 0 -}}
     <li>
       <a href="{{ ($image.Fit "1600x1600 q50").Permalink }}" title="{{ $imagetitle }}" class="lightbox-image">
-        <img src="{{ ($image.Fill "300x300 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
-        <span>{{ $imagetitle }}</span>
+        <img src="{{ ($image.Fill "192x192 q50").Permalink }}" alt="{{ $imagetitle }}" title="{{ $imagetitle }}">
       </a>
     </li>
 {{ end }}
