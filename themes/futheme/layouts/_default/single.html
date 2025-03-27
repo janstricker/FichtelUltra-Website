@@ -1,7 +1,7 @@
 {{ define "main" }}
-    {{ with .Resources.GetMatch "images/title.*" }}
+    {{ with .Resources.GetMatch "*/title.*" }}
         <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
-    {{ else with .Resources.GetMatch "images/*.*" }}
+    {{ else with .Resources.GetMatch "*/*.*" }}
         <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
     {{ end }}
 
