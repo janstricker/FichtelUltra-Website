@@ -248,19 +248,3 @@ main {
   align-content: flex-start;
   gap: 1rem;
 }
-
-.image-gallery li {
-  float: left;
-  display: block;
-}
-
-.image-gallery li a {
-  text-align: center;
-  text-decoration: none !important;
-  color: #777;
-}
-
-.image-gallery li a img {
-  width: 100%;
-  display: block;
-}
