@@ -1,4 +1,5 @@
-{{- with resources.Get "js/main.js" }}
+{{- $jsFiles := resources.Match "js/*.js" }}
+{{- range $jsFiles }}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
       <script src="{{ .RelPermalink }}"></script>
