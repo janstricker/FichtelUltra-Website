@@ -3,15 +3,18 @@
 <head>
   {{ partial "head.html" . }}
 </head>
+
 {{ $class := .Params.color | default "base" }}
-<body class="parent {{ $class }}">
-  {{ partial "header.html" . }}
-  {{ partial "menu.html" . }}
-<main class="
-  {{ if .IsHome }}mainHome{{else if .IsSection }}mainSection{{else if .IsPage }}mainPage{{ end }}">
-    {{ block "main" . }}
-    {{ end }}
-</main>
-  {{ partial "footer.html" . }}
+<body class="hflex {{ $class }}">
+{{ partial "menu.html" . }}
+<div class="container">
+    {{ partial "header.html" . }}
+    <main class="
+      {{ if .IsHome }}mainHome{{else if .IsSection }}mainSection{{else if .IsPage }}mainPage{{ end }}">
+        {{ block "main" . }}
+        {{ end }}
+    </main>
+    {{ partial "footer.html" . }}
+</div>
 </body>
 </html>
