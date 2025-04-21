@@ -1,3 +1,7 @@
+html{
+  font-size: 18px;
+}
+
 /* CSS Variables */
 :root {
   /* Color */
@@ -21,12 +25,19 @@
   --running: var(--accent-1-strong);
   --onRunning: var(--neutral-strongest);
 
-  /* Spacing */
-  --padding-inner: 4rem;
-  --header-height: calc(var(--padding-inner)*1.5);
-  /* Sizing */
+  /* sizing */
+  --size-80:     0.389rem;
+  --size-90:     0.611rem;
+  --size-100:    1rem;
+  --size-200:    1.611rem;
+  --size-300:    2.611rem;
+  --size-400:    4.222rem;
+
+  /* sizing system */
+  --header-height: calc(var(--size-400)*1.5);
   --sidebarWidth: clamp(160px, 25%, 320px);
 }
+
 
 .running {
   background-color: var(--running);
@@ -71,13 +82,14 @@ body {
 }
 
 h1 {
+  font-size: var(--size-400);
   text-transform: capitalize;
 }
 
 header {
   height: var(--header-height);
   color: var(--neutral-strongest);
-  padding: 0 var(--padding-inner);
+  padding: 0 var(--size-400);
   flex: 1 0 auto;
   display: flex;
   gap: 1rem;
@@ -102,7 +114,7 @@ ul {
 }
 
 footer {
-  padding: 0 var(--padding-inner);
+  padding: 0 var(--size-400);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
 }
@@ -124,21 +136,21 @@ main {
 
 .mainHome {
   gap: 1rem;
-  padding: var(--padding-inner);
+  padding: var(--size-400);
   justify-content: center;
   align-content: center;
 }
 
 .mainContent {
   gap: 1rem;
-  padding: var(--padding-inner);
+  padding: var(--size-400);
   justify-content: start;
   align-content: start;
 }
 
 .mainPage {
   gap: 1rem;
-  padding: var(--padding-inner);
+  padding: var(--size-400);
   padding-top: 0;
   justify-content: start;
   align-content: start;
@@ -209,7 +221,7 @@ main {
 .postContent {
   flex-grow: 1;
   aspect-ratio: 1/1;
-  padding: var(--padding-inner);
+  padding: var(--size-400);
   display: flex;
   flex-direction: column;
   gap: 1rem;

@@ -1,13 +1,13 @@
 <header class="{{ if .IsHome }}headerHome{{ end }}">
-    <h1>
+    <p>
         <a href="/">
             <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
             <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
         </a>
-    </h1>
-    <h1 class="titleActive">
+    </p>
+    <p class="titleActive">
         <a href="/{{ .Section }}">
             {{ .Section }}
         </a>
-    </h1>
+    </p>
 </header>
