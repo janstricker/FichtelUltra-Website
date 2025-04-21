@@ -75,7 +75,6 @@ h1 {
 }
 
 header {
-  grid-area: header;
   height: var(--header-height);
   color: var(--neutral-strongest);
   padding: 0 var(--padding-inner);
@@ -103,7 +102,6 @@ ul {
 }
 
 footer {
-  grid-area: footer;
   padding: 0 var(--padding-inner);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
@@ -114,21 +112,8 @@ a {
   text-decoration: none;
 }
 
-.parent {
-  min-height: 100vh;
-  min-width: 100vw;
-  display: grid;
-  grid-template-columns: 1fr var(--sidebarWidth);
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas:
-    "header side"
-    "main side"
-    "footer side";
-  gap: 0px;
-}
 
 main {
-  grid-area: main;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -159,15 +144,6 @@ main {
   align-content: start;
 }
 
-.side {
-  top: 0;
-  position: sticky;
-  align-self: start;
-  height: 100vh;
-  grid-area: side;
-  margin: 0;
-  padding: 0;
-}
 
 .menu {
   top: 0;
