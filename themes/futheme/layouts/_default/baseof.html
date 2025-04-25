@@ -7,7 +7,7 @@
 {{ $class := .Params.color | default "base" }}
 <body class="hflex {{ $class }}">
 {{ partial "menu.html" . }}
-<div class="container">
+<div class="{{ if .IsHome }}containerHome{{else}}container{{ end }}">
     {{ partial "header.html" . }}
     <main class="
       {{ if .IsHome }}mainHome{{else if .IsSection }}mainSection{{else if .IsPage }}mainPage{{ end }}">

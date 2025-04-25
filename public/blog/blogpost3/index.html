@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/main.css">
 
+      <script src="/js/lightbox.js"></script>
       <script src="/js/main.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,21 +17,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body class="parent blog">
-  <header class="">
-    <h1>
-        <a href="/">
-            <span class="titleDefault">Fichtel</span>
-            <span class="titleDefault">Ultra</span>
-        </a>
-    </h1>
-    <h1 class="titleActive">
-        <a href="/blog">
-            blog
-        </a>
-    </h1>
-</header>
-  <menu class="side">
+
+<body class="hflex blog">
+<menu class="sidebar">
   
   <ul class="menu">
     
@@ -57,9 +46,30 @@
     
   </ul>
 </menu>
-<main class="
-  mainPage">
-    
+<div class="container">
+    <header class="">
+    <div class="header-content">
+        <p>
+            <a href="/">
+                <span class="titleDefault">Fichtel</span>
+                <span class="titleDefault">Ultra</span>
+            </a>
+        </p>
+        <p class="titleActive">
+            <a href="/blog">
+                blog
+            </a>
+        </p>
+    </div>
+    <div class="hamburger">
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</header>
+    <main class="
+      mainPage">
+        
     
         <img class="postHeaderImg" src="/blog/blogpost3/images/title.jpg" alt="images/title.jpg"/>
     
@@ -81,12 +91,10 @@
 
     
 
-</main>
-  <footer class="footer">
+    </main>
+    <footer class="footer">
     <p>Copyright 2025. All rights reserved.</p>
 </footer>
-<script type="text/javascript" src="/js/lightbox.js"></script>
-<link rel="stylesheet" href="/css/lightbox.css">
-
+</div>
 </body>
 </html>

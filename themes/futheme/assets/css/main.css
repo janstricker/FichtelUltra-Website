@@ -103,15 +103,19 @@ header {
   padding: 0 var(--size-400);
   flex: 1 0 auto;
   display: flex;
-  gap: 1rem;
-  flex-direction: row;
+  justify-content: space-between;
   align-items: center;
-  justify-content: start;
   background-color: inherit;
 }
 
+.header-content {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
 .headerHome {
-  max-height: 33.3vh;
+  min-height: 33.3vh;
   color: var(--neutral-weakest);
   background-image: url('../fuheader.jpg');
   background-size: cover;
@@ -136,9 +140,8 @@ a {
 }
 
 .container {
-  width: 100%;
-  min-height: 100%;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0;
@@ -148,7 +151,6 @@ a {
 
 main {
   display: flex;
-  flex: 1 0 100%;
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: start;
@@ -156,11 +158,21 @@ main {
 }
 
 .mainHome {
-  flex: 1;
+  flex: 1 1 100%;
   gap: var(--size-100);
   padding: var(--size-400);
   justify-content: center;
   align-content: center;
+}
+
+.containerHome {
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 0;
+  justify-content: start;
+  align-content: start;
 }
 
 .mainContent {
@@ -187,6 +199,56 @@ main {
   right: 0;
   bottom: 0;
   min-width: var(--sidebarWidth);
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: var(--header-height);
+    height: calc(100vh - var(--header-height));
+    min-width: 100vw;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+    background-color: var(--neutral-overlay);
+    backdrop-filter: blur(8px);
+    z-index: 100;
+  }
+
+  .sidebar.active {
+    transform: translateX(0);
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    z-index: 101;
+  }
+
+  .hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: currentColor;
+    margin: 5px;
+    transition: all 0.3s ease;
+  }
+
+  .hamburger.active div:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .hamburger.active div:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active div:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburger {
+    display: none;
+  }
 }
 
 .menu {
