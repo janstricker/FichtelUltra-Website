@@ -5,9 +5,7 @@
 	"features": {
 		"ghcr.io/devcontainers/features/hugo:1": {
 			"extended": true
-		},
-		"ghcr.io/devcontainers-contrib/features/actionlint:1": {},
-		"ghcr.io/devcontainers-contrib/features/gh-cli:1": {}
+		}
 	},
 	"customizations": {
 		"vscode": {

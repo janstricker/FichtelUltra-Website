@@ -201,56 +201,6 @@ main {
   min-width: var(--sidebarWidth);
 }
 
-@media (max-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: var(--header-height);
-    height: calc(100vh - var(--header-height));
-    min-width: 100vw;
-    transform: translateX(100%);
-    transition: transform 0.3s ease-in-out;
-    background-color: var(--neutral-overlay);
-    backdrop-filter: blur(8px);
-    z-index: 100;
-  }
-
-  .sidebar.active {
-    transform: translateX(0);
-  }
-
-  .hamburger {
-    display: block;
-    cursor: pointer;
-    z-index: 101;
-  }
-
-  .hamburger div {
-    width: 25px;
-    height: 3px;
-    background-color: currentColor;
-    margin: 5px;
-    transition: all 0.3s ease;
-  }
-
-  .hamburger.active div:nth-child(1) {
-    transform: rotate(-45deg) translate(-5px, 6px);
-  }
-
-  .hamburger.active div:nth-child(2) {
-    opacity: 0;
-  }
-
-  .hamburger.active div:nth-child(3) {
-    transform: rotate(45deg) translate(-5px, -6px);
-  }
-}
-
-@media (min-width: 769px) {
-  .hamburger {
-    display: none;
-  }
-}
-
 .menu {
   height: 100%;
   width: auto;
