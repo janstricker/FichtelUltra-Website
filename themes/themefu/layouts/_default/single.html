@@ -1,0 +1,17 @@
+{{ define "main" }}
+    {{ with .Resources.GetMatch "*/title.*" }}
+        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+    {{ else with .Resources.GetMatch "*/*.*" }}
+        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+    {{ end }}
+
+    <h1>{{ .Title }}</h1>
+    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
+    {{ $dateHuman := .Date | time.Format ":date_long" }}
+    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    {{ .Content }}
+    {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    {{ if .Resources.GetMatch "album/*" }}
+        {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
+    {{ end }}
+{{ end }}

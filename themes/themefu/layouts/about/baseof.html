@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+{{ $class := .Params.color | default "base" }}
+<body class="{{ $class }}">
+{{ partial "header.html" . }}
+<div class="hflex">
+    <div class="container"> 
+        <main class="mainSection">
+            {{ block "main" . }}
+            {{ $aboutPages := where site.RegularPages "Section" "about" }}
+            {{ range $index, $element := $aboutPages }}
+  <a href="{{ $element.RelPermalink }}">
+    <article class="post {{ if modBool $index 2 }}even{{ end }}">
+      {{ with $element.Resources.GetMatch "*/title.*" }}
+        <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
+      {{ else with $element.Resources.GetMatch "*/*.*" }}
+        <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
+      {{ else}}
+        <div class="fallback"></div>
+      {{ end }}
+      <div class="postContent">
+        <h2>{{ $element.LinkTitle }}</h2>
+        <p>{{ $element.Summary }}</p>
+      </div>
+    </article>
+  </a>
+            {{ end }}
+            {{ end }}
+        </main>
+        {{ partial "footer.html" . }}
+    </div>
+    {{ partial "sidebar.html" . }}
+</div>
+</body>
+</html>

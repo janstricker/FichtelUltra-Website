@@ -1,0 +1,13 @@
+<menu class="sidebar">
+  {{ $sections := site.Sections }}
+  <ul class="menu">
+    {{ range $sections }}
+      {{ $class := .Params.color | default "" }}
+        <a class="menu-item {{ $class }}" href="{{ .Permalink }}">
+          <li>
+            {{ .Title }}
+          </li>
+        </a>
+    {{ end }}
+  </ul>
+</menu>

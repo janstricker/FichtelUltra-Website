@@ -1,0 +1,18 @@
+<header class="header">
+    <div class="header-content">
+        <p>
+            <a href="/">
+                <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
+                <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
+            </a>
+        </p>
+        <p class="titleActive">
+            <a href="/{{ .Section }}">
+                {{ .Section }}
+            </a>
+        </p>
+    </div>
+    <div class="hamburger">
+        menu
+    </div>
+</header>
