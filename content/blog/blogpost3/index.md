@@ -1,6 +1,6 @@
 +++
 date = '2025-03-12T21:02:24+01:00'
-draft = true
+draft = false
 title = 'Blogpost 3'
 summary = 'Blog 3 Lorem ipsum dolor sit amet, consetetur'
 color = 'blog'

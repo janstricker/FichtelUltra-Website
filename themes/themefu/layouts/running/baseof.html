@@ -11,8 +11,8 @@
     <div class="container">
       <main class="mainSection">
         {{ block "main" . }}
-          {{ $aboutPages := where site.RegularPages "Section" "about" }}
-          {{ range $index, $element := $aboutPages }}
+          {{ $runningPages := where site.RegularPages "Section" "running" }}
+          {{ range $index, $element := $runningPages }}
             <a href="{{ $element.RelPermalink }}">
               <article class="post {{ if modBool $index 2 }}even{{ end }}">
                 {{ with $element.Resources.GetMatch "*/title.*" }}

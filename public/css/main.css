@@ -84,14 +84,16 @@ body {
 }
 
 .hflex{
-  min-height: 100vh;
-  min-width: 100vw;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
   flex-wrap: nowrap;
   gap: 0;
   justify-content: start;
   align-content: start;
+}
+
+.hpadding{
+  padding: 0 var(--size-400);
 }
 
 h1 {
@@ -131,6 +133,10 @@ ul {
 }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: var(--size-400);
   padding: 0 var(--size-400);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
@@ -143,10 +149,10 @@ a {
 
 .container {
   display: flex;
-  flex-grow: 1;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0;
+  flex-grow: 1;
   justify-content: start;
   align-content: start;
 }
@@ -179,7 +185,7 @@ main {
 
 .mainContent {
   gap: 1rem;
-  padding: var(--size-400);
+  padding: var(--size-200);
   justify-content: start;
   align-content: start;
 }
@@ -192,15 +198,23 @@ main {
   align-content: start;
 }
 
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: start;
+  align-content: start;
+}
+
 .sidebar {
   max-height: 100vh;
+  min-width: var(--sidebarWidth);
   margin: 0;
-  padding: 0;
+  padding: 0 var(--size-200);
   position: sticky;
   top: 0;
   right: 0;
   bottom: 0;
-  min-width: var(--sidebarWidth);
 }
 
 .menu {
