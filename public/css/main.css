@@ -86,10 +86,19 @@ body {
 .hflex{
   display: flex;
   flex-direction: row;
+  flex-grow: 1;
   flex-wrap: nowrap;
   gap: 0;
   justify-content: start;
   align-content: start;
+}
+
+.min-h-full{
+  min-height: 100vh;
+}
+
+.min-h-content{
+  min-height: calc(100vh - var(--header-height) - var(--footer-height));
 }
 
 .hpadding{
@@ -166,16 +175,21 @@ main {
 }
 
 .mainHome {
-  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  flex-grow: 1;
   gap: var(--size-100);
   padding: var(--size-400);
   justify-content: center;
   align-content: center;
+  min-height: 0;
+  height: 100%;
 }
 
 .containerHome {
-  min-width: 100%;
   display: flex;
+  flex-grow: 1;
   flex-direction: column;
   flex-wrap: nowrap;
   gap: 0;
@@ -211,6 +225,17 @@ main {
   min-width: var(--sidebarWidth);
   margin: 0;
   padding: 0 var(--size-200);
+  position: sticky;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.menuSidebar {
+  max-height: 100vh;
+  min-width: var(--sidebarWidth);
+  margin: 0;
+  padding: 0;
   position: sticky;
   top: 0;
   right: 0;

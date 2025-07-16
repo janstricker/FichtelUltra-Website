@@ -5,16 +5,14 @@
 </head>
 
 {{ $class := .Params.color | default "base" }}
-<body class="hflex {{ $class }}">
-{{ partial "menu.html" . }}
-<div class="{{ if .IsHome }}containerHome{{else}}container{{ end }}">
+<body class="hflex min-h-full">
+<div class="containerHome">
     {{ partial "header.html" . }}
-    <main class="
-      {{ if .IsHome }}mainHome{{else if .IsSection }}mainSection{{else if .IsPage }}mainPage{{ end }}">
-        {{ block "main" . }}
-        {{ end }}
+    <main class="mainHome">
+      {{ .Content }}
     </main>
     {{ partial "footer.html" . }}
 </div>
+{{ partial "menu.html" . }}
 </body>
 </html>
