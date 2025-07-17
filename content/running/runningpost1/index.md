@@ -4,6 +4,7 @@ draft = false
 title = 'Runningpost 1'
 color = 'running'
 summary = 'Running 1 Lorem ipsum dolor sit amet, consetetur'
+tags = ['laufen', 'training']
 +++
 
 # Running 1

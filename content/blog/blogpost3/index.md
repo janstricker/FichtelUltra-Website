@@ -4,6 +4,7 @@ draft = false
 title = 'Blogpost 3'
 summary = 'Blog 3 Lorem ipsum dolor sit amet, consetetur'
 color = 'blog'
+tags = ['go', 'hugo', 'static']
 +++
 
 # Blog 3

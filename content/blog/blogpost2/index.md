@@ -3,7 +3,7 @@ date = '2025-03-12T21:02:24+01:00'
 draft = true
 title = 'Blogpost 2'
 summary = 'Blog 2 Lorem ipsum dolor sit amet, consetetur'
-color = 'blog'
+tags = ['linux', 'blog']
 +++
 
 # Blog 2

@@ -4,18 +4,17 @@
   {{ partial "head.html" . }}
 </head>
 
-{{ $class := .Params.color | default "base" }}
-<body class="{{ $class }}">
+<body class="blog">
   {{ partial "header.html" . }}
-  <div class="hflex min-h-content hpadding">
-    <div class="container">
+  
+    <div class="container min-h-content hpadding">
       <main class="mainSection">
         {{ block "main" . }}
           {{ $blogPages := where site.RegularPages "Section" "blog" }}
           {{ range $index, $element := $blogPages }}
             <a href="{{ $element.RelPermalink }}">
               <article class="post {{ if modBool $index 2 }}even{{ end }}">
-                {{ with $element.Resources.GetMatch "*/title.*" }}
+                {{ with $element.Resources.GetMatch "*/title.*" }} data-tags="{{ delimit $element.Params.tags "," }}"
                   <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
                 {{ else with $element.Resources.GetMatch "*/*.*" }}
                   <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
@@ -32,8 +31,7 @@
         {{ end }}
       </main>
     </div>
-    {{ partial "sidebar.html" . }}
-  </div>
+
   {{ partial "footer.html" . }}
 </body>
 </html>

@@ -4,10 +4,10 @@
   {{ partial "head.html" . }}
 </head>
 
-{{ $class := .Params.color | default "base" }}
-<body class="{{ $class }}">
+{{ $class := .Params.color | default "blog" }}
+<body class="{{$class}}">
   {{ partial "header.html" . }}
-  <div class="container hpadding">
+  <div class="container min-h-content hpadding">
     <main class="mainSection">
       {{ with .Resources.GetMatch "*/title.*" }}
         <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>

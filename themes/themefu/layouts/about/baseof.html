@@ -4,11 +4,10 @@
   {{ partial "head.html" . }}
 </head>
 
-{{ $class := .Params.color | default "base" }}
-<body class="{{ $class }}">
+<body class="about">
   {{ partial "header.html" . }}
-  <div class="hflex min-h-content">
-    <div class="container">
+
+    <div class="container min-h-content hpadding">
       <main class="mainSection">
         {{ block "main" . }}
           {{ $aboutPages := where site.RegularPages "Section" "about" }}
@@ -32,8 +31,7 @@
         {{ end }}
       </main>
     </div>
-    {{ partial "sidebar.html" . }}
-  </div>
+
   {{ partial "footer.html" . }}
 </body>
 </html>
