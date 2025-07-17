@@ -33,9 +33,61 @@
             </a>
         </p>
     </div>
-    <div class="hamburger">
-        menu
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
     </div>
+    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        <menu class="menuFullscreen">
+  
+  <ul class="menu">
+    
+      
+        <a class="menu-item about" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/about/">
+          <li>
+            About
+          </li>
+        </a>
+    
+      
+        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+    
+      
+        <a class="menu-item running" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/running/">
+          <li>
+            Running
+          </li>
+        </a>
+    
+  </ul>
+</menu>
+    </div>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      hamburger.addEventListener('click', function() {
+        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+          menuContainer.style.display = 'block';
+        } else {
+          menuContainer.style.display = 'none';
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.style.display = 'none';
+        }
+      });
+    </script>
 </header>
   <div class="container min-h-content hpadding">
     <main class="mainSection">

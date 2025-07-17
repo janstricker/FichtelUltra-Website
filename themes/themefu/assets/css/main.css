@@ -119,6 +119,9 @@ header {
   justify-content: space-between;
   align-items: center;
   background-color: inherit;
+  position:sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .header-content {
@@ -240,6 +243,13 @@ main {
   top: 0;
   right: 0;
   bottom: 0;
+}
+
+.menuFullscreen {
+  height: calc(100vh - var(--header-height));
+  min-width: 100vw;
+  margin: 0;
+  padding: 0;
 }
 
 .menu {
