@@ -12,21 +12,6 @@
         {{ block "main" . }}
           {{ $runningPages := where site.RegularPages "Section" "running" }}
           {{ range $index, $element := $runningPages }}
-            <a href="{{ $element.RelPermalink }}">
-              <article class="post {{ if modBool $index 2 }}even{{ end }}">
-                {{ with $element.Resources.GetMatch "*/title.*" }} data-tags="{{ delimit $element.Params.tags "," }}"
-                  <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-                {{ else with $element.Resources.GetMatch "*/*.*" }}
-                  <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-                {{ else }}
-                  <div class="fallback"></div>
-                {{ end }}
-                <div class="postContent">
-                  <h2>{{ $element.LinkTitle }}</h2>
-                  <p>{{ $element.Summary }}</p>
-                </div>
-              </article>
-            </a>
           {{ end }}
         {{ end }}
       </main>

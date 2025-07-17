@@ -1,5 +1,6 @@
 baseURL = "http://localhost:1313/"
-languageCode = "de-de"
+languageCode = "de"
+defaultContentLanguage = "de"
 title = "FichtelUltra"
 theme = "themefu"
 

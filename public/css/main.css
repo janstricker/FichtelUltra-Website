@@ -38,6 +38,83 @@ html{
   --sidebarWidth: clamp(160px, 25%, 320px);
 }
 
+/* Typografie-Klassen */
+.text-body {
+  font-size: var(--size-100);
+  line-height: 1.7;
+  font-weight: 400;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.text-lead {
+  font-size: var(--size-200);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.text-small {
+  font-size: var(--size-90);
+  line-height: 1.5;
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.text-muted {
+  opacity: 0.6;
+}
+
+.h1, h1 {
+  font-size: var(--size-300);
+  font-weight: 800;
+  line-height: 1.2;
+  margin-bottom: var(--size-200);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.h2, h2 {
+  font-size: var(--size-200);
+  font-weight: 700;
+  line-height: 1.3;
+  margin-bottom: var(--size-100);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.h3, h3 {
+  font-size: var(--size-100);
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: var(--size-90);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.h4, h4 {
+  font-size: var(--size-90);
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: var(--size-80);
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+
+.blockquote {
+  font-size: var(--size-100);
+  font-style: italic;
+  color: var(--base-strongest);
+  border-left: 4px solid var(--accent-1-strong);
+  padding-left: var(--size-100);
+  margin: var(--size-200) 0;
+}
+
+.list {
+  padding-left: var(--size-200);
+  margin-bottom: var(--size-100);
+}
 
 .running {
   background-color: var(--running);
@@ -317,7 +394,23 @@ main {
   padding: var(--size-400);
   display: flex;
   flex-direction: column;
-  gap: 1rem;
+  gap: var(--size-100);
+  justify-content: center;
+  align-content: center;
+}
+
+.tags{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: var(--size-90);
+}
+
+.tag {
+  background-color: var(--neutral-weakest);
+  color: var(--neutral-strong);
+  padding: var(--size-80) var(--size-90);
+  font-size: var(--size-100);
 }
 
 .image-gallery {
