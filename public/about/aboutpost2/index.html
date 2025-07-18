@@ -19,7 +19,7 @@
 
 
 <body class="about">
-  <header class="header">
+  <header class="header" id="siteHeader">
     <div class="header-content">
         <p>
             <a href="/">
@@ -36,10 +36,10 @@
     
     <div class="mainMenu">
         <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
             </svg>
         </button>
     </div>
@@ -82,20 +82,47 @@
   </ul>
 </menu>
     </div>
+    <style>
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
     <script>
       const hamburger = document.getElementById('hamburgerMenu');
       const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
       hamburger.addEventListener('click', function() {
         if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
           menuContainer.style.display = 'block';
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
         } else {
           menuContainer.style.display = 'none';
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
         }
       });
       
       document.addEventListener('click', function(e) {
         if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
           menuContainer.style.display = 'none';
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
         }
       });
     </script>

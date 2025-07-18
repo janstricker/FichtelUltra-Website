@@ -193,6 +193,11 @@ body {
   z-index: 1000;
 }
 
+.header-invert{
+  color: var(--neutral-weakest);
+  background-color: var(--neutral-strongest);
+}
+
 .header-content {
   display: flex;
   gap: 1rem;
