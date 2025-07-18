@@ -1,13 +1,16 @@
 <menu class="menuSidebar">
-  {{ $sections := site.Sections }}
+  {{ $menuPages := slice "about" "blog" "running" }}
   <ul class="menu">
-    {{ range $sections }}
-      {{ $class := .Params.color | default "" }}
-        <a class="menu-item {{ $class }}" href="{{ .Permalink }}">
+    {{ range $name := $menuPages }}
+      {{ $section := site.GetPage $name }}
+      {{ if $section }}
+        {{ $class := $section.Params.color | default "" }}
+        <a class="menu-item {{ $class }}" href="{{ $section.Permalink }}">
           <li>
-            {{ .Title }}
+            {{ $section.Title }}
           </li>
         </a>
+      {{ end }}
     {{ end }}
   </ul>
 </menu>
