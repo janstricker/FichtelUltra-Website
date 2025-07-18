@@ -79,7 +79,7 @@ html{
   font-size: var(--size-300);
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: var(--size-100);
+  margin-bottom: var(--size-200);
   margin-block-start: 0;
   margin-block-end: 0;
 }
@@ -88,18 +88,14 @@ html{
   font-size: var(--size-200);
   font-weight: 600;
   line-height: 1.4;
-  margin-bottom: var(--size-90);
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-bottom: var(--size-200);
 }
 
 .h4, h4 {
   font-size: var(--size-100);
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: var(--size-80);
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-bottom: var(--size-200);
 }
 
 .blockquote {
@@ -220,10 +216,17 @@ footer {
   display: flex;
   flex-direction: row;
   align-items: center;
+  justify-content: space-between;
   height: var(--size-400);
   padding: 0 var(--size-400);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  gap: var(--size-100);
 }
 
 a {
@@ -393,7 +396,7 @@ main {
   mix-blend-mode: darken;
 }
 
-.postContent {
+.postTeaserContent {
   flex-grow: 1;
   aspect-ratio: 1/1;
   padding: var(--size-400);
@@ -402,6 +405,17 @@ main {
   gap: var(--size-100);
   justify-content: center;
   align-content: center;
+}
+
+.postContent {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: var(--size-100);
+  justify-content: start;
+  align-content: start;
+  max-width: clamp(50%, 40rem, 100%);
+  margin-bottom: var(--size-400);
 }
 
 .date-container {
@@ -430,4 +444,5 @@ main {
   justify-content: flex-start;
   align-content: flex-start;
   gap: 1rem;
+  margin-bottom: var(--size-400);
 }
