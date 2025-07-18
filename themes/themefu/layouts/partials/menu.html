@@ -1,5 +1,5 @@
 <menu class="menuSidebar">
-  {{ $menuPages := slice "about" "blog" "running" }}
+  {{ $menuPages := slice "running" "blog" "about" }}
   <ul class="menu">
     {{ range $name := $menuPages }}
       {{ $section := site.GetPage $name }}

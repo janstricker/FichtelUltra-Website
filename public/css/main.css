@@ -139,11 +139,13 @@ html{
 }
 
 .titleDefault {
+  font-size: var(--size-200);
   font-weight: 400;
   text-transform: capitalize;
 }
 
 .titleActive {
+  font-size: var(--size-200);
   font-weight: 800;
   text-transform: capitalize;
 }
@@ -200,7 +202,7 @@ body {
 
 .header-content {
   display: flex;
-  gap: 1rem;
+  gap: var(--size-80);
   align-items: center;
 }
 
@@ -313,6 +315,7 @@ main {
   flex-wrap: nowrap;
   justify-content: start;
   align-content: start;
+  margin-bottom: var(--size-400);
 }
 
 .sidebar {
@@ -363,6 +366,8 @@ main {
   align-items: center;
   justify-content: center;
   transition: background-color ease 200ms;
+  font-size: var(--size-200);
+  font-weight: 500;
 }
 
 .menu-item:hover {
