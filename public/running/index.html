@@ -32,6 +32,7 @@
             </a>
         </p>
     </div>
+    
     <div class="mainMenu">
         <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -41,6 +42,7 @@
             </svg>
         </button>
     </div>
+    
     <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
         <menu class="menuFullscreen">
   
@@ -148,15 +150,18 @@
     </div>
 
   <footer class="footer">
-    <ul class="links text-muted">
+    <ul class="links text-muted text-small">
+        <li><a href="/">Home</a></li>
         <li><a href="/legal/impressum/">Impressum</a></li>
         <li><a href="/legal/datenschutz/">Datenschutz</a></li>
         <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
         <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
     </ul>
-    <p class="text-muted">
-        FichtelUltra 2025 
-    </p>
+    <a href="/">
+        <p class="text-small text-muted">
+           FichtelUltra 2025 
+        </p>
+    </a>
 </footer>
 </body>
 </html>
