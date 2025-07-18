@@ -1,0 +1,46 @@
+<header class="headerHome">
+    <div class="header-content">
+        <p>
+            <a href="/">
+                <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
+                <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
+            </a>
+        </p>
+        <p class="titleActive">
+            <a href="/{{ .Section }}">
+                {{ .Section }}
+            </a>
+        </p>
+    </div>
+    {{ if not .IsHome }}
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    {{ end }}
+    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        {{ partial "menu-fullscreen.html" . }}
+    </div>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      hamburger.addEventListener('click', function() {
+        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+          menuContainer.style.display = 'block';
+        } else {
+          menuContainer.style.display = 'none';
+        }
+      });
+      // Optional: Schließen bei Klick außerhalb
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.style.display = 'none';
+        }
+      });
+    </script>
+</header>

@@ -35,6 +35,7 @@ html{
 
   /* sizing system */
   --header-height: calc(var(--size-400)*1.5);
+  --footer-height: calc(var(--header-height)*0.5);
   --sidebarWidth: clamp(160px, 25%, 320px);
 }
 
@@ -199,6 +200,12 @@ body {
 }
 
 .headerHome {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: start;
+  padding: 0 var(--size-400);
+  align-items: center;
   min-height: 33.3vh;
   color: var(--neutral-weakest);
   background-image: url('../fuheader.jpg');
@@ -212,15 +219,20 @@ ul {
   padding: 0;
 }
 
-footer {
+.footer {
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  height: var(--size-400);
+  min-height: var(--footer-height);
   padding: 0 var(--size-400);
   color: var(--neutral-weakest);
   background-color: var(--neutral-strongest);
+}
+
+.footer.home {
+  color: var(--neutral-strongest);
+  background-color: var(--base-strong);
 }
 
 .links {
