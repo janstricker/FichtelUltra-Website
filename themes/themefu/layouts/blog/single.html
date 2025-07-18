@@ -17,23 +17,8 @@
 
     {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
     {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <time class="text-small text-muted">
-        <span>
-            {{ $daysAgo := div (sub (now.Unix | int) (.Date.Unix | int)) 86400 }}
-            {{ if lt $daysAgo 30 }}
-                <span>
-                    vor {{ if eq $daysAgo 1 }}1 Tag{{ else }}{{ $daysAgo }} Tagen{{ end }}
-                </span>
-            {{ else if lt $daysAgo 90 }}
-                {{ $monthsAgo := div $daysAgo 30 }}
-                <span>
-                    vor {{ if eq $monthsAgo 1 }}1 Monat{{ else }}{{ $monthsAgo }} Monaten{{ end }}
-                </span>
-            {{ else }}
-                <span>
-                    {{ .Date | time.Format ":date_long" }}
-                </span>
-            {{ end }}
+    <time class="text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
+        <span class="dynamic-date">    
         </span>
     </time>
 
