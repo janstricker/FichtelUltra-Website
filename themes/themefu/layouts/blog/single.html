@@ -15,20 +15,20 @@
         <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
       {{ end }}
 
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <time class="text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
-        <span class="dynamic-date">    
-        </span>
-    </time>
-
-    <h1>{{ .Title }}</h1>
-    
-    {{ with .Params.tags }}
-      <div class="tags">
-          {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
-      </div>
-    {{ end }}
+<div class="postHeader">
+      <time class="date-container text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
+          <span class="dynamic-date">    
+          </span>
+      </time>
+  
+      <h1>{{ .Title }}</h1>
+      
+      {{ with .Params.tags }}
+        <div class="tags">
+            {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+        </div>
+      {{ end }}
+</div>
 
       {{ .Content }}
 

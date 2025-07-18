@@ -1,7 +1,7 @@
 +++
 date = '2025-07-01'
 draft = false
-title = 'Blogpost 1'
+title = 'Rückblick auf den UTMB 2023'
 summary = 'Blog 1 Lorem ipsum dolor sit amet, consetetur'
 tags = ['hugo', 'entwicklung', 'beispiel']
 +++
