@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Statics | FichtelUltra</title>
+<title>Rechtliches | FichtelUltra</title>
 
     <link rel="stylesheet" href="/css/_normalize.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -17,9 +17,10 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body class="base hflex min-h-full">
-<div class="containerHome">
-    <header class="header">
+<body class="base">
+<div class="flex-container min-h-full">
+  <div class="containerHome">
+      <header class="headerHome">
     <div class="header-content">
         <p>
             <a href="/">
@@ -28,11 +29,12 @@
             </a>
         </p>
         <p class="titleActive">
-            <a href="/static">
-                static
+            <a href="/rechtliches">
+                rechtliches
             </a>
         </p>
     </div>
+    
     <div class="mainMenu">
         <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
             <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,38 +44,41 @@
             </svg>
         </button>
     </div>
+    
     <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
         <menu class="menuFullscreen">
   
   <ul class="menu">
     
       
-        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
-          <li>
-            Blog
-          </li>
-        </a>
-    
       
+        
         <a class="menu-item about" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/about/">
           <li>
             About
           </li>
         </a>
+      
     
       
+      
+        
+        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
         <a class="menu-item running" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/running/">
           <li>
             Running
           </li>
         </a>
-    
       
-        <a class="menu-item " href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/static/">
-          <li>
-            Statics
-          </li>
-        </a>
     
   </ul>
 </menu>
@@ -96,46 +101,68 @@
       });
     </script>
 </header>
-    <main class="mainHome">
-      
-    </main>
-    <footer class="footer">
-    <p>FichtelUltra – Copyright 2025</p>
-</footer>
-</div>
-<menu class="menuSidebar">
+      <main class="mainHome">
+        <section class="home-intro">
+          <h1>Rechtliches</h1>
+          
+          <div class="btn-group">
+            
+            
+          </div>
+        </section>
+        
+      </main>
+  </div>
+  <menu class="menuSidebar">
   
   <ul class="menu">
     
       
-        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
-          <li>
-            Blog
-          </li>
-        </a>
-    
       
-        <a class="menu-item about" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/about/">
-          <li>
-            About
-          </li>
-        </a>
-    
-      
+        
         <a class="menu-item running" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/running/">
           <li>
             Running
           </li>
         </a>
+      
     
       
-        <a class="menu-item " href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/static/">
+      
+        
+        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
           <li>
-            Statics
+            Blog
           </li>
         </a>
+      
+    
+      
+      
+        
+        <a class="menu-item about" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/about/">
+          <li>
+            About
+          </li>
+        </a>
+      
     
   </ul>
 </menu>
+</div>
+<footer class="footer text-small">
+    <ul class="links text-muted ">
+        <li><a href="/">Home</a></li>
+        <li><a href="/rechtliches/impressum/">Impressum</a></li>
+        <li><a href="/rechtliches/datenschutz/">Datenschutz</a></li>
+        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
+    </ul>
+    <a class="copyright" href="/">
+        <p class="text-muted ">
+           Fichtel<span style="font-weight: 800;">Ultra</span> 2025 
+        </p>
+    </a>
+</footer>
 </body>
 </html>

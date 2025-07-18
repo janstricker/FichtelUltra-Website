@@ -4,9 +4,7 @@ description: "Datenschutzerklärung"
 draft: false
 ---
 
-1\. Datenschutz auf einen Blick
--------------------------------
-
+## 1\. Datenschutz auf einen Blick
 ### Allgemeine Hinweise
 
 Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten Datenschutzerklärung.
@@ -39,8 +37,9 @@ Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werde
 
 Detaillierte Informationen zu diesen Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
 
-2\. Hosting
 -----------
+
+## 2\. Hosting
 
 Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
 
@@ -71,8 +70,9 @@ E-Mail info@web-service4u.de
 
 Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
 
-3\. Allgemeine Hinweise und Pflicht­informationen
 -------------------------------------------------
+
+## 3\. Allgemeine Hinweise und Pflicht­informationen
 
 ### Datenschutz
 
@@ -146,8 +146,9 @@ Diese Seite nutzt aus Sicherheitsgründen und zum Schutz der Übertragung vertra
 
 Wenn die SSL- bzw. TLS-Verschlüsselung aktiviert ist, können die Daten, die Sie an uns übermitteln, nicht von Dritten mitgelesen werden.
 
-4\. Analyse-Tools und Werbung
 -----------------------------
+
+## 4\. Analyse-Tools und Werbung
 
 ### Matomo
 

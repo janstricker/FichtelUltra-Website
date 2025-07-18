@@ -4,28 +4,30 @@
   {{ partial "head.html" . }}
 </head>
 
-<body class="base hflex min-h-full">
-<div class="containerHome">
-    {{ partial "header-home.html" . }}
-    <main class="mainHome">
-      <section class="home-intro">
-        <h1>{{ .Title }}</h1>
-        {{ with .Params.subtitle }}
-        <p class="text-lead">{{ . }}</p>
-        {{ end }}
-        <div class="btn-group">
-          {{ with .Params.primaryCTA }}
-            <a href="{{ $.Params.primaryLink }}" class="btn primary">{{ . }}</a>
+<body class="base">
+<div class="flex-container min-h-full">
+  <div class="containerHome">
+      {{ partial "header-home.html" . }}
+      <main class="mainHome">
+        <section class="home-intro">
+          <h1>{{ .Title }}</h1>
+          {{ with .Params.subtitle }}
+          <p class="text-lead">{{ . }}</p>
           {{ end }}
-          {{ with .Params.secondaryCTA }}
-            <a href="{{ $.Params.secondaryLink }}" class="btn">{{ . }}</a>
-          {{ end }}
-        </div>
-      </section>
-      {{ .Content }}
-    </main>
-    {{ partial "footer.html" . }}
+          <div class="btn-group">
+            {{ with .Params.primaryCTA }}
+              <a href="{{ $.Params.primaryLink }}" class="btn primary">{{ . }}</a>
+            {{ end }}
+            {{ with .Params.secondaryCTA }}
+              <a href="{{ $.Params.secondaryLink }}" class="btn">{{ . }}</a>
+            {{ end }}
+          </div>
+        </section>
+        {{ .Content }}
+      </main>
+  </div>
+  {{ partial "menu.html" . }}
 </div>
-{{ partial "menu.html" . }}
+{{ partial "footer.html" . }}
 </body>
 </html>

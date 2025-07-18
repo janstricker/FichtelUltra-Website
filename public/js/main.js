@@ -3,6 +3,7 @@
   document.addEventListener("DOMContentLoaded", function() {
     var elements = document.querySelectorAll(".dynamic-date");
     elements.forEach(function(el) {
+      el.style.visibility = "hidden";
       var timeEl = el.closest("time");
       if (!timeEl) return;
       var dateStr = timeEl.getAttribute("datetime");
@@ -19,6 +20,7 @@
         var options = { year: "numeric", month: "long", day: "numeric" };
         el.innerHTML = date.toLocaleDateString("de-DE", options);
       }
+      el.style.visibility = "visible";
     });
   });
 })();
