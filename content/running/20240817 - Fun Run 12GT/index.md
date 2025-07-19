@@ -30,8 +30,6 @@ Alle Altersklassen und Leistungsniveaus sind willkommen sich auszuprobieren. Es 
 ![Ein Höhenprofil welches alle Eckdaten der Route zeigt.](images/fun-run-12gt-plot.svg "Alle Informationen zur geplanten Strecke.")
 
 
-
-
 ## Verlauf
 
 Die angegebenen Zeitpunkte an den Stationen beziehen sich auf eine Gesamtdauer von ca. 12 h bzw. ein durchschnittliches Lauftempo von 12:00 min/km / 5,0 km/h inkl. kurzer Pausen.
