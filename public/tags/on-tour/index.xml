@@ -10,10 +10,17 @@
     <atom:link href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/on-tour/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rückblick auf den UTMB</title>
-      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/blogpost1/</link>
+      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/20230918-utmb/</link>
       <pubDate>Mon, 18 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/blogpost1/</guid>
+      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/20230918-utmb/</guid>
       <description>170 km Trailrunning und was wir dabei als Support Crew erlebten</description>
+    </item>
+    <item>
+      <title>Vortrag im Jungbrunnen Selb</title>
+      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/blogpost2/</link>
+      <pubDate>Fri, 25 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/blogpost2/</guid>
+      <description>Wir hielten einen Vortrag im Jungbrunnen in Selb über Ultra Trail Running.</description>
     </item>
   </channel>
 </rss>

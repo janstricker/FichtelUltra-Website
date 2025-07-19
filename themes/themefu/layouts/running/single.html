@@ -30,7 +30,9 @@
       {{ end }}
 </div>
 
-      {{ .Content }}
+        <div class="postContent">
+          {{ .Content }}
+        </div>
 
       {{ if .Resources.GetMatch "album/*" }}
         <h4>Galerie</h4>

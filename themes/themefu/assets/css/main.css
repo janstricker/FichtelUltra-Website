@@ -2,6 +2,7 @@ html{
   font-size: 18px;
 }
 
+
 /* CSS Variables */
 :root {
   /* Color */
@@ -57,23 +58,18 @@ p {
   font-size: clamp(0.95rem, 1vw + 0.9rem, var(--size-100));
   line-height: 1.7;
   font-weight: 400;
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-block: inherit;
 }
 
 .text-lead {
   font-size: clamp(1.2rem, 2vw + 1rem, var(--size-200));
   font-weight: 500;
   line-height: 1.5;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 .text-small {
   font-size: clamp(0.8rem, 0.7vw + 0.7rem, var(--size-90));
   line-height: 1.5;
-  margin-block-start: 0;
-  margin-block-end: 0;
 }
 
 .text-muted {
@@ -84,32 +80,28 @@ p {
   font-size: clamp(2rem, 4vw + 1rem, var(--size-400));
   font-weight: 800;
   line-height: 1.2;
-  margin-bottom: var(--size-200);
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-block: inherit;
 }
 
 .h2, h2 {
   font-size: clamp(1.7rem, 3vw + 1.2rem, var(--size-300));
   font-weight: 700;
   line-height: 1.3;
-  margin-bottom: var(--size-200);
-  margin-block-start: 0;
-  margin-block-end: 0;
+  margin-block: inherit;
 }
 
 .h3, h3 {
   font-size: clamp(1.2rem, 2vw + 1rem, var(--size-200));
   font-weight: 600;
   line-height: 1.4;
-  margin-bottom: var(--size-200);
+  margin-block: inherit;
 }
 
 .h4, h4 {
   font-size: clamp(1rem, 1vw + 0.9rem, var(--size-100));
   font-weight: 500;
   line-height: 1.5;
-  margin-bottom: var(--size-200);
+  margin-block: inherit;
 }
 
 .blockquote {
@@ -119,6 +111,17 @@ p {
   border-left: 4px solid var(--accent-1-strong);
   padding-left: var(--size-100);
   margin: var(--size-200) 0;
+  margin-block: inherit;
+}
+
+.postContent a,
+.mainPage a {
+  text-decoration: underline;
+}
+
+.postContent h1, h2, h3, h4, h5, h6 {
+  margin-block-start: var(--size-400);
+  margin-block-end: var(--size-100);
 }
 
 .list {
@@ -170,6 +173,25 @@ body {
   font-style: normal;
   line-height: 1.5;
   color: var(--neutral-strongest);
+  margin:0;
+  margin-block: inherit;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+figcaption {
+  font-size: var(--size-90);
+  color: var(--neutral-strongest);
+  margin-top: var(--size-100);
 }
 
 .flex-container {
@@ -240,6 +262,7 @@ body {
   justify-content: start;
   gap: var(--size-200);
   color: var(--neutral-weakest);
+  margin-block: 0;
 }
 
 ul {
@@ -455,11 +478,11 @@ main {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  gap: var(--size-100);
   justify-content: start;
   align-content: start;
-  max-width: clamp(50%, 40rem, 100%);
+  max-width: clamp(66.6%, 40rem, 100%);
   margin-bottom: var(--size-400);
+  margin-block: var(--size-80);
 }
 
 .date-container {
@@ -574,5 +597,8 @@ main {
 }
 .postHeader {
   padding: var(--size-200) 0;
+}
+figcaption {
+  font-size: var(--size-100);
 }
 }
