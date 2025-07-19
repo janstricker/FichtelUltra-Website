@@ -23,9 +23,15 @@ Alle Altersklassen und Leistungsniveaus sind willkommen sich auszuprobieren. Es 
 
 ## Strecke
 
-* Distanz: ca. 60 km
-* Höhenmeter: ca. +2000 m | -2000 m
-
+Distanz: ca. 60 km | Höhenmeter: ca. +2000 m / -2000 m
+<div class="btn-group">
+    <a href="gpx/12_Gipfel_Tour_Fichtelgebirge.gpx" download>
+      <button class="btn inline">Download GPX</button>
+    </a>
+    <a href="https://www.komoot.com/de-de/tour/1710757003" target="_blank" external>
+      <button class="btn inline">Strecke auf Komoot</button>
+    </a>
+</div>
 
 ![Ein Höhenprofil welches alle Eckdaten der Route zeigt.](images/fun-run-12gt-plot.svg "Alle Informationen zur geplanten Strecke.")
 
