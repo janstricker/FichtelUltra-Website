@@ -1,11 +1,10 @@
-+++
-date = '2025-03-12T21:02:24+01:00'
-draft = false
-title = 'Blogpost 3'
-summary = 'Blog 3 Lorem ipsum dolor sit amet, consetetur'
-color = 'blog'
-tags = ['go', 'hugo', 'static']
-+++
+---
+title: "Blogpost 3"
+summary: "Weiterer Post."
+date: "2025-07-05"
+tags: ['On Tour', 'Hintergründe']
+draft: false
+---
 
 # Blog 3
 

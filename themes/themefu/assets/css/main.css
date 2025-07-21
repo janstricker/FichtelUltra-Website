@@ -114,6 +114,10 @@ p {
   margin-block: inherit;
 }
 
+.m0 {
+  margin: 0;
+}
+
 .list {
   padding-left: var(--size-200);
   margin-bottom: var(--size-100);
@@ -425,6 +429,24 @@ main {
   flex-direction: row-reverse;
 }
 
+.postArchive {
+  display: flex;
+  flex-direction: row;
+  flex-grow: 1;
+  background-color: inherit;
+  width: 100%;
+}
+
+.postArchiveList{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: start;
+  align-content: start;
+  gap: var(--size-200);
+  padding: var(--size-400) 0;
+}
+
 .postImg {
   width: 50%;
   aspect-ratio: 1/1;
@@ -462,6 +484,12 @@ main {
   gap: var(--size-100);
   justify-content: center;
   align-content: center;
+}
+
+.postTeaserContent.Archive {
+  aspect-ratio: unset;
+  gap: var(--size-80);
+  padding: 0;
 }
 
 .postContent {
