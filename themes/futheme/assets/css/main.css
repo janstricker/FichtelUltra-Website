@@ -16,8 +16,8 @@ html{
   --neutral-strongest: #221C13;
   --neutral-overlay: rgba(255, 255, 255, 0.25);
 
-  --about: var(--neutral-weakest);
-  --onAbout: var(--neutral-strongest);
+  --info: var(--neutral-weakest);
+  --oninfo: var(--neutral-strongest);
 
   --blog: var(--base-weak);
   --onBlog: var(--neutral-strongest);
@@ -49,9 +49,9 @@ html{
   color: var(--onBlog);
 }
 
-.about {
-  background-color: var(--about);
-  color: var(--onAbout);
+.info {
+  background-color: var(--info);
+  color: var(--oninfo);
 }
 
 .highlight {
