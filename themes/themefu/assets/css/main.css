@@ -26,6 +26,9 @@ html{
   --running: var(--accent-1-strong);
   --onRunning: var(--neutral-strongest);
 
+    --runningLite: var(--accent-1-weak);
+  --onRunningLite: var(--neutral-strongest);
+
   /* sizing */
   --size-80:     0.389rem;
   --size-90:     0.822rem;
@@ -126,6 +129,11 @@ p {
 .running {
   background-color: var(--running);
   color: var(--onRunning);
+}
+
+.runningLite {
+  background-color: var(--runningLite);
+  color: var(--onRunningLite);
 }
 
 .blog {
