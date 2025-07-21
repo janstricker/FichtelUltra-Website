@@ -8,11 +8,7 @@
   {{ partial "header.html" . }}
     <div class="container min-h-content hpadding">
       <main class="mainSection">
-        {{ block "main" . }}
-          {{ $blogPages := where site.RegularPages "Section" "blog" }}
-          {{ range $index, $element := $blogPages }}
-          {{ end }}
-        {{ end }}
+      {{ block "main" . }}{{ end }}
       </main>
     </div>
 

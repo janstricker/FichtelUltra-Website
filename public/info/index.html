@@ -18,10 +18,9 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body class="base">
-<div class="flex-container min-h-full">
-  <div class="containerHome">
-      <header class="headerHome">
+
+<body class="info">
+  <header class="header" id="siteHeader">
     <div class="header-content">
         <p>
             <a href="/">
@@ -38,15 +37,15 @@
     
     <div class="mainMenu">
         <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
             </svg>
         </button>
     </div>
     
-    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
         <menu class="menuFullscreen">
   
   <ul class="menu">
@@ -84,34 +83,73 @@
   </ul>
 </menu>
     </div>
+    <style>
+      .fullscreenMenuContainer {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+      }
+      .fullscreenMenuContainer.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
     <script>
       const hamburger = document.getElementById('hamburgerMenu');
       const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
       hamburger.addEventListener('click', function() {
-        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+        if (!menuContainer.classList.contains('open')) {
           menuContainer.style.display = 'block';
+          setTimeout(() => menuContainer.classList.add('open'), 10);
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
         } else {
-          menuContainer.style.display = 'none';
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
         }
       });
       
       document.addEventListener('click', function(e) {
         if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
-          menuContainer.style.display = 'none';
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
         }
       });
     </script>
 </header>
-      <main class="mainHome">
-        <section class="home-intro">
-          <h1>Info</h1>
-          
-          <div class="btn-group">
-            
-            
-          </div>
-        </section>
-        <h1 id="über-fichtelultra">Über FichtelUltra</h1>
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      
+        <img class="postHeaderImg" src="/info/images/title.jpg" alt="images/title.jpg"/>
+      
+
+        <div class="postContent">
+          <h1 id="über-fichtelultra">Über FichtelUltra</h1>
 <p>Das ganze Fichtelgebirge laufend erkunden? Vielleicht auch nur ein Stück davon. Ein zwangloser Fun Run macht es möglich! Am Samstag den 17.08.2024 starten wir den ersten Versuch die <a href="#hintergr%c3%bcnde">berühmte 12 Gipfel Tour im Fichtelgebirge</a> als Trailevents Event zu absolvieren.</p>
 <p>Ziel ist nicht gegeneinander sondern miteinander zu laufen und als Gruppe die gesamte Strecke von ca. 60 km in 12 Stunden zu absolvieren. Um dies zu schaffen bewegen wir uns etwas zügiger als das normale Wandertempo. Downhills und ebene Passgen werden wir laufend zurücklegend und die meisten Anstiege wandernd.</p>
 <p>Alle Altersklassen und Leistungsniveaus sind willkommen sich auszuprobieren. Es geht um nichts, außer den persönlichen Erfolg. Komm&rsquo; mit und finde heraus wie weit du es schaffen kannst.</p>
@@ -122,46 +160,12 @@
 <li><strong>06:00 Uhr</strong> – Start!</li>
 </ul>
 
-      </main>
+        </div>
+
+      
+    </main>
   </div>
-  <menu class="menuSidebar">
-  
-  <ul class="menu">
-    
-      
-      
-        
-        <a class="menu-item events" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/">
-          <li>
-            Events
-          </li>
-        </a>
-      
-    
-      
-      
-        
-        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
-          <li>
-            Blog
-          </li>
-        </a>
-      
-    
-      
-      
-        
-        <a class="menu-item info" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/info/">
-          <li>
-            Info
-          </li>
-        </a>
-      
-    
-  </ul>
-</menu>
-</div>
-<footer class="footer text-small">
+  <footer class="footer text-small">
     <ul class="links text-muted ">
         <li><a href="/">Home</a></li>
         <li><a href="/legal/impressum/">Impressum</a></li>
