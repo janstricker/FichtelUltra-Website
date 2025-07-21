@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Blog | FichtelUltra</title>
+<title>Epprecht Marathon | FichtelUltra</title>
 
     <link rel="stylesheet" href="/css/_normalize.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -18,7 +18,8 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body class="blog">
+
+<body class="events">
   <header class="header" id="siteHeader">
     <div class="header-content">
         <p>
@@ -28,8 +29,8 @@
             </a>
         </p>
         <p class="titleActive">
-            <a href="/blog">
-                blog
+            <a href="/events">
+                events
             </a>
         </p>
     </div>
@@ -141,75 +142,50 @@
       });
     </script>
 </header>
-    <div class="container min-h-content hpadding">
-      <main class="mainSection">
-        
-  
-  
-  <a href="/blog/blogpost3/">
-  <article class="post even">
-        
-          <img class="postImg" src="/blog/blogpost3/images/title.jpg" alt="Blogpost 3"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2025-07-05T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Blogpost 3</h2>
-        <p class="text-body">Weiterer Post.</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Hintergründe</span> 
-        </div>
-        
-      </div>
-  </article>
-  </a>
-  
-  <a href="/blog/20230918-utmb/">
-  <article class="post ">
-        
-          <img class="postImg" src="/blog/20230918-utmb/images/title.jpg" alt="Rückblick auf den UTMB"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2023-09-18T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Rückblick auf den UTMB</h2>
-        <p class="text-body">170 km Trailevents und was wir dabei als Support Crew erlebten</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Wettkampf</span> 
-        </div>
-        
-      </div>
-  </article>
-  </a>
-  
-  <a href="/blog/blogpost2/">
-  <article class="post even">
-        
-          <img class="postImg" src="/blog/blogpost2/images/title.png" alt="Vortrag im Jungbrunnen Selb"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2023-08-25T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Vortrag im Jungbrunnen Selb</h2>
-        <p class="text-body">Wir hielten einen Vortrag im Jungbrunnen in Selb über Ultra Trail Events.</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Hintergründe</span> 
-        </div>
-        
-      </div>
-  </article>
-  </a>
-  
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      
 
-      </main>
+<div class="postHeader">
+  <time class="date-container text-body" datetime="2024-08-23">
+    <span id="event-countdown" data-date="2024-08-23">&nbsp;</span><br/>
+    <span id="event-date">&nbsp;</span>
+  </time>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var countdownEl = document.getElementById('event-countdown');
+      var dateEl = document.getElementById('event-date');
+      var dateStr = countdownEl.getAttribute('data-date');
+      var eventDate = new Date(dateStr);
+      var now = new Date();
+      var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+      var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
+      var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+      if (daysDiff >= 0) {
+        countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+        dateEl.textContent = weekday + ", " + dateString;
+      } else {
+        countdownEl.textContent = "";
+        dateEl.textContent = dateString;
+      }
+    });
+  </script>
+  <h1>Epprecht Marathon</h1>
+  
+    <div class="tags">
+      <span class="tag">Event</span> <span class="tag">Marathon</span> 
     </div>
+  
+</div>
 
+        <div class="postContent">
+          <p>FichtelUltra 2. Edition</p>
+
+        </div>
+
+      
+    </main>
+  </div>
   <footer class="footer text-small">
     <ul class="links text-muted ">
         <li><a href="/">Home</a></li>
@@ -224,5 +200,7 @@
         </p>
     </a>
 </footer>
+      <script src="/themes/themefu/assets/js/table-shadow.js"></script>
+
 </body>
 </html>

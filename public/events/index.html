@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
   <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
-<title>Blog | FichtelUltra</title>
+<title>Events | FichtelUltra</title>
 
     <link rel="stylesheet" href="/css/_normalize.css">
     <link rel="stylesheet" href="/css/lightbox.css">
@@ -18,7 +18,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
 </head>
 
-<body class="blog">
+<body class="events">
   <header class="header" id="siteHeader">
     <div class="header-content">
         <p>
@@ -28,8 +28,8 @@
             </a>
         </p>
         <p class="titleActive">
-            <a href="/blog">
-                blog
+            <a href="/events">
+                events
             </a>
         </p>
     </div>
@@ -146,65 +146,96 @@
         
   
   
-  <a href="/blog/blogpost3/">
-  <article class="post even">
-        
-          <img class="postImg" src="/blog/blogpost3/images/title.jpg" alt="Blogpost 3"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2025-07-05T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Blogpost 3</h2>
-        <p class="text-body">Weiterer Post.</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Hintergründe</span> 
-        </div>
-        
-      </div>
-  </article>
-  </a>
   
-  <a href="/blog/20230918-utmb/">
-  <article class="post ">
-        
-          <img class="postImg" src="/blog/20230918-utmb/images/title.jpg" alt="Rückblick auf den UTMB"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2023-09-18T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Rückblick auf den UTMB</h2>
-        <p class="text-body">170 km Trailevents und was wir dabei als Support Crew erlebten</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Wettkampf</span> 
-        </div>
-        
-      </div>
-  </article>
-  </a>
   
-  <a href="/blog/blogpost2/">
-  <article class="post even">
-        
-          <img class="postImg" src="/blog/blogpost2/images/title.png" alt="Vortrag im Jungbrunnen Selb"/>
-        
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="2023-08-25T00:00:00Z">
-            <span class="dynamic-date"></span>
-        </time>
-        <h2>Vortrag im Jungbrunnen Selb</h2>
-        <p class="text-body">Wir hielten einen Vortrag im Jungbrunnen in Selb über Ultra Trail Events.</p>
-        
-        <div class="tags">
-          <span class="tag">On Tour</span> <span class="tag">Hintergründe</span> 
+  
+  
+  
+  
+    
+    <a href="/events/20251018--fun-run-2/">
+    <article class="post even">
+           
+            <div class="fallback"></div>
+          
+        <div class="postTeaserContent">
+          <time class="text-small" datetime="2025-10-18">
+            <span class="event-countdown" data-date="2025-10-18">&nbsp;</span><br/>
+            <span class="event-date">&nbsp;</span>
+          </time>
+          <script>
+            document.addEventListener('DOMContentLoaded', function() {
+              var countdownEls = document.querySelectorAll('.event-countdown');
+              var dateEls = document.querySelectorAll('.event-date');
+              countdownEls.forEach(function(countdownEl, idx) {
+                var dateStr = countdownEl.getAttribute('data-date');
+                var eventDate = new Date(dateStr);
+                var now = new Date();
+                var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+                var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
+                var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+                if (daysDiff >= 0) {
+                  countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+                  dateEls[idx].textContent = weekday + ", " + dateString;
+                } else {
+                  countdownEl.textContent = "";
+                  dateEls[idx].textContent = dateString;
+                }
+              });
+            });
+          </script>
+          <h2>Fun Run 2</h2>
+          <p class="text-body">Fichtelgebirgs Trailrun</p>
+          
+          <div class="tags">
+            <span class="tag">Event</span> <span class="tag">12GT</span> 
+          </div>
+          
         </div>
-        
-      </div>
-  </article>
-  </a>
+    </article>
+    </a>
+    
+  
+
+  
+  
+  <div class="postArchiveList">
+    <h3 class="m0">Vergangene Events</h3>
+      
+      <a href="/events/20250823--rip-n-dip/">
+      <article class="postArchive">
+          <div class="postTeaserContent Archive">
+            
+            <time class="text-small text-muted" datetime="2025-07-20">
+                20.07.2025
+            </time>
+            <h4 class="">Rip &#39;n Dip</h>          </div>
+      </article>
+      </a>
+      
+      <a href="/events/20240817---fun-run-12gt/">
+      <article class="postArchive">
+          <div class="postTeaserContent Archive">
+            
+            <time class="text-small text-muted" datetime="2024-08-17">
+                17.08.2024
+            </time>
+            <h4 class="">Fun Run 2024</h>          </div>
+      </article>
+      </a>
+      
+      <a href="/events/20240823--epprecht-marathon/">
+      <article class="postArchive">
+          <div class="postTeaserContent Archive">
+            
+            <time class="text-small text-muted" datetime="2024-08-23">
+                23.08.2024
+            </time>
+            <h4 class="">Epprecht Marathon</h>          </div>
+      </article>
+      </a>
+      
+  </div>
   
 
       </main>

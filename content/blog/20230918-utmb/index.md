@@ -1,7 +1,7 @@
 ---
 title: "Rückblick auf den UTMB"
 meta_title: "FichtelUltra – Rückblick auf den UTMB"
-summary: "170 km Trailrunning und was wir dabei als Support Crew erlebten"
+summary: "170 km Trailevents und was wir dabei als Support Crew erlebten"
 date: "2023-09-18"
 tags: ['On Tour', 'Wettkampf']
 draft: false
@@ -61,7 +61,7 @@ An der Aid-Station angekommen, begannen wir mit den abgemachten Vorbereitungen: 
 ![Sandwich & Suppe aus bzw. auf dem Kofferraum](images/utmb-21.jpg "Sandwich & Suppe aus bzw. auf dem Kofferraum (Foto: Lena W.)")
 
 
-## What running 100 miles does to a person
+## What events 100 miles does to a person
 #### Aid-Station: Champex Lac | Zeit: 22 h 14 m | Distanz: 127,6 km
 
 Für uns ging es nach der erfolgreichen Versorgung auch unmittelbar weiter in Richtung Schweiz. Das alpine Gelände lässt leider nur umständliche Straßenführungen zu, wodurch die Entfernungen zwischen den Aid-Stations mit dem Auto teilweise mehr als doppelt so weit sind als zu Fuß. Auf der ca. 2 Stunden langen Reise nach Champex Lac machten sich auch bei uns langsam erste Ermüdungserscheinungen breit. Eine direkte Anfahrt in den auf 1470 m hoch gelegenen Ort war aufgrund von Straßensperrungen nicht möglich. So mussten wir samt Versorgungs-Kit mit einem Linienbus die steile Auffahrt erledigen und gönnten uns zur Belohnung ein halbes Stündchen Schlaf am traumhaften Bergsee.

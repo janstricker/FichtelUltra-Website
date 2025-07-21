@@ -1,6 +1,6 @@
 +++
 fmContentType = "home"
-title = "Trailrunning im Fichtelgebirge"
+title = "Trailevents im Fichtelgebirge"
 subtitle = "Freundschaft, Sport und wilde Ideen."
 primaryCTA = "Jetzt Anmelden"
 primaryLink = "/"

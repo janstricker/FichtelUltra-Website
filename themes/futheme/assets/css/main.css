@@ -22,8 +22,8 @@ html{
   --blog: var(--base-weak);
   --onBlog: var(--neutral-strongest);
 
-  --running: var(--accent-1-strong);
-  --onRunning: var(--neutral-strongest);
+  --events: var(--accent-1-strong);
+  --onEvents: var(--neutral-strongest);
 
   /* sizing */
   --size-80:     0.389rem;
@@ -39,9 +39,9 @@ html{
 }
 
 
-.running {
-  background-color: var(--running);
-  color: var(--onRunning);
+.events {
+  background-color: var(--events);
+  color: var(--onEvents);
 }
 
 .blog {

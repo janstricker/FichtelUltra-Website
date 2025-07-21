@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Fun Run 2024 | FichtelUltra</title>
+
+    <link rel="stylesheet" href="/css/_normalize.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/lightbox.js"></script>
+      <script src="/js/main.js"></script>
+      <script src="/js/table-shadow.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="events">
+  <header class="header" id="siteHeader">
+    <div class="header-content">
+        <p>
+            <a href="/">
+                <span class="titleDefault">Fichtel</span>
+                <span class="titleDefault">Ultra</span>
+            </a>
+        </p>
+        <p class="titleActive">
+            <a href="/events">
+                events
+            </a>
+        </p>
+    </div>
+    
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    
+    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        <menu class="menuFullscreen">
+  
+  <ul class="menu">
+    
+      
+      
+        
+        <a class="menu-item events" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/">
+          <li>
+            Events
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item blog" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item info" href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/info/">
+          <li>
+            Info
+          </li>
+        </a>
+      
+    
+  </ul>
+</menu>
+    </div>
+    <style>
+      .fullscreenMenuContainer {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+      }
+      .fullscreenMenuContainer.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
+      hamburger.addEventListener('click', function() {
+        if (!menuContainer.classList.contains('open')) {
+          menuContainer.style.display = 'block';
+          setTimeout(() => menuContainer.classList.add('open'), 10);
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
+        } else {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+    </script>
+</header>
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      
+        <img class="postHeaderImg" src="/events/20240817---fun-run-12gt/images/title.svg" alt="images/title.svg"/>
+      
+
+<div class="postHeader">
+  <time class="date-container text-body" datetime="2024-08-17">
+    <span id="event-countdown" data-date="2024-08-17">&nbsp;</span><br/>
+    <span id="event-date">&nbsp;</span>
+  </time>
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var countdownEl = document.getElementById('event-countdown');
+      var dateEl = document.getElementById('event-date');
+      var dateStr = countdownEl.getAttribute('data-date');
+      var eventDate = new Date(dateStr);
+      var now = new Date();
+      var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+      var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
+      var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+      if (daysDiff >= 0) {
+        countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+        dateEl.textContent = weekday + ", " + dateString;
+      } else {
+        countdownEl.textContent = "";
+        dateEl.textContent = dateString;
+      }
+    });
+  </script>
+  <h1>Fun Run 2024</h1>
+  
+    <div class="tags">
+      <span class="tag">Event</span> <span class="tag">12GT</span> 
+    </div>
+  
+</div>
+
+        <div class="postContent">
+          <p>Das ganze Fichtelgebirge laufend erkunden? Vielleicht auch nur ein Stück davon. Ein zwangloser Fun Run macht es möglich! Am Samstag den 17.08.2024 starten wir den ersten Versuch die <a href="#hintergr%c3%bcnde">berühmte 12 Gipfel Tour im Fichtelgebirge</a> als Trailevents Event zu absolvieren.</p>
+<p>Ziel ist nicht gegeneinander sondern miteinander zu laufen und als Gruppe die gesamte Strecke von ca. 60 km in 12 Stunden zu absolvieren. Um dies zu schaffen bewegen wir uns etwas zügiger als das normale Wandertempo. Downhills und ebene Passgen werden wir laufend zurücklegend und die meisten Anstiege wandernd.</p>
+<p>Alle Altersklassen und Leistungsniveaus sind willkommen sich auszuprobieren. Es geht um nichts, außer den persönlichen Erfolg. Komm&rsquo; mit und finde heraus wie weit du es schaffen kannst.</p>
+<h2 id="termin">Termin</h2>
+<ul>
+<li><strong>Samstag, 17.08.2024</strong></li>
+<li><strong>05:30 Uhr</strong> – Treffpunkt <a href="https://maps.app.goo.gl/w5yLAAYB19tgVWhr7" target="_blank" rel="noopener">Wanderparkplatz Alte Vorsuchhütte</a></li>
+<li><strong>06:00 Uhr</strong> – Start!</li>
+</ul>
+<h2 id="strecke">Strecke</h2>
+<p>Distanz: ca. 60 km | Höhenmeter: ca. +2000 m / -2000 m</p>
+<div class="btn-group">
+    <a href="gpx/12_Gipfel_Tour_Fichtelgebirge.gpx" download>
+      <button class="btn inline">Download GPX</button>
+    </a>
+    <a href="https://www.komoot.com/de-de/tour/1710757003" target="_blank" external>
+      <button class="btn inline">Strecke auf Komoot</button>
+    </a>
+</div>
+<p>
+    <figure role="figure" aria-label="Alle Informationen zur geplanten Strecke.">
+      <a href="/events/20240817---fun-run-12gt/images/fun-run-12gt-plot.svg" target="_blank" rel="noopener" title="SVG in neuem Tab öffnen">
+        <img
+          alt="Alle Informationen zur geplanten Strecke."
+          title="Alle Informationen zur geplanten Strecke."
+          src="/events/20240817---fun-run-12gt/images/fun-run-12gt-plot.svg"
+          decoding="async"
+          loading="lazy"
+        />
+      </a>
+      <figcaption>Alle Informationen zur geplanten Strecke.</figcaption>
+    </figure></p>
+<h2 id="verlauf">Verlauf</h2>
+<p>Die angegebenen Zeitpunkte an den Stationen beziehen sich auf eine Gesamtdauer von ca. 12 h bzw. ein durchschnittliches Lauftempo von 12:00 min/km / 5,0 km/h inkl. kurzer Pausen.</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: left">Distanz</th>
+          <th style="text-align: left">Wegpunkt</th>
+          <th style="text-align: left">Ort</th>
+          <th style="text-align: left">Zeitpunkt (geschätzt)</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: left"></td>
+          <td style="text-align: left"><strong>Start</strong></td>
+          <td style="text-align: left">Alte Vorsuchhütte (700 m) <br> <a href="https://maps.app.goo.gl/w5yLAAYB19tgVWhr7" target="_blank" rel="noopener">Wanderparkplatz</a></td>
+          <td style="text-align: left">06:00 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">1,2 km</td>
+          <td style="text-align: left">1. Gipfel</td>
+          <td style="text-align: left">Großer Kornberg (827 m) <br> Spitze des steinernen Turmes Schönburgwarte</td>
+          <td style="text-align: left">06:17 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">9,0 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left">Nahkauf Kirchenlamitz <br> <a href="https://maps.app.goo.gl/3GzrDm535o4KUwGMA" target="_blank" rel="noopener">Kreuzung Hasenmühle/Fuchsmühlweg</a></td>
+          <td style="text-align: left">07:45 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">11,0 km</td>
+          <td style="text-align: left">2.  Gipfel</td>
+          <td style="text-align: left">Epprechtstein (798 m) <br> Spitze der Aussichtsplattform</td>
+          <td style="text-align: left">08:15 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">18,0 km</td>
+          <td style="text-align: left">3. Gipfel + <strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left">Großer Waldstein (877 m) <br> Spitze der Aussichtsplattform Schüssel <br> <a href="https://maps.app.goo.gl/iEUGbPkdp5WA4MWn9" target="_blank" rel="noopener">Restaurant Waldsteinhaus</a></td>
+          <td style="text-align: left">09:40 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">23,0 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left">Weißenstädter See <br> <a href="https://maps.app.goo.gl/ERUmzf5S2qgHmSzS7" target="_blank" rel="noopener">Kreuzung Uferweg/Stadtweiherweg, Restaurant Syrtaki</a></td>
+          <td style="text-align: left">10:30 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">26,5 km</td>
+          <td style="text-align: left">4. Gipfel</td>
+          <td style="text-align: left">Rudolfstein (866 m) <br> Spitze der Aussichtsplattform</td>
+          <td style="text-align: left">11:20 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">29,5 km</td>
+          <td style="text-align: left">5. Gipfel</td>
+          <td style="text-align: left">Schneeberg (1,051 m) <br> Spitze der Aussichtsplattform Backöfele</td>
+          <td style="text-align: left">12:00 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">31,5 km</td>
+          <td style="text-align: left">6. Gipfel</td>
+          <td style="text-align: left">Nusshardt (972 m) <br> Spitze der Aussichtsplattform</td>
+          <td style="text-align: left">12:35 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">34,0 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left"><a href="https://maps.app.goo.gl/LjWmnatdQt8DZVZN8" target="_blank" rel="noopener">Wanderparkplatz an der B303</a> <br>  Karches</td>
+          <td style="text-align: left">13:10 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">37,5 km</td>
+          <td style="text-align: left">7. Gipfel</td>
+          <td style="text-align: left">Ochsenkopf (1,024 m) <br> Spitze des steinernen Turmes Asenturm, Zugang via Restaurant</td>
+          <td style="text-align: left">14:00 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">41,5 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left"><a href="https://maps.app.goo.gl/59rhb6WKhnFqZ2Xy9" target="_blank" rel="noopener">Parkplatz Seehaus an der B303</a></td>
+          <td style="text-align: left">14:30 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">45,5 km</td>
+          <td style="text-align: left">8. Gipfel</td>
+          <td style="text-align: left">Platte (885 m) <br> Gipfelkreuz</td>
+          <td style="text-align: left">15:10 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">47,5 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left"><a href="https://maps.app.goo.gl/68MKMea8LKWZkWTq5" target="_blank" rel="noopener">Parkplatz Silberhaus an der B303</a></td>
+          <td style="text-align: left">15:30 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">50,5 km</td>
+          <td style="text-align: left">9. Gipfel</td>
+          <td style="text-align: left">Hohe Matze (813 m) <br> Gipfelkreuz (unwegsames Gelände)</td>
+          <td style="text-align: left">16:00 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">53,0 km</td>
+          <td style="text-align: left"><strong>Ein-/Ausstieg</strong></td>
+          <td style="text-align: left"><a href="https://maps.app.goo.gl/Tpz9bGXV48h4hTzM8" target="_blank" rel="noopener">Wanderparkplatz Kösseine</a> <br> Hohenbrand, Nagel</td>
+          <td style="text-align: left">16:30 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">55,5 km</td>
+          <td style="text-align: left">10. Gipfel</td>
+          <td style="text-align: left">Große Kösseine (939 m) <br> Spitze der Aussichtsplattform Kösseineturm</td>
+          <td style="text-align: left">17:10 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">57,0 km</td>
+          <td style="text-align: left">11. Gipfel</td>
+          <td style="text-align: left">Großer Haberstein (847 m) <br> Spitze der Aussichtsplattform</td>
+          <td style="text-align: left">17:25 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">58,3 km</td>
+          <td style="text-align: left">12. Gipfel</td>
+          <td style="text-align: left">Burgstein (879 m) (Burgsteinfelsen) <br> Spitze der Aussichtsplattform</td>
+          <td style="text-align: left">17:40 Uhr</td>
+      </tr>
+      <tr>
+          <td style="text-align: left">60,0 km</td>
+          <td style="text-align: left"><strong>Ziel</strong></td>
+          <td style="text-align: left"><a href="https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6" target="_blank" rel="noopener">Luisenburg Resort (700 m)</a> <br> Jean Paul Gedenkstein</td>
+          <td style="text-align: left">17:50 Uhr</td>
+      </tr>
+  </tbody>
+</table>
+<p>Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.</p>
+<h2 id="teilnahme">Teilnahme</h2>
+<p>Es ist keine Anmeldung erforderlich. Alle Teilnehmenden, die sich rechtzeitig am <a href="#termin">Treffpunkt</a> einfinden, erhalten ein Abzeichen und einen kleinen Gegenstand, welchen sie während der Tour bei sich tragen dürfen.</p>
+<p>Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung, Verpflegung, Transport oder ärztliche Versorgung</p>
+<h2 id="format">Format</h2>
+<p>Ziel ist es als Gruppe die Gesamte Strecke in 12 Stunden zu absolvieren. Dennoch ist es möglich an den aufgeführten Punkten vorzeitig auszusteigen oder auch zu einem späteren Zeitpunkt einzutreten und nur einen Teil der Strecke im angestrebten Tempo zu begleiten. Dies muss von jeder Person in eigener verantwortung geplant werden.</p>
+<h2 id="mobilität">Mobilität</h2>
+<p>Zwischen Start und Ziel liegen <a href="https://maps.app.goo.gl/DfDDo7vywzujFtDK8" target="_blank" rel="noopener">ca. 25 min / ca. 30 km Fahrt mit dem Auto</a>.</p>
+<p>Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche Nahverkehrsangebote wie <a href="https://freiraum-fichtelgebirge.de/fichtelbaxi/" target="_blank" rel="noopener">FichtelBaxi (Anrufbus)</a> zurückgegriffen werden.</p>
+<h2 id="ausrüstung">Ausrüstung</h2>
+<p>Die Tour ist nur mit geeigneter Wander-/Laufbekleidung zu absolvieren.
+Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.</p>
+<p>Folgende Ausrüstung wird empfohlen:</p>
+<ul>
+<li>Trail-Events Schuhe</li>
+<li>kleines Erste Hilfe Set</li>
+<li>Laufweste oder kleiner Rucksack</li>
+<li>Regenjacke (gegen Nässe, Wind und Kälte)</li>
+<li>Schirmmütze (gegen Sonne)</li>
+<li>zweites Oberteil zum Wechseln</li>
+<li>Handy</li>
+</ul>
+<p>Folgende Ausrüstung ist optional</p>
+<ul>
+<li>Wander-/Laufstöcke</li>
+<li>Sonnenbrille</li>
+<li>zusätzliche Wechselkleidung</li>
+<li>Sonnencreme</li>
+</ul>
+<h2 id="verpflegung">Verpflegung</h2>
+<p>Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Es werden keine Versorgungsstationen zur Verfügung gestellt. Verpflegung durch Freunde &amp; Familie entlang der Tour ist erlaubt. Die Tour führt auch entlang mehrerer Ortschaften, Brunnen und Gaststätten (bitte die Öffnungszeiten beachten). Um im Zeitplan zu bleiben planen wir als Gruppe keine längeren Pausen einzulegen und stetig in Bewegung zu bleiben.</p>
+<p>Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es sehr ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.</p>
+<h2 id="hintergründe">Hintergründe</h2>
+<p>Die 12 Gipfel Tour gilt als eine der prestigeträchtigsten Routen im <a href="https://www.fichtelgebirge.bayern/" target="_blank" rel="noopener">Fichtelgebirge</a> und verbindet die schönsten und höchsten Punkte des Naturparks mit spektakulären Aussichten. Neben dem höchsten Gipfel Frankens und Nordbayerns, dem Schneeberg, führt die Tour über insgesamt 12 Gipfel, mit fast 2000 Höhenmetern Auf- und 2000 Höhenmetern Abstieg, und erstreckt sich über rund 60 Kilometer.</p>
+<p>Ursprünglich von <a href="https://www.frankenpost.de/inhalt.gipfelglueck-mal-anders-extremwanderer-laufen-ueber-zwoelf-gipfel.1dd3c86d-0a7b-4a67-b173-f32a632570df.html" target="_blank" rel="noopener">Dr. Roman Lebek</a> im Jahr 2005 initiiert, wird die Tour seit vielen Jahren von zahlreichen Gruppen und Einzelpersonen als eintägige Herausforderung und einzigartiges Lauf- und Wandererlebnis in Angriff genommen.</p>
+<p>Da sich die Tour neben Wanderungen auch hervorragend für Trailevents eignet, wurden seit 2022 bereits <a href="https://fastestknowntime.com/route/12-gipfel-tour-germany" target="_blank" rel="noopener">mehrere Zeitrekorde</a> erfasst.</p>
+<h2 id="haftungsausschluss">Haftungsausschluss</h2>
+<p>Die Beanspruchung der auf dieser Homepage vorgestellten Touren erfolgt auf eigenes Risiko. Der Verfasser dieser Touren schließt die Haftungsübernahme für Schäden jeglicher Art aus. Dies gilt sowohl für Personen-, Tier- als auch für Sachschäden, insbesondere für Folgen von Unfällen.</p>
+<p>Der Verfasser setzt voraus, dass Beanspruchende der Wandervorschläge sich ihrer körperlichen, psychischen und gesundheitlichen Grenzen bewusst sind. Die Beanspruchenden werden gegen den Verfasser der Touren keinerlei Ansprüche wegen Schäden und Verletzungen jeglicher Art, die durch die Inanspruchnahme der Wandertouren entstehen können, geltend machen. Für eventuelle seelische, körperliche oder materielle Schäden wird keine Haftung übernommen.</p>
+<p>Es wird empfohlen, dass die Beanspruchenden sich vor Beginn der Tour über die Wetterverhältnisse informieren.</p>
+<p>Darüber hinaus sind die Informationen oder Beschilderung vor Ort zu berücksichtigen. Die Benutzung von Privatstraßen, insbesondere Forststraßen, landwirtschaftlichen Güterwegen und Wanderwegen kann rechtlichen Beschränkungen unterliegen.</p>
+<hr>
+<p>Zuletzt aktualisiert: 04.08.2024</p>
+
+        </div>
+
+      
+    </main>
+  </div>
+  <footer class="footer text-small">
+    <ul class="links text-muted ">
+        <li><a href="/">Home</a></li>
+        <li><a href="/legal/impressum/">Impressum</a></li>
+        <li><a href="/legal/datenschutz/">Datenschutz</a></li>
+        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
+    </ul>
+    <a class="copyright" href="/">
+        <p class="text-muted ">
+           Fichtel<span style="font-weight: 800;">Ultra</span> 2025 
+        </p>
+    </a>
+</footer>
+      <script src="/themes/themefu/assets/js/table-shadow.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+<body class="events">
+  {{ partial "header.html" . }}
+    <div class="container min-h-content hpadding">
+      <main class="mainSection">
+        {{ block "main" . }}
+          {{ $blogPages := where site.RegularPages "Section" "blog" }}
+          {{ range $index, $element := $blogPages }}
+          {{ end }}
+        {{ end }}
+      </main>
+    </div>
+
+  {{ partial "footer.html" . }}
+</body>
+</html>

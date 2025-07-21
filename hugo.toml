@@ -5,7 +5,7 @@ title = "FichtelUltra"
 theme = "themefu"
 
 [params]
-  description = "Ein Blog über Running und Abenteuer im Fichtelgebirge."
+  description = "Ein Blog über Events und Abenteuer im Fichtelgebirge."
   titlePart1 = "Fichtel"
   titlePart2 = "Ultra"
 

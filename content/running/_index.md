@@ -1,4 +1,0 @@
-+++
-title = 'Running'
-color = 'running'
-+++

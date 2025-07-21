@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Event on FichtelUltra</title>
-    <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/event/</link>
-    <description>Recent content in Event on FichtelUltra</description>
+    <title>Events on FichtelUltra</title>
+    <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/</link>
+    <description>Recent content in Events on FichtelUltra</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <atom:link href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Epprecht Marathon</title>
       <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/20240823--epprecht-marathon/</link>

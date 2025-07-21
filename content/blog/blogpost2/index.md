@@ -1,7 +1,7 @@
 ---
 title: "Vortrag im Jungbrunnen Selb"
 meta_title: "Vortrag im Jungbrunnen Selb"
-summary: "Wir hielten einen Vortrag im Jungbrunnen in Selb über Ultra Trail Running."
+summary: "Wir hielten einen Vortrag im Jungbrunnen in Selb über Ultra Trail Events."
 date: "2023-08-25"
 tags: ['On Tour', 'Hintergründe']
 draft: false

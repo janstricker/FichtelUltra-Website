@@ -23,11 +23,11 @@ html{
   --blog: var(--base-weak);
   --onBlog: var(--neutral-strongest);
 
-  --running: var(--accent-1-strong);
-  --onRunning: var(--neutral-strongest);
+  --events: var(--accent-1-strong);
+  --onEvents: var(--neutral-strongest);
 
-    --runningLite: var(--accent-1-weak);
-  --onRunningLite: var(--neutral-strongest);
+    --eventsLite: var(--accent-1-weak);
+  --onEventsLite: var(--neutral-strongest);
 
   /* sizing */
   --size-80:     0.389rem;
@@ -126,14 +126,14 @@ p {
   margin-bottom: var(--size-100);
 }
 
-.running {
-  background-color: var(--running);
-  color: var(--onRunning);
+.events {
+  background-color: var(--events);
+  color: var(--onEvents);
 }
 
-.runningLite {
-  background-color: var(--runningLite);
-  color: var(--onRunningLite);
+.eventsLite {
+  background-color: var(--eventsLite);
+  color: var(--onEventsLite);
 }
 .blog {
   background-color: var(--blog);
