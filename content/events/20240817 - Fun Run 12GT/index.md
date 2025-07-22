@@ -1,6 +1,5 @@
 ---
 title: "Fun Run 2024"
-meta_title: "Vortrag im Jungbrunnen Selb"
 summary: "12 Gipfel in 12 Stunden"
 event_date: "2024-08-17"
 tags: ['Event', '12GT']

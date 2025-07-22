@@ -7,7 +7,11 @@ totalLenght: "60km"
 elevation: "2000hm"
 duration: "6-12h"
 tags: ['Event', '12GT']
-draft: false
+primaryCTA : "Insta"
+primaryLink : "https://www.instagram.com/fichtelultra"
+secondaryCTA : "Design"
+secondaryLink : "https://www.janstricker.de"
+featured : "true"
 ---
 
 
