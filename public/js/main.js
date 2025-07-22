@@ -22,31 +22,22 @@
       }
       el.style.visibility = "visible";
     });
-  });
-  document.addEventListener("DOMContentLoaded", function() {
-    // Grenzen definieren
-    const decalTopMin = -100;   // in %
+    const decalTopMin = -100;
     const decalTopMax = -30;
-    const decalLeftMin = -30;   // in %
+    const decalLeftMin = -30;
     const decalLeftMax = 30;
-    const decalWidthMin = 80; // in %
+    const decalWidthMin = 80;
     const decalWidthMax = 200;
-
-    // Zufallswert-Generator
     function randomInRange(min, max, unit = "") {
-      return (Math.random() * (max - min) + min) + unit;
+      return Math.random() * (max - min) + min + unit;
     }
-
-    // Werte setzen
-    document.documentElement.style.setProperty('--decalTop', randomInRange(decalTopMin, decalTopMax, '%'));
-    document.documentElement.style.setProperty('--decalLeft', randomInRange(decalLeftMin, decalLeftMax, '%'));
-    document.documentElement.style.setProperty('--decalWidth', randomInRange(decalWidthMin, decalWidthMax, '%'));
-
-    // Fade-In für das Decal
-    var decal = document.querySelector('.decal');
+    document.documentElement.style.setProperty("--decalTop", randomInRange(decalTopMin, decalTopMax, "%"));
+    document.documentElement.style.setProperty("--decalLeft", randomInRange(decalLeftMin, decalLeftMax, "%"));
+    document.documentElement.style.setProperty("--decalWidth", randomInRange(decalWidthMin, decalWidthMax, "%"));
+    var decal = document.querySelector(".decal");
     if (decal) {
       setTimeout(function() {
-        decal.style.opacity = '1';
+        decal.style.opacity = "1";
       }, 100);
     }
   });

@@ -26,7 +26,7 @@ html{
   --events: var(--accent-1-strong);
   --onEvents: var(--neutral-strongest);
 
-    --eventsLite: var(--accent-1-weak);
+  --eventsLite: var(--accent-1-weak);
   --onEventsLite: var(--neutral-strongest);
 
   /* sizing */
@@ -41,12 +41,15 @@ html{
   --header-height: calc(var(--size-400)*1.5);
   --footer-height: calc(var(--header-height)*0.5);
   --sidebarWidth: clamp(160px, 25%, 320px);
+  --fu-logo-height: 1rem;
+
 
   /* decal */
   --decalTop: 0%;
   --decalLeft: 0%;
   --decalWidth: 100%;
   --svg-stroke-width: 0.25rem;
+
 }
 @media (max-width: 840px) {
   :root {
@@ -60,6 +63,10 @@ html{
     --footer-height: calc(var(--header-height)*0.5);
     --sidebarWidth: clamp(120px, 40vw, 200px);
   }
+}
+
+.fichtelUltraLogo {
+  height: var(--fu-logo-height);
 }
 
 /* Typografie-Klassen */
@@ -262,6 +269,7 @@ figcaption {
   background-position: center;
   overflow: hidden;
   position: relative;
+
 }
 
 .home-intro {
@@ -378,6 +386,7 @@ main {
   height: auto;
   opacity: 0;
   transition: opacity 1s;
+
 }
 
 .mainContent {
