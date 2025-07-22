@@ -1,6 +1,32 @@
 (() => {
   // <stdin>
   document.addEventListener("DOMContentLoaded", function() {
+    // Event-Countdown und Datumsanzeige für Events
+    // Dieses Skript war vorher inline in list.html und wurde ausgelagert
+
+    var countdownEls = document.querySelectorAll('.event-countdown');
+    var dateEls = document.querySelectorAll('.event-date');
+    countdownEls.forEach(function(countdownEl, idx) {
+      var dateStr = countdownEl.getAttribute('data-date');
+      var eventDate = new Date(dateStr);
+      var now = new Date();
+      var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+      var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
+      var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+      if (daysDiff >= 0) {
+        if (daysDiff + 1 > 31) {
+          var weeks = Math.ceil((daysDiff + 1) / 7);
+          countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
+        } else {
+          countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+        }
+        dateEls[idx].textContent = weekday + ", " + dateString;
+      } else {
+        countdownEl.textContent = "";
+        dateEls[idx].textContent = dateString;
+      }
+    });
+
     var elements = document.querySelectorAll(".dynamic-date");
     elements.forEach(function(el) {
       el.style.visibility = "hidden";
@@ -22,6 +48,7 @@
       }
       el.style.visibility = "visible";
     });
+    
     const decalTopMin = -100;
     const decalTopMax = -30;
     const decalLeftMin = -30;
