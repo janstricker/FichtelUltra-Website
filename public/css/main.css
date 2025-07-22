@@ -41,6 +41,12 @@ html{
   --header-height: calc(var(--size-400)*1.5);
   --footer-height: calc(var(--header-height)*0.5);
   --sidebarWidth: clamp(160px, 25%, 320px);
+
+  /* decal */
+  --decalTop: -150%;
+  --decalLeft: -25%;
+  --decalWidth: 400%;
+  --decalHeight: 400%;
 }
 @media (max-width: 840px) {
   :root {
@@ -346,6 +352,27 @@ main {
   gap: 0;
   justify-content: start;
   align-content: start;
+  overflow: hidden;
+  position: relative;
+}
+
+.decalContainer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  mix-blend-mode: screen;
+  opacity: 0.8;
+}
+
+.decal {
+  position: absolute;
+  top: var(--decalTop);
+  left: var(--decalLeft);
+  width: var(--decalWidth);
+  height: var(--decalHeight);
 }
 
 .mainContent {
