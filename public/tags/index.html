@@ -27,8 +27,15 @@
         <path fill-rule="evenodd" clip-rule="evenodd" d="M3 496.099L341.029 303.302L3.00003 110.505L64.2014 3.604L465.344 232.398L866.486 3.60406L927.688 110.505L589.659 303.302L927.688 496.099L866.486 603L465.344 374.206L64.2013 603L3 496.099Z" stroke="#FF1414" style="stroke-width: var(--svg-stroke-width);" vector-effect="non-scaling-stroke"/>
       </svg>
     </div>
+    <div class="logoContainer">
+      
+      <svg class="fichtelUltraLogo" width="var(--fu-logo-width)" height="var(--fu-logo-height)" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
+      </svg>
+    </div>
     
     <div class="header-content">
+        
         <p>
             <a href="/">
                 <span class="titleDefault">Fichtel</span>
@@ -91,6 +98,9 @@
 </menu>
     </div>
     <script>
+      
+      document.documentElement.style.setProperty('--fu-logo-width', '200px');
+      document.documentElement.style.setProperty('--fu-logo-height', '60px');
       const hamburger = document.getElementById('hamburgerMenu');
       const menuContainer = document.getElementById('fullscreenMenuContainer');
       hamburger.addEventListener('click', function() {
