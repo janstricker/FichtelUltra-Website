@@ -534,6 +534,19 @@ main {
   align-content: center;
 }
 
+.eventInfo {
+  display: flex;
+  flex-direction: column;
+  gap: var(--size-80);
+}
+
+.routeMeta {
+  font-size: var(--size-90);
+  font-weight: 500;
+  color: var(--neutral-strongest);
+  opacity: 0.6;
+}
+
 .postTeaserContent.Archive {
   aspect-ratio: unset;
   gap: var(--size-80);

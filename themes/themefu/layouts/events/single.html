@@ -45,11 +45,24 @@
     });
   </script>
   <h1>{{ .Title }}</h1>
+  <!--
   {{ with .Params.tags }}
     <div class="tags">
       {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
     </div>
   {{ end }}
+  -->
+  <div class="eventInfo">
+    <div class="routeMeta">
+      {{ $len := .Params.totalLenght }}
+      {{ $elev := .Params.elevation }}
+      {{ $dur := .Params.duration }}
+      {{ if $len }}{{ $len }}{{ end }}
+      {{ if and $len (or $elev $dur) }}<span class="text-separator"> ・ </span>{{ end }}
+      {{ if $elev }}{{ $elev }}{{ end }}
+      {{ if and $elev $dur }}<span class="text-separator"> ・ </span>{{ end }}
+      {{ if $dur }}{{ $dur }}{{ end }}
+    </div>
 </div>
 
         <div class="postContent">

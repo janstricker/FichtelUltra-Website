@@ -22,14 +22,31 @@
             <span class="event-countdown" data-date="{{ $element.Params.event_date }}">&nbsp;</span><br/>
             <span class="event-date">&nbsp;</span>
           </time>
-          <!-- Countdown-Skript ausgelagert nach main.js -->
           <h2>{{ $element.LinkTitle }}</h2>
-          <p class="text-body">{{ $element.Summary }}</p>
-          {{ with $element.Params.tags }}
-          <div class="tags">
-            {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+
+          <div class="eventInfo">
+            <p class="text-body">{{ $element.Summary }}</p>
+            <div class="routeMeta">
+              {{ with $element.Params.totalLenght }}
+                {{ . }}
+                {{ if or ($element.Params.elevation) ($element.Params.duration) }}<span class="text-separator"> ・ </span>{{ end }}
+              {{ end }}
+              {{ with $element.Params.elevation }}
+                {{ . }}
+                {{ if $element.Params.duration }}<span class="text-separator"> ・ </span>{{ end }}
+              {{ end }}
+              {{ with $element.Params.duration }}
+                {{ . }}
+              {{ end }}
+            </div>
+            <!--
+            {{ with $element.Params.tags }}
+            <div class="tags">
+              {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+            </div>
+            {{ end }}
+            -->
           </div>
-          {{ end }}
         </div>
     </article>
     </a>
