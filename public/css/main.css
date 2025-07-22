@@ -43,10 +43,10 @@ html{
   --sidebarWidth: clamp(160px, 25%, 320px);
 
   /* decal */
-  --decalTop: -150%;
-  --decalLeft: -25%;
-  --decalWidth: 400%;
-  --decalHeight: 400%;
+  --decalTop: 0%;
+  --decalLeft: 0%;
+  --decalWidth: 100%;
+  --svg-stroke-width: 0.25rem;
 }
 @media (max-width: 840px) {
   :root {
@@ -260,6 +260,8 @@ figcaption {
   background-image: url('../fuheader.jpg');
   background-size: cover;
   background-position: center;
+  overflow: hidden;
+  position: relative;
 }
 
 .home-intro {
@@ -364,15 +366,18 @@ main {
   height: 100%;
   z-index: 1;
   mix-blend-mode: screen;
-  opacity: 0.8;
+  pointer-events: none;
 }
 
 .decal {
+  max-width: none;
   position: absolute;
   top: var(--decalTop);
   left: var(--decalLeft);
   width: var(--decalWidth);
-  height: var(--decalHeight);
+  height: auto;
+  opacity: 0;
+  transition: opacity 1s;
 }
 
 .mainContent {
