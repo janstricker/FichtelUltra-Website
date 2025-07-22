@@ -7,10 +7,10 @@ totalLenght: "60km"
 elevation: "2000hm"
 duration: "6-12h"
 tags: ['Event', '12GT']
-primaryCTA : "Insta"
+primaryCTA : "Jetzt Anmelden"
 primaryLink : "https://www.instagram.com/fichtelultra"
-secondaryCTA : "Design"
-secondaryLink : "https://www.janstricker.de"
+secondaryCTA : "Alle Infos"
+secondaryLink : "events/20251018--fun-run-2/"
 featured : "true"
 ---
 
