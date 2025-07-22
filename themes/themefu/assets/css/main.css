@@ -41,8 +41,6 @@ html{
   --header-height: calc(var(--size-400)*1.5);
   --footer-height: calc(var(--header-height)*0.5);
   --sidebarWidth: clamp(160px, 25%, 320px);
-  --fu-logo-height: 1rem;
-
 
   /* decal */
   --decalTop: 0%;
@@ -63,10 +61,6 @@ html{
     --footer-height: calc(var(--header-height)*0.5);
     --sidebarWidth: clamp(120px, 40vw, 200px);
   }
-}
-
-.fichtelUltraLogo {
-  height: var(--fu-logo-height);
 }
 
 /* Typografie-Klassen */
@@ -253,6 +247,25 @@ figcaption {
   display: flex;
   gap: var(--size-80);
   align-items: center;
+}
+
+.header-content-logo {
+  display: flex;
+  align-items: center;
+}
+
+.header-logo-link {
+  display: flex;
+  align-items: center;
+  gap: var(--size-80);
+  text-decoration: none;
+  color: inherit;
+}
+
+.fichtelUltraLogo {
+  height: 1.611em;
+  width: auto;
+  vertical-align: middle;
 }
 
 .headerHome {
