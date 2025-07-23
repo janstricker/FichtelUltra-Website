@@ -40,7 +40,7 @@ html{
   /* sizing system */
   --header-height: calc(var(--size-400)*1.5);
   --footer-height: calc(var(--header-height)*0.5);
-  --sidebarWidth: clamp(160px, 25%, 320px);
+  --sidebarWidth: clamp(160px, 25%, 430px);
 
   /* decal */
   --decalTop: 0%;
@@ -277,12 +277,11 @@ figcaption {
   align-items: center;
   min-height: calc((100vh - var(--footer-height))/3);
   color: var(--neutral-weakest);
-  background-image: url('../fuheader.jpg');
+background-image: url('../d-header.webp');
   background-size: cover;
   background-position: center;
   overflow: hidden;
   position: relative;
-
 }
 
 .home-intro {
@@ -528,6 +527,7 @@ main {
   max-height: 50vh;
   object-fit: cover;
 }
+
 
 .fallback {
   width: 50%;

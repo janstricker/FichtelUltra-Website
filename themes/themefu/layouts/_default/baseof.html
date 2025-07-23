@@ -1,38 +1,74 @@
+
+<!-- Dokumenttyp und Spracheinstellungen -->
 <!DOCTYPE html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
+  <head>
+    <!-- Einbindung des Head-Partials (Meta, Titel, CSS, etc.) -->
+    {{ partial "head.html" . }}
+  </head>
 
-<body class="base">
-<div class="flex-container min-h-full">
-  <div class="containerHome">
-      {{ partial "header-home.html" . }}
-      <main class="mainHome">
-        {{ if .IsHome }}
-          {{ $featuredEvent := first 1 (where (where .Site.RegularPages "Section" "events") ".Params.featured" "true") }}
-          {{ with index $featuredEvent 0 }}
+  <body class="base">
+    <!-- Haupt-Layout-Container -->
+    <div class="flex-container min-h-full">
+      <div class="containerHome">
+        <!-- Einbindung des Header-Partials (Logo, Navigation, etc.) -->
+        {{ partial "header-home.html" . }}
+        <!-- Hauptinhalt der Seite -->
+        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
+
+          {{ if .IsHome }}
+            <!-- Home-Seite: Zeige hervorgehobenes Event -->
+            {{ $featuredEvent := first 1 (where (where .Site.RegularPages "Section" "events") ".Params.featured" "true") }}
+            {{ with index $featuredEvent 0 }}
               <div class="home-intro">
+                <!-- Event-Datum und Countdown -->
                 <time class="text-small text-muted" datetime="{{ .Params.event_date }}">
-                  <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span><br/>
+                  <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span><br />
                   <span id="event-date">&nbsp;</span>
                 </time>
+                <!-- Countdown-Skript für Event -->
                 <script>
-                  document.addEventListener('DOMContentLoaded', function() {
+                  document.addEventListener('DOMContentLoaded', function () {
                     var countdownEl = document.getElementById('event-countdown');
                     var dateEl = document.getElementById('event-date');
                     var dateStr = countdownEl.getAttribute('data-date');
                     var eventDate = new Date(dateStr);
                     var now = new Date();
                     var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-                    var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
-                    var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+                    var weekday = [
+                      "Sonntag",
+                      "Montag",
+                      "Dienstag",
+                      "Mittwoch",
+                      "Donnerstag",
+                      "Freitag",
+                      "Samstag",
+                    ][eventDate.getDay()];
+                    var dateString =
+                      ("0" + eventDate.getDate()).slice(-2) +
+                      "." +
+                      ("0" + (eventDate.getMonth() + 1)).slice(-2) +
+                      "." +
+                      eventDate.getFullYear();
                     if (daysDiff >= 0) {
                       if (daysDiff + 1 > 31) {
                         var weeks = Math.ceil((daysDiff + 1) / 7);
-                        countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
+                        countdownEl.textContent =
+                          "Noch " +
+                          weeks +
+                          " Woche" +
+                          (weeks !== 1 ? "n" : "") +
+                          " (" +
+                          (daysDiff + 1) +
+                          " Tag" +
+                          ((daysDiff + 1) !== 1 ? "e" : "") +
+                          ")";
                       } else {
-                        countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+                        countdownEl.textContent =
+                          "Noch " +
+                          (daysDiff + 1) +
+                          " Tag" +
+                          ((daysDiff + 1) !== 1 ? "e" : "");
                       }
                       dateEl.textContent = weekday + ", " + dateString;
                     } else {
@@ -44,7 +80,8 @@
                 <h2>{{ .Title }}</h2>
                 <div class="eventInfo">
                   <p class="text-body">{{ .Summary }}</p>
-                  <!--<div class="routeMeta text-small text-muted">
+                  <!--
+                  <div class="routeMeta text-small text-muted">
                     {{ $event := . }}
                     {{ with $event.Params.totalLenght }}
                       {{ . }}
@@ -57,56 +94,105 @@
                     {{ with $event.Params.duration }}
                       {{ . }}
                     {{ end }}
-                  </div>-->
+                  </div>
+                  -->
                 </div>
-              <div class="btn-group">
+                <!-- Call-to-Action Buttons für Event -->
+                <div class="btn-group" role="group" aria-label="Event Aktionen">
                   {{ if .Params.primaryCTA }}
-                    <a href="{{ .Params.primaryLink }}" class="btn primary">{{ .Params.primaryCTA }}</a>
+                    <a
+                      href="{{ .Params.primaryLink }}"
+                      class="btn primary"
+                      tabindex="0"
+                      aria-label="{{ .Params.primaryCTA }}"
+                    >
+                      {{ .Params.primaryCTA }}
+                    </a>
                   {{ end }}
                   {{ if .Params.secondaryCTA }}
-                    <a href="{{ .Params.secondaryLink }}" class="btn">{{ .Params.secondaryCTA }}</a>
+                    <a
+                      href="{{ .Params.secondaryLink }}"
+                      class="btn"
+                      tabindex="0"
+                      aria-label="{{ .Params.secondaryCTA }}"
+                    >
+                      {{ .Params.secondaryCTA }}
+                    </a>
                   {{ end }}
+                </div>
               </div>
-
+            {{ else }}
+              <!-- Home-Seite ohne hervorgehobenes Event -->
+              <section class="home-intro">
+                <h1>{{ $.Title }}</h1>
+                {{ with $.Params.subtitle }}
+                  <p class="text-lead">{{ . }}</p>
+                {{ end }}
+                <!-- Call-to-Action Buttons auf Home -->
+                <div class="btn-group" role="group" aria-label="Event Aktionen">
+                  {{ with $.Params.primaryCTA }}
+                    <a
+                      href="{{ $.Params.primaryLink }}"
+                      class="btn primary"
+                      tabindex="0"
+                      aria-label="{{ . }}"
+                    >
+                      {{ . }}
+                    </a>
+                  {{ end }}
+                  {{ with $.Params.secondaryCTA }}
+                    <a
+                      href="{{ $.Params.secondaryLink }}"
+                      class="btn"
+                      tabindex="0"
+                      aria-label="{{ . }}"
+                    >
+                      {{ . }}
+                    </a>
+                  {{ end }}
+                </div>
+              </section>
+              {{ $.Content }}
+            {{ end }}
           {{ else }}
-
+            <!-- Standard-Seite (nicht Home) -->
             <section class="home-intro">
-              <h1>{{ $.Title }}</h1>
-              {{ with $.Params.subtitle }}
+              <h1>{{ .Title }}</h1>
+              {{ with .Params.subtitle }}
                 <p class="text-lead">{{ . }}</p>
               {{ end }}
-              <div class="btn-group">
-                {{ with $.Params.primaryCTA }}
-                  <a href="{{ $.Params.primaryLink }}" class="btn primary">{{ . }}</a>
+              <!-- Call-to-Action Buttons auf Standard-Seite -->
+              <div class="btn-group" role="group" aria-label="Event Aktionen">
+                {{ with .Params.primaryCTA }}
+                  <a
+                    href="{{ $.Params.primaryLink }}"
+                    class="btn primary"
+                    tabindex="0"
+                    aria-label="{{ . }}"
+                  >
+                    {{ . }}
+                  </a>
                 {{ end }}
-                {{ with $.Params.secondaryCTA }}
-                  <a href="{{ $.Params.secondaryLink }}" class="btn">{{ . }}</a>
+                {{ with .Params.secondaryCTA }}
+                  <a
+                    href="{{ $.Params.secondaryLink }}"
+                    class="btn"
+                    tabindex="0"
+                    aria-label="{{ . }}"
+                  >
+                    {{ . }}
+                  </a>
                 {{ end }}
               </div>
             </section>
-            {{ $.Content }}
+            {{ .Content }}
           {{ end }}
-        {{ else }}
-          <section class="home-intro">
-            <h1>{{ .Title }}</h1>
-            {{ with .Params.subtitle }}
-              <p class="text-lead">{{ . }}</p>
-            {{ end }}
-            <div class="btn-group">
-              {{ with .Params.primaryCTA }}
-                <a href="{{ $.Params.primaryLink }}" class="btn primary">{{ . }}</a>
-              {{ end }}
-              {{ with .Params.secondaryCTA }}
-                <a href="{{ $.Params.secondaryLink }}" class="btn">{{ . }}</a>
-              {{ end }}
-            </div>
-          </section>
-          {{ .Content }}
-        {{ end }}
-      </main>
-  </div>
-  {{ partial "menu.html" . }}
-</div>
-{{ partial "footer.html" . }}
-</body>
+        </main>
+      </div>
+      <!-- Einbindung des Navigations-Menüs -->
+      {{ partial "menu.html" (dict "context" . "ariaLabel" "Primary Navigation") }}
+    </div>
+    <!-- Einbindung des Footers -->
+    {{ partial "footer.html" . }}
+  </body>
 </html>
