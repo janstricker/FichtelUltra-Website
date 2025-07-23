@@ -70,6 +70,17 @@
 </div>
 
         <div class="postContent">
+          {{ if .TableOfContents }}
+            <div class="toc-container">
+              <button class="toc-toggle" onclick="toggleTOC()">
+                <span class="toc-title ">Inhaltsverzeichnis</span>
+                <span class="toc-arrow">▼</span>
+              </button>
+              <div class="toc-content" id="toc-content">
+                {{ .TableOfContents }}
+              </div>
+            </div>
+          {{ end }}
           {{ .Content }}
         </div>
 
@@ -80,7 +91,6 @@
     </main>
   </div>
   {{ partial "footer.html" . }}
-      <script src="/themes/themefu/assets/js/table-shadow.js"></script>
-
+      <script src="/js/main.js"></script>
 </body>
 </html>

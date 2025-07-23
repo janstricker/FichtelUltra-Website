@@ -15,7 +15,6 @@
 
       <script src="/js/lightbox.js"></script>
       <script src="/js/main.js"></script>
-      <script src="/js/table-shadow.js"></script>
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -196,6 +195,17 @@
 </div>
 
         <div class="postContent">
+          
+            <div class="toc-container">
+              <button class="toc-toggle" onclick="toggleTOC()">
+                <span class="toc-title ">Inhaltsverzeichnis</span>
+                <span class="toc-arrow">▼</span>
+              </button>
+              <div class="toc-content" id="toc-content">
+                <nav id="TableOfContents"></nav>
+              </div>
+            </div>
+          
           <p>FichtelUltra 2. Edition</p>
 
         </div>
@@ -217,7 +227,6 @@
         </p>
     </a>
 </footer>
-      <script src="/themes/themefu/assets/js/table-shadow.js"></script>
-
+      <script src="/js/main.js"></script>
 </body>
 </html>

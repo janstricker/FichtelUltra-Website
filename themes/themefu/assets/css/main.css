@@ -174,6 +174,11 @@ p {
   text-transform: capitalize;
 }
 
+.headerHome .titleDefault,
+.headerHome .titleActive {
+  font-size: 2.25rem;
+}
+
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
   font-optical-sizing: auto;
@@ -268,6 +273,11 @@ figcaption {
   vertical-align: middle;
 }
 
+.headerHome .fichtelUltraLogo {
+  height: 2.25em;
+}
+
+
 .headerHome {
   display: flex;
   flex-direction: row;
@@ -277,7 +287,7 @@ figcaption {
   align-items: center;
   min-height: calc((100vh - var(--footer-height))/3);
   color: var(--neutral-weakest);
-  background-image: url('../d-header.webp');
+  background-image: url('../d-header-alt.webp');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -625,6 +635,86 @@ main {
   }
 }
 
+/* Table of Contents Accordion Styles */
+.toc-container {
+  margin-bottom: var(--size-400);
+  overflow: hidden;
+  font-size: var(--size-100);
+}
+
+.toc-toggle {
+  width: 100%;
+  padding: var(--size-200);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 500;
+  color: var(--neutral-strongest);
+  background-color: var(--accent-1-weak);
+  transition: background-color ease 200ms;
+}
+
+.toc-toggle:hover {
+  background-color: var(--neutral-medium);
+}
+
+.toc-title {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.toc-arrow {
+  transition: transform ease 200ms;
+  font-size: 0.8em;
+}
+
+.toc-content {
+  padding: var(--size-200);
+  background-color: var(--neutral-weakest);
+  border-top: 1px solid var(--neutral-medium);
+}
+
+/* TOC specific list styling - remove bullets and indentation */
+.toc-content ul,
+.toc-content ol {
+  list-style: none !important;
+  padding-left: 0 !important;
+  margin-left: 0 !important;
+}
+
+.toc-content li {
+  margin-bottom: var(--size-80);
+  padding-left: 0;
+}
+
+/* Nested TOC items get slight indentation */
+.toc-content ul ul {
+  padding-left: var(--size-100) !important;
+}
+
+.toc-content ul ul ul {
+  padding-left: var(--size-200) !important;
+}
+
+.toc-content a {
+  color: var(--neutral-strongest);
+  text-decoration: none;
+  display: block;
+  padding: var(--size-80) 0;
+  transition: color ease 200ms;
+}
+
+.toc-content a:hover {
+  text-decoration: underline;
+}
+
+/* Scroll padding for anchor links to account for sticky header */
+html {
+  scroll-padding-top: var(--header-height);
+}
+
 .date-container {
   min-height: calc(var(--size-90) * 1.5);
 }
@@ -704,16 +794,6 @@ main {
     min-height: unset;
     height: calc((100vh / 3) - var(--footer-height));
   }
-
-  .headerHome .titleDefault,
-  .headerHome .titleActive {
-    font-size: 2.25rem;
-  }
-
-  .headerHome .fichtelUltraLogo {
-    height: 2.25em;
-  }
-
   .mainHome {
     height: calc((100vh / 2) - var(--footer-height));
   }

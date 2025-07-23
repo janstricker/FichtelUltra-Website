@@ -40,5 +40,21 @@
         decal.style.opacity = "1";
       }, 100);
     }
+    const tocContent = document.getElementById("toc-content");
+    if (tocContent) {
+      tocContent.style.display = "none";
+    }
   });
+  window.toggleTOC = function() {
+    const content = document.getElementById("toc-content");
+    const arrow = document.querySelector(".toc-arrow");
+    if (!content || !arrow) return;
+    if (content.style.display === "none" || content.style.display === "") {
+      content.style.display = "block";
+      arrow.textContent = "\u25B2";
+    } else {
+      content.style.display = "none";
+      arrow.textContent = "\u25BC";
+    }
+  };
 })();
