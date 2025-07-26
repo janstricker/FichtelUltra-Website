@@ -7,7 +7,7 @@ totalLenght: "66.3 km"
 elevation: "+1.940 / -1.970 hm"
 tags: ['Event', '12GT']
 primaryCTA : "Jetzt Anmelden"
-primaryLink : "https://www.instagram.com/fichtelultra"
+primaryLink : "mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A"
 secondaryCTA : "Alle Infos"
 secondaryLink : "events/20251018--fun-run-2/"
 featured : "true"
@@ -18,15 +18,23 @@ Die zweite Runde des FichtelUltra Fun Run startet am 18. Oktober 2025. Als Route
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
-Anmeldung bis 17.10.2025 unter folgendem Link:
-
-
 ## Termin
 
 * Samstag, 18.10.2025
 * 05:30 Uhr – Treffpunkt [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)
 * 06:00 Uhr – Start!
 * zw. 12:00 - 18:00 Uhr – Ziel [Luisenburg](https://maps.app.goo.gl/6M6xQLcDiFMWBomL6)
+
+
+## Anmeldung
+
+Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
+
+<div class="btn-group">
+    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A" download>
+      <button class="btn inline">Jetzt Anmelden</button>
+    </a>
+</div>
 
 ## Strecke
 
@@ -42,28 +50,28 @@ Anmeldung bis 17.10.2025 unter folgendem Link:
 ## Verlauf
 
 
-| Distanz | Wegpunkt          | Ort                                                                                               | Zeitpunkt (geschätzt) |
-|:--------|:------------------|:--------------------------------------------------------------------------------------------------|:----------------------|
-|         | **Start**         | Kornberghaus (700 m) <br> [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)               | 06:00 Uhr             |
-| 1,2 km  | G 1               | Großer Kornberg (827 m) <br> Spitze des steinernen Turmes Schönburgwarte                          | 06:17 Uhr             |
-| 1,2 km  | G 2               | Kleiner Kornberg (678 m)                                                                          | 06:17 Uhr             |
-| 11,0 km | G 3               | Epprechtstein (798 m) <br> Spitze der Aussichtsplattform                                          | 08:15 Uhr             |
-| 18,0 km | G 4               | Großer Waldstein (877 m) <br> Spitze der Aussichtsplattform Schüssel                              | 09:40 Uhr             |
-| 23,0 km | VP 1              | Weißenstädter See <br> [Parkplatz am Friedhof](https://maps.app.goo.gl/VfpR1mgzQzgALh2m7)         | 10:30 Uhr             |
-| 26,5 km | G 4               | Rudolfstein (866 m) <br> Spitze der Aussichtsplattform                                            | 11:20 Uhr             |
-| 29,5 km | G 5               | Schneeberg (1,051 m) <br> Spitze der Aussichtsplattform Backöfele                                 | 12:00 Uhr             |
-| 31,5 km | G 6               | Nusshardt (972 m) <br> Spitze der Aussichtsplattform                                              | 12:35 Uhr             |
-| 34,0 km | **Ein-/Ausstieg** | [Wanderparkplatz an der B303](https://maps.app.goo.gl/LjWmnatdQt8DZVZN8) <br>  Karches            | 13:10 Uhr             |
-| 37,5 km | G 7               | Ochsenkopf (1,024 m) <br> Spitze des steinernen Turmes Asenturm, Zugang via Restaurant            | 14:00 Uhr             |
-| 41,5 km | **Ein-/Ausstieg** | [Parkplatz Seehaus an der B303](https://maps.app.goo.gl/59rhb6WKhnFqZ2Xy9)                        | 14:30 Uhr             |
-| 45,5 km | G 8               | Platte (885 m) <br> Gipfelkreuz                                                                   | 15:10 Uhr             |
-| 47,5 km | **Ein-/Ausstieg** | [Parkplatz Silberhaus an der B303](https://maps.app.goo.gl/68MKMea8LKWZkWTq5)                     | 15:30 Uhr             |
-| 50,5 km | G 9               | Hohe Matze (813 m) <br> Gipfelkreuz (unwegsames Gelände)                                          | 16:00 Uhr             |
-| 53,0 km | **Ein-/Ausstieg** | [Wanderparkplatz Kösseine](https://maps.app.goo.gl/Tpz9bGXV48h4hTzM8) <br> Hohenbrand, Nagel      | 16:30 Uhr             |
-| 55,5 km | 1G 0              | Große Kösseine (939 m) <br> Spitze der Aussichtsplattform Kösseineturm                            | 17:10 Uhr             |
-| 57,0 km | 1G 1              | Großer Haberstein (847 m) <br> Spitze der Aussichtsplattform                                      | 17:25 Uhr             |
-| 58,3 km | 1G 2              | Burgstein (879 m) (Burgsteinfelsen) <br> Spitze der Aussichtsplattform                            | 17:40 Uhr             |
-| 60,0 km | **Ziel**          | [Luisenburg Resort (700 m)](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) <br> Jean Paul Gedenkstein | 17:50 Uhr             |
+| Wegpunkt  | Distanz | Höhe    | Ort                                                                                               | Langsam   | Schnell   |
+|:----------|:--------|:--------|:--------------------------------------------------------------------------------------------------|:----------|:----------|
+| **Start** | 0,0 km  | 700 m   | Kornberghaus (700 m) <br> [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)               | 06:00 Uhr | 06:00 Uhr |
+| G 1       | 1,2 km  | 827 m   | Großer Kornberg (827 m) <br> Spitze des steinernen Turmes Schönburgwarte                          | 06:17 Uhr | 06:17 Uhr |
+| G 2       | 1,2 km  | 678 m   | Kleiner Kornberg (678 m)                                                                          | 06:17 Uhr | 06:17 Uhr |
+| G 3       | 11,0 km | 798 m   | Epprechtstein (798 m) <br> Spitze der Aussichtsplattform                                          | 08:15 Uhr | 08:15 Uhr |
+| G 4       | 18,0 km | 877 m   | Großer Waldstein (877 m) <br> Spitze der Aussichtsplattform Schüssel                              | 09:40 Uhr | 09:40 Uhr |
+| VP 1      | 23,0 km | 0 m     | Weißenstädter See <br> [Parkplatz am Friedhof](https://maps.app.goo.gl/VfpR1mgzQzgALh2m7)         | 10:30 Uhr | 10:30 Uhr |
+| G 4       | 26,5 km | 866 m   | Rudolfstein (866 m) <br> Spitze der Aussichtsplattform                                            | 11:20 Uhr | 11:20 Uhr |
+| G 5       | 29,5 km | 1.051m  | Schneeberg (1,051 m) <br> Spitze der Aussichtsplattform Backöfele                                 | 12:00 Uhr | 12:00 Uhr |
+| G 6       | 31,5 km | 927 m   | Nusshardt (972 m) <br> Spitze der Aussichtsplattform                                              | 12:35 Uhr | 12:35 Uhr |
+| VP 2      | 34,0 km | 0 m     | [Wanderparkplatz an der B303](https://maps.app.goo.gl/LjWmnatdQt8DZVZN8) <br>  Karches            | 13:10 Uhr | 13:10 Uhr |
+| G 7       | 37,5 km | 1.024 m | Ochsenkopf (1,024 m) <br> Spitze des steinernen Turmes Asenturm, Zugang via Restaurant            | 14:00 Uhr | 14:00 Uhr |
+| VP 3      | 41,5 km | 0 m     | [Parkplatz Seehaus an der B303](https://maps.app.goo.gl/59rhb6WKhnFqZ2Xy9)                        | 14:30 Uhr | 14:30 Uhr |
+| G 8       | 45,5 km | 855 m   | Platte (885 m) <br> Gipfelkreuz                                                                   | 15:10 Uhr | 15:10 Uhr |
+| VP 4      | 47,5 km | 0 m     | [Parkplatz Silberhaus an der B303](https://maps.app.goo.gl/68MKMea8LKWZkWTq5)                     | 15:30 Uhr | 15:30 Uhr |
+| G 9       | 50,5 km | 813 m   | Hohe Matze (813 m) <br> Gipfelkreuz (unwegsames Gelände)                                          | 16:00 Uhr | 16:00 Uhr |
+| VP 5      | 53,0 km | 0 m     | [Wanderparkplatz Kösseine](https://maps.app.goo.gl/Tpz9bGXV48h4hTzM8) <br> Hohenbrand, Nagel      | 16:30 Uhr | 16:30 Uhr |
+| G 10      | 55,5 km | 939 m   | Große Kösseine (939 m) <br> Spitze der Aussichtsplattform Kösseineturm                            | 17:10 Uhr | 17:10 Uhr |
+| G 11      | 57,0 km | 847 m   | Großer Haberstein (847 m) <br> Spitze der Aussichtsplattform                                      | 17:25 Uhr | 17:25 Uhr |
+| G 12      | 58,3 km | 879 m   | Burgstein (879 m) (Burgsteinfelsen) <br> Spitze der Aussichtsplattform                            | 17:40 Uhr | 17:40 Uhr |
+| **Ziel**  | 60,0 km | 700 m   | [Luisenburg Resort (700 m)](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) <br> Jean Paul Gedenkstein | 17:50 Uhr | 17:50 Uhr |
 
 Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
 
