@@ -39,7 +39,7 @@ Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind m√
 ## Strecke
 
 <div class="btn-group">
-<a href="/events/2025-10-18---fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
+<a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
   <button class="btn inline">Download GPX</button>
 </a>
     <a href="https://www.komoot.com/de-de/tour/2430785320" target="_blank" external>
