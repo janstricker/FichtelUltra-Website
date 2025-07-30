@@ -32,7 +32,7 @@ jobs:
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: ${{ secrets.SERVER }} # FTP-Server-Adresse 
-          username: ${{ secrets.USER }} # FTP-Benutzername 
+          username: ${{ secrets.USERNAME }} # FTP-Benutzername 
           password: ${{ secrets.PASSWORD }} # FTP-Passwort 
           local-dir: ./public # Quellverzeichnis für Upload
           server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
