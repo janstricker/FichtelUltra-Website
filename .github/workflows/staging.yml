@@ -36,3 +36,5 @@ jobs:
           password: ${{ secrets.PASSWORD }} # FTP-Passwort 
           local-dir: ./public/ # Quellverzeichnis für Upload
           server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
+          timeout: 120000   # Set timeout to 2 minutes
+          retries: 3        # Retry up to 3 times
