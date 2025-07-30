@@ -1,4 +1,5 @@
-baseURL = "http://localhost:1313/"
+canonifyURLs = false
+baseURL = "/"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "FichtelUltra"
