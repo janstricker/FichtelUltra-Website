@@ -53,18 +53,15 @@ Unser(e) Hoster wird bzw. werden Ihre Daten nur insoweit verarbeiten, wie dies z
 
 Wir setzen folgende(n) Hoster ein:
 
-IT-Service Reiko Kretzschmar  
-Web-Service4u
+[manitu GmbH](https://www.manitu.de/)  
+Welvertstraße 2  
+66606 St. Wendel  
+Deutschland
 
-Reiko Kretzschmar  
-Verbindungsweg 4  
-17309 Pasewalk  
-  
-Telefon: 03973 - 215290 (kein telefonischer Kundensupport)  
-Fax: 03973 - 215292  
-Steuernummer: 074/241/00379  
-Umsatzsteuer-ID: DE216864104  
-E-Mail info@web-service4u.de
+Amtsgericht Saarbrücken, HRB 19076  
+Register-Nummer 10/392  
+Vertretungsberechtigter Geschäftsführer Johann Dasch  
+USt-IdNr. DE 274284838
 
 #### Auftragsverarbeitung
 
