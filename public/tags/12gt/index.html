@@ -1,0 +1,194 @@
+
+
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
+      
+      <meta name="theme-color" content="#9C9992">
+      
+      <meta name="apple-mobile-web-app-status-bar-style" content="#9C9992">
+    
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>12GT | FichtelUltra</title>
+
+    <link rel="stylesheet" href="/css/_normalize.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/lightbox.js"></script>
+      <script src="/js/main.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+  </head>
+
+  <body class="base">
+    
+    <div class="flex-container min-h-full">
+      <div class="containerHome">
+        
+        <header class="headerHome">
+    <div class="decalContainer">
+      <svg class="decal" width="931" height="606" viewBox="0 0 931 606" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 496.099L341.029 303.302L3.00003 110.505L64.2014 3.604L465.344 232.398L866.486 3.60406L927.688 110.505L589.659 303.302L927.688 496.099L866.486 603L465.344 374.206L64.2013 603L3 496.099Z" stroke="#FF1414" style="stroke-width: var(--svg-stroke-width);" vector-effect="non-scaling-stroke"/>
+      </svg>
+    </div>
+    <div class="header-content header-content-logo">
+        <a href="/" class="header-logo-link">
+            <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
+            </svg>
+            <span class="titleDefault">Fichtel</span>
+            <span class="titleDefault">Ultra</span>
+        </a>
+        <p class="titleActive header-section-link">
+            <a href="/tags">
+                tags
+            </a>
+        </p>
+    </div>
+    
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    
+    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        <menu class="menuFullscreen">
+  
+  <ul class="menu">
+    
+      
+      
+        
+        <a class="menu-item events" href="/events/">
+          <li>
+            Events
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item blog" href="/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item info" href="/info/">
+          <li>
+            Info
+          </li>
+        </a>
+      
+    
+  </ul>
+</menu>
+    </div>
+    <script>
+      
+      document.documentElement.style.setProperty('--fu-logo-width', '200px');
+      document.documentElement.style.setProperty('--fu-logo-height', '60px');
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      hamburger.addEventListener('click', function() {
+        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+          menuContainer.style.display = 'block';
+        } else {
+          menuContainer.style.display = 'none';
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.style.display = 'none';
+        }
+      });
+    </script>
+</header>
+        
+        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
+
+          
+            
+            <section class="home-intro">
+              <h1>12GT</h1>
+              
+              
+              <div class="btn-group" role="group" aria-label="Event Aktionen">
+                
+                
+              </div>
+            </section>
+            
+          
+        </main>
+      </div>
+      
+      <menu class="menuSidebar">
+  
+  <ul class="menu">
+    
+      
+      
+        
+        <a class="menu-item events" href="/events/">
+          <li>
+            Events
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item blog" href="/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item info" href="/info/">
+          <li>
+            Info
+          </li>
+        </a>
+      
+    
+  </ul>
+</menu>
+    </div>
+    
+    <footer class="footer text-small">
+    <ul class="links text-muted ">
+        <li><a href="/">Home</a></li>
+        <li><a href="/legal/impressum/">Impressum</a></li>
+        <li><a href="/legal/datenschutz/">Datenschutz</a></li>
+        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
+    </ul>
+    <a class="copyright" href="/">
+        <p class="text-muted ">
+           Fichtel<span style="font-weight: 800;">Ultra</span> 2025 
+        </p>
+    </a>
+</footer>
+  </body>
+</html>

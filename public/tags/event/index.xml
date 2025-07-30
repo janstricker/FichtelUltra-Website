@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event on FichtelUltra</title>
+    <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/event/</link>
+    <description>Recent content in Event on FichtelUltra</description>
+    <generator>Hugo</generator>
+    <language>de</language>
+    <atom:link href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/event/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Fun Run 2</title>
+      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/2025-10-18--fun-run-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/2025-10-18--fun-run-2/</guid>
+      <description>Fichtelgebirgs Trailrun</description>
+    </item>
+    <item>
+      <title>Fun Run 2024</title>
+      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/2024-08-17---fun-run-12gt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/events/2024-08-17---fun-run-12gt/</guid>
+      <description>12 Gipfel in 12 Stunden</description>
+    </item>
+  </channel>
+</rss>

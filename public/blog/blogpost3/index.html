@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
+    
+<meta name="theme-color" content="#DFDED3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>Blogpost 3 | FichtelUltra</title>
+
+    <link rel="stylesheet" href="/css/_normalize.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/lightbox.js"></script>
+      <script src="/js/main.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="blog">
+  <header class="header" id="siteHeader">
+    <div class="header-content header-content-logo">
+        <a href="/" class="header-logo-link">
+            <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
+            </svg>
+            <span class="titleDefault">Fichtel</span>
+            <span class="titleDefault">Ultra</span>
+        </a>
+        <p class="titleActive header-section-link">
+            <a href="/blog">
+                blog
+            </a>
+        </p>
+    </div>
+    
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    
+    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        <menu class="menuFullscreen">
+  
+  <ul class="menu">
+    
+      
+      
+        
+        <a class="menu-item events" href="/events/">
+          <li>
+            Events
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item blog" href="/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item info" href="/info/">
+          <li>
+            Info
+          </li>
+        </a>
+      
+    
+  </ul>
+</menu>
+    </div>
+    <style>
+      .fullscreenMenuContainer {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+      }
+      .fullscreenMenuContainer.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
+      hamburger.addEventListener('click', function() {
+        if (!menuContainer.classList.contains('open')) {
+          menuContainer.style.display = 'block';
+          setTimeout(() => menuContainer.classList.add('open'), 10);
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
+        } else {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+    </script>
+</header>
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      
+        <img class="postHeaderImg" src="/blog/blogpost3/images/title.jpg" alt="images/title.jpg"/>
+      
+
+<div class="postHeader">
+      <time class="date-container text-small text-muted" datetime="2025-07-05T00:00:00Z">
+          <span class="dynamic-date">
+            &nbsp;    
+          </span>
+      </time>
+  
+      <h1>Blogpost 3</h1>
+      
+      
+        <div class="tags">
+            <span class="tag">On Tour</span> <span class="tag">Hintergründe</span> 
+        </div>
+      
+</div>
+
+<div class="postContent">
+  <h1 id="blog-3">Blog 3</h1>
+<p>Lorem ipsum dolor sit amet, consetetur <strong>sadipscing</strong> elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est</p>
+<ul>
+<li>Lorem ipsum dolor sit amet.</li>
+<li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut</li>
+<li>Labore et dolore magna aliquyam erat, sed diam voluptua.</li>
+</ul>
+<p>At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+
+</div>
+
+      
+    </main>
+  </div>
+  <footer class="footer text-small">
+    <ul class="links text-muted ">
+        <li><a href="/">Home</a></li>
+        <li><a href="/legal/impressum/">Impressum</a></li>
+        <li><a href="/legal/datenschutz/">Datenschutz</a></li>
+        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
+    </ul>
+    <a class="copyright" href="/">
+        <p class="text-muted ">
+           Fichtel<span style="font-weight: 800;">Ultra</span> 2025 
+        </p>
+    </a>
+</footer>
+</body>
+</html>
