@@ -3,7 +3,7 @@ title: "Fun Run 2"
 meta_title: "Fun Run 2"
 summary: "Fichtelgebirgs Trailrun"
 event_date: "2025-10-18"
-totalLenght: "66.3 km"
+totalLenght: "66.6 km"
 elevation: "+1.940 / -1.970 hm"
 tags: ['Event', '12GT']
 primaryCTA : "Jetzt Anmelden"
@@ -50,36 +50,33 @@ Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind m�
 ## Verlauf
 
 
-| Wegpunkt  | Distanz | Höhe    | Ort                                                                                               | Langsam   | Schnell   |
-|:----------|:--------|:--------|:--------------------------------------------------------------------------------------------------|:----------|:----------|
-| **Start** | 0,0 km  | 700 m   | Kornberghaus (700 m) <br> [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)               | 06:00 Uhr | 06:00 Uhr |
-| G 1       | 1,2 km  | 827 m   | Großer Kornberg (827 m) <br> Spitze des steinernen Turmes Schönburgwarte                          | 06:17 Uhr | 06:17 Uhr |
-| G 2       | 1,2 km  | 678 m   | Kleiner Kornberg (678 m)                                                                          | 06:17 Uhr | 06:17 Uhr |
-| G 3       | 11,0 km | 798 m   | Epprechtstein (798 m) <br> Spitze der Aussichtsplattform                                          | 08:15 Uhr | 08:15 Uhr |
-| G 4       | 18,0 km | 877 m   | Großer Waldstein (877 m) <br> Spitze der Aussichtsplattform Schüssel                              | 09:40 Uhr | 09:40 Uhr |
-| VP 1      | 23,0 km | 0 m     | Weißenstädter See <br> [Parkplatz am Friedhof](https://maps.app.goo.gl/VfpR1mgzQzgALh2m7)         | 10:30 Uhr | 10:30 Uhr |
-| G 4       | 26,5 km | 866 m   | Rudolfstein (866 m) <br> Spitze der Aussichtsplattform                                            | 11:20 Uhr | 11:20 Uhr |
-| G 5       | 29,5 km | 1.051m  | Schneeberg (1,051 m) <br> Spitze der Aussichtsplattform Backöfele                                 | 12:00 Uhr | 12:00 Uhr |
-| G 6       | 31,5 km | 927 m   | Nusshardt (972 m) <br> Spitze der Aussichtsplattform                                              | 12:35 Uhr | 12:35 Uhr |
-| VP 2      | 34,0 km | 0 m     | [Wanderparkplatz an der B303](https://maps.app.goo.gl/LjWmnatdQt8DZVZN8) <br>  Karches            | 13:10 Uhr | 13:10 Uhr |
-| G 7       | 37,5 km | 1.024 m | Ochsenkopf (1,024 m) <br> Spitze des steinernen Turmes Asenturm, Zugang via Restaurant            | 14:00 Uhr | 14:00 Uhr |
-| VP 3      | 41,5 km | 0 m     | [Parkplatz Seehaus an der B303](https://maps.app.goo.gl/59rhb6WKhnFqZ2Xy9)                        | 14:30 Uhr | 14:30 Uhr |
-| G 8       | 45,5 km | 855 m   | Platte (885 m) <br> Gipfelkreuz                                                                   | 15:10 Uhr | 15:10 Uhr |
-| VP 4      | 47,5 km | 0 m     | [Parkplatz Silberhaus an der B303](https://maps.app.goo.gl/68MKMea8LKWZkWTq5)                     | 15:30 Uhr | 15:30 Uhr |
-| G 9       | 50,5 km | 813 m   | Hohe Matze (813 m) <br> Gipfelkreuz (unwegsames Gelände)                                          | 16:00 Uhr | 16:00 Uhr |
-| VP 5      | 53,0 km | 0 m     | [Wanderparkplatz Kösseine](https://maps.app.goo.gl/Tpz9bGXV48h4hTzM8) <br> Hohenbrand, Nagel      | 16:30 Uhr | 16:30 Uhr |
-| G 10      | 55,5 km | 939 m   | Große Kösseine (939 m) <br> Spitze der Aussichtsplattform Kösseineturm                            | 17:10 Uhr | 17:10 Uhr |
-| G 11      | 57,0 km | 847 m   | Großer Haberstein (847 m) <br> Spitze der Aussichtsplattform                                      | 17:25 Uhr | 17:25 Uhr |
-| G 12      | 58,3 km | 879 m   | Burgstein (879 m) (Burgsteinfelsen) <br> Spitze der Aussichtsplattform                            | 17:40 Uhr | 17:40 Uhr |
-| **Ziel**  | 60,0 km | 700 m   | [Luisenburg Resort (700 m)](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) <br> Jean Paul Gedenkstein | 17:50 Uhr | 17:50 Uhr |
+| Wegpunkt                               | Ort                                                               |
+|:---------------------------------------|:------------------------------------------------------------------|
+| **Start** </br>  0,0 km  </br> 700 m   | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)         |
+| Gipfel 1  </br>  1,0 km  </br> 827 m   | Großer Kornberg <br> Spitze der steinernen Schönburgwarte         |
+| Gipfel 2  </br>  7,4 km  </br> 678 m   | Kleiner Kornberg                                                  |
+| Gipfel 3  </br>  16,0 km </br> 798 m   | Epprechtstein <br> Spitze der Aussichtsplattform                  |
+| Gipfel 4  </br>  23,1 km </br> 877 m   | Großer Waldstein <br> Spitze der Aussichtsplattform Schüssel      |
+| **VP 1**  </br>  23,3 km </br> 832 m   | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7)        |
+| Gipfel 5  </br>  31,5 km </br> 866 m   | Rudolfstein <br> Spitze der Aussichtsplattform                    |
+| Gipfel 6  </br>  34,6 km </br> 1.051 m | Schneeberg <br> Spitze der Aussichtsplattform Backöfele           |
+| Gipfel 7  </br>  36,6 km </br> 972 m   | Nusshardt <br> Spitze der Aussichtsplattform                      |
+| **VP 2**  </br>  38,9 km </br> 774 m   | [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)    |
+| Gipfel 8  </br>  41,4 km </br> 929 m   | Weißmainfels <br> Spitze der Aussichtsplattform                   |
+| Gipfel 9  </br>  43,1 km </br> 1.024 m | Ochsenkopf <br> Spitze des steinernen Asenturmes                  |
+| Gipfel 10 </br>  51,7 km </br> 855 m   | Platte <br> Gipfelkreuz                                           |
+| **VP 3**  </br>  53,8 km </br> 712 m   | [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) |
+| Gipfel 11 </br>  57,0 km </br> 813 m   | Hohe Matze <br> Gipfelkreuz (unwegsames Gelände)                  |
+| Gipfel 12 </br>  61,5 km </br> 939 m   | Große Kösseine <br> Spitze der Aussichtsplattform Kösseineturm    |
+| Gipfel 13 </br>  63,6 km </br> 847 m   | Großer Haberstein <br> Spitze der Aussichtsplattform              |
+| Gipfel 14 </br>  64,3 km </br> 879 m   | Burgstein (Burgsteinfelsen) <br> Spitze der Aussichtsplattform    |
+| **Ziel**  </br>  66,3 km </br> 700 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)           |
 
 Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
 
 ## Teilnahme
 
-Es ist keine Anmeldung erforderlich. Alle Teilnehmenden, die sich rechtzeitig am [Treffpunkt](#termin) einfinden, erhalten ein Abzeichen und einen kleinen Gegenstand, welchen sie während der Tour bei sich tragen dürfen.
-
-Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung, Verpflegung, Transport oder ärztliche Versorgung
+Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung.
 
 ## Format
 
@@ -96,26 +93,42 @@ Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche N
 Die Tour ist nur mit geeigneter Wander-/Laufbekleidung zu absolvieren.
 Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
 
-Folgende Ausrüstung wird empfohlen:
-* Trail-Events Schuhe
-* kleines Erste Hilfe Set
-* Laufweste oder kleiner Rucksack
-* Regenjacke (gegen Nässe, Wind und Kälte)
-* Schirmmütze (gegen Sonne)
-* zweites Oberteil zum Wechseln
+### Empfehlung:
+* Feste Laufschuhe
+* Erste Hilfe Set: Pflaster, Wundauflage, Mullbinde, Rettungsdecke
+* Laufweste oder Rucksack
+* Jacke (gegen Nässe, Wind und Kälte)
+* Kopfbedeckung
 * Handy
 
-Folgende Ausrüstung ist optional
+### Optionale Ausrüstung:
 * Wander-/Laufstöcke
-* Sonnenbrille
 * zusätzliche Wechselkleidung
+* Stirnlampe
+* Sonnenbrille
 * Sonnencreme
 
 ## Verpflegung
 
-Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Es werden keine Versorgungsstationen zur Verfügung gestellt. Verpflegung durch Freunde & Familie entlang der Tour ist erlaubt. Die Tour führt auch entlang mehrerer Ortschaften, Brunnen und Gaststätten (bitte die Öffnungszeiten beachten). Um im Zeitplan zu bleiben planen wir als Gruppe keine längeren Pausen einzulegen und stetig in Bewegung zu bleiben.
 
-Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es sehr ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
+### Verpflegungspunkte
+Es gibt 3 stumme Verpflegungspunkte (VP) in Form von Kisten entlang der Route:
+* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km
+* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km)
+* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km)
+* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km)
+
+In jeder Kiste werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) bereitgestellt. Zusätzlich kann Eigenverpflegung vor dem Start in die Kisten gegeben werden (ggf. kennzeichnen).
+
+Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
+
+Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
+
+### Verantwortung
+Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
+
+Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
+
 
 ## Hintergründe
 
