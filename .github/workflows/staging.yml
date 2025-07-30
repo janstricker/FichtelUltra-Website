@@ -9,6 +9,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Verwende die neueste Ubuntu-Umgebung
+    environment: Deploy   # <-- Add this line
+
     steps:
       - name: Checkout repository
         # Klont das Repository in den Runner
