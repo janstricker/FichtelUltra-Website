@@ -66,9 +66,10 @@ html{
 /* Typografie-Klassen */
 p {
   font-size: clamp(0.95rem, 1vw + 0.9rem, var(--size-100));
-  line-height: 1.9;
+  line-height: 1.7;
   font-weight: 400;
   margin-block: inherit;
+  margin-bottom: var(--size-90);
 }
 
 .text-lead {
@@ -603,6 +604,7 @@ main {
   margin-left: var(--size-200);
   padding-left: var(--size-200);
   list-style-type: disc;
+  margin-bottom: var(--size-100);
 }
 
 .postContent table {
