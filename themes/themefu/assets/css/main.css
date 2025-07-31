@@ -69,7 +69,6 @@ p {
   line-height: 1.7;
   font-weight: 400;
   margin-block: inherit;
-  margin-bottom: var(--size-90);
 }
 
 .text-lead {
@@ -288,7 +287,7 @@ figcaption {
   align-items: center;
   min-height: calc((100vh - var(--footer-height))/3);
   color: var(--neutral-weakest);
-  background-image: url('../d-header-alt.webp');
+  background-image: url('../header.webp');
   background-size: cover;
   background-position: center;
   overflow: hidden;
@@ -598,6 +597,10 @@ main {
 .postContent h6 {
   margin-block-start: var(--size-400);
   margin-block-end: var(--size-100);
+}
+
+.postContent p {
+    margin-bottom: var(--size-90);
 }
 
 .postContent ul {

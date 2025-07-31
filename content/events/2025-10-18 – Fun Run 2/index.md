@@ -18,17 +18,11 @@ Die zweite Runde des FichtelUltra Fun Run startet am 18. Oktober 2025. Als Route
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
-## Termin
-
-* Samstag, 18.10.2025
-* 05:30 Uhr – Treffpunkt [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)
-* 06:00 Uhr – Start!
-* zw. 12:00 - 18:00 Uhr – Ziel [Luisenburg](https://maps.app.goo.gl/6M6xQLcDiFMWBomL6)
-
-
 ## Anmeldung
 
 Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
+
+Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung.
 
 <div class="btn-group">
     <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A" download>
@@ -37,6 +31,12 @@ Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind m�
 </div>
 
 ## Strecke
+
+### Daten
+
+* Distanz: **66,4 km**
+* Höhenmeter: **+1.940 / -1.970 hm**
+* Dauer: **8 - 12 Stunden** (geschätzt)
 
 <div class="btn-group">
 <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
@@ -47,40 +47,32 @@ Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind m�
     </a>
 </div>
 
-## Verlauf
+### Verlauf
 
-
-| Wegpunkt                               | Ort                                                               |
-|:---------------------------------------|:------------------------------------------------------------------|
-| **Start** </br>  0,0 km  </br> 700 m   | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)         |
-| Gipfel 1  </br>  1,0 km  </br> 827 m   | Großer Kornberg <br> Spitze der steinernen Schönburgwarte         |
-| Gipfel 2  </br>  7,4 km  </br> 678 m   | Kleiner Kornberg                                                  |
-| Gipfel 3  </br>  16,0 km </br> 798 m   | Epprechtstein <br> Spitze der Aussichtsplattform                  |
-| Gipfel 4  </br>  23,1 km </br> 877 m   | Großer Waldstein <br> Spitze der Aussichtsplattform Schüssel      |
-| **VP 1**  </br>  23,3 km </br> 832 m   | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7)        |
-| Gipfel 5  </br>  31,5 km </br> 866 m   | Rudolfstein <br> Spitze der Aussichtsplattform                    |
-| Gipfel 6  </br>  34,6 km </br> 1.051 m | Schneeberg <br> Spitze der Aussichtsplattform Backöfele           |
-| Gipfel 7  </br>  36,6 km </br> 972 m   | Nusshardt <br> Spitze der Aussichtsplattform                      |
-| **VP 2**  </br>  38,9 km </br> 774 m   | [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)    |
-| Gipfel 8  </br>  41,4 km </br> 929 m   | Weißmainfels <br> Spitze der Aussichtsplattform                   |
-| Gipfel 9  </br>  43,1 km </br> 1.024 m | Ochsenkopf <br> Spitze des steinernen Asenturmes                  |
-| Gipfel 10 </br>  51,7 km </br> 855 m   | Platte <br> Gipfelkreuz                                           |
-| **VP 3**  </br>  53,8 km </br> 712 m   | [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) |
-| Gipfel 11 </br>  57,0 km </br> 813 m   | Hohe Matze <br> Gipfelkreuz (unwegsames Gelände)                  |
-| Gipfel 12 </br>  61,5 km </br> 939 m   | Große Kösseine <br> Spitze der Aussichtsplattform Kösseineturm    |
-| Gipfel 13 </br>  63,6 km </br> 847 m   | Großer Haberstein <br> Spitze der Aussichtsplattform              |
-| Gipfel 14 </br>  64,3 km </br> 879 m   | Burgstein (Burgsteinfelsen) <br> Spitze der Aussichtsplattform    |
-| **Ziel**  </br>  66,3 km </br> 700 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)           |
+| Wegpunkt                                  | Ort                                                            | Beschreibung                               |
+|:------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| **Start** </br>  0,0 km  </br> 700 m      | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
+| **Gipfel 1** </br>  1,0 km  </br> 827 m   | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
+| **Gipfel 2** </br>  7,4 km  </br> 678 m   | Kleiner Kornberg                                               | Steinskulptur, Markierung des Gipfels      |
+| **Gipfel 3** </br>  16,0 km </br> 798 m   | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
+| **Gipfel 4** </br>  23,1 km </br> 877 m   | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
+| **VP 1**  </br>  23,3 km </br> 832 m      | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
+| **Gipfel 5** </br>  31,5 km </br> 866 m   | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
+| **Gipfel 6** </br>  34,6 km </br> 1.051 m | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
+| **Gipfel 7** </br>  36,6 km </br> 972 m   | Nusshardt                                                      | Spitze der Aussichtsplattform              |
+| **VP 2**  </br>  38,9 km </br> 774 m      | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
+| **Gipfel 8** </br>  41,4 km </br> 929 m   | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
+| **Gipfel 9** </br>  43,1 km </br> 1.024 m | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
+| **Gipfel 10** </br>  51,7 km </br> 855 m  | Platte                                                         | Gipfelkreuz                                |
+| **VP 3**  </br>  53,8 km </br> 712 m      | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
+| **Gipfel 11** </br>  57,0 km </br> 813 m  | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
+| **Gipfel 12** </br>  61,5 km </br> 939 m  | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
+| **Gipfel 13** </br>  63,6 km </br> 847 m  | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
+| **Gipfel 14** </br>  64,3 km </br> 879 m  | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
+| **Ziel**  </br>  66,3 km </br> 700 m      | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
 
 Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
 
-## Teilnahme
-
-Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung.
-
-## Format
-
-Ziel ist es als Gruppe die Gesamte Strecke in 12 Stunden zu absolvieren. Dennoch ist es möglich an den aufgeführten Punkten vorzeitig auszusteigen oder auch zu einem späteren Zeitpunkt einzutreten und nur einen Teil der Strecke im angestrebten Tempo zu begleiten. Dies muss von jeder Person in eigener verantwortung geplant werden.
 
 ## Mobilität
 
@@ -93,7 +85,7 @@ Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche N
 Die Tour ist nur mit geeigneter Wander-/Laufbekleidung zu absolvieren.
 Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
 
-### Empfehlung:
+### Empfehlung
 * Feste Laufschuhe
 * Erste Hilfe Set: Pflaster, Wundauflage, Mullbinde, Rettungsdecke
 * Laufweste oder Rucksack
@@ -101,7 +93,7 @@ Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
 * Kopfbedeckung
 * Handy
 
-### Optionale Ausrüstung:
+### Optionale Ausrüstung
 * Wander-/Laufstöcke
 * zusätzliche Wechselkleidung
 * Stirnlampe
