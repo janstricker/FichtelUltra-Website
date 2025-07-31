@@ -20,9 +20,11 @@
       {{ end }}
 
 <div class="postHeader">
+  <h1>{{ .Title }}</h1>
   <time class="date-container text-body" datetime="{{ .Params.event_date }}">
-    <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span><br/>
     <span id="event-date">&nbsp;</span>
+    <span class="text-separator desktop-only"> ・ </span>
+    <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span>
   </time>
   <script>
     document.addEventListener('DOMContentLoaded', function() {
@@ -48,7 +50,6 @@
       }
     });
   </script>
-  <h1>{{ .Title }}</h1>
   <!--
   {{ with .Params.tags }}
     <div class="tags">
@@ -71,7 +72,7 @@
 
         <div class="postContent">
           {{ if .TableOfContents }}
-            <div class="toc-container">
+            <div class="toc-wrapper">
               <button class="toc-toggle" onclick="toggleTOC()">
                 <span class="toc-title ">Inhaltsverzeichnis</span>
                 <span class="toc-arrow">▼</span>
@@ -81,9 +82,9 @@
               </div>
             </div>
           {{ end }}
-          {{ .Content }}
-        </div>
 
+          {{ .Content }}
+        </div>  
       {{ if .Resources.GetMatch "album/*" }}
         <h4>Galerie</h4>
         {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}

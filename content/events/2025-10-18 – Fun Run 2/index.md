@@ -1,28 +1,31 @@
 ---
-title: "Fun Run 2"
-meta_title: "Fun Run 2"
-summary: "Fichtelgebirgs Trailrun"
-event_date: "2025-10-18"
-totalLenght: "66.6 km"
-elevation: "+1.940 / -1.970 hm"
-tags: ['Event', '12GT']
-primaryCTA : "Jetzt Anmelden"
-primaryLink : "mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A"
-secondaryCTA : "Alle Infos"
-secondaryLink : ""
-featured : "true"
+title: Fun Run 2
+meta_title: Fun Run 2
+summary: Fichtelgebirgs Trailrun
+event_date: 2025-10-18
+totalLenght: 66.4 km
+elevation: +1.940 / -1.970 hm
+tags:
+  - Event
+  - 12GT
+primaryCTA: Jetzt Anmelden
+primaryLink: mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A
+secondaryCTA: Alle Infos
+secondaryLink: ""
+featured: "true"
+slug: fun-run-2
 ---
 
 
-Die zweite Runde des FichtelUltra Fun Run startet am 18. Oktober 2025. Als Route dient uns wie schon im Vorjahr die [berühmte 12 Gipfel Tour im Fichtelgebirge](#hintergründe). Allerdings haben wir diesmal einige Änderungen vorgenommen, um diese einzigartige Trailrunning Erfahrung nochmal deutlich zu verbessern.
+Die zweite Edition des FichtelUltra Fun Run findet am **Samstag den 18. Oktober 2025** statt. Eine einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der [berühmten 12 Gipfel Tour im Fichtelgebirge](#hintergründe). Diesmal erwarten uns neue Streckenabschnitte, weitere tolle Aussichtspunkte und landschaftliche Highlights wie z.B. der Fichtelsee.
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
 ## Anmeldung
 
-Anmeldung bis **15.10.2025** unter folgendem Link. Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
+Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link möglich. Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
 
-Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung.
+Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung. Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
 
 <div class="btn-group">
     <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A" download>
@@ -82,10 +85,10 @@ Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche N
 
 ## Ausrüstung
 
-Die Tour ist nur mit geeigneter Wander-/Laufbekleidung zu absolvieren.
-Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
-
 ### Empfehlung
+
+Die Tour ist nur mit geeigneter Laufbekleidung zu absolvieren. Die Ausrüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
+
 * Feste Laufschuhe
 * Erste Hilfe Set: Pflaster, Wundauflage, Mullbinde, Rettungsdecke
 * Laufweste oder Rucksack
@@ -105,10 +108,10 @@ Die Asurüstung sollte zudem dem vorhergesagten Wetter angepasst werden.
 
 ### Verpflegungspunkte
 Es gibt 3 stumme Verpflegungspunkte (VP) in Form von Kisten entlang der Route:
-* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km
-* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km)
-* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km)
-* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km)
+* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km (+660 m, -540 m)
+* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km, +460 m, -530 m)
+* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km, +420 m, -490 m)
+* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km, +390 m, -410 m)
 
 In jeder Kiste werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) bereitgestellt. Zusätzlich kann Eigenverpflegung vor dem Start in die Kisten gegeben werden (ggf. kennzeichnen).
 
