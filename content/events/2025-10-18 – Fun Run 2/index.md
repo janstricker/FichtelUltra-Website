@@ -16,7 +16,9 @@ featured: "true"
 ---
 
 
-Die zweite Edition des FichtelUltra Fun Run findet am **Samstag den 18. Oktober 2025** statt. Eine einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der [berühmten 12 Gipfel Tour im Fichtelgebirge](#hintergründe). Diesmal erwarten uns neue Streckenabschnitte, weitere tolle Aussichtspunkte und landschaftliche Highlights wie z.B. der Fichtelsee.
+Die zweite Edition des FichtelUltra Fun Run findet am **Samstag den 18. Oktober 2025** statt. Wir starten gemeinsam um **07:00 Uhr**.
+
+ Eine einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der [berühmten 12 Gipfel Tour im Fichtelgebirge](#hintergründe). Diesmal erwarten uns neue Streckenabschnitte, weitere tolle Aussichtspunkte und landschaftliche Highlights wie z.B. der Fichtelsee.
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
@@ -47,9 +49,11 @@ Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eig
 
 ### Daten
 
-* Distanz: **66,4 km**
-* Höhenmeter: **+1.940 / -1.970 hm**
-* Dauer: **8 - 12 Stunden** (geschätzt)
+Distanz: **66,4 km**  
+
+Höhenmeter: 
+* 1.940 hm Aufstieg
+* 1.970 hm Abstieg
 
 <div class="btn-group">
 <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
@@ -86,6 +90,19 @@ Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eig
 
 Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
 
+### Zeitplan
+
+Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird mindestens zwei Geschwindigkeitsgruppen geben:
+
+* **Schnell**: 
+  * ca. **7 - 9 h** Endzeit 
+  * Zieleinlauf ca. 14:00 - 16:00 Uhr
+* **Langsam**: 
+  * ca. **10 - 12 h** Endzeit
+  * Zieleinlauf ca. 17:00 - 19:00 Uhr
+
+Unser Ziel ist es, zumindest ab Start einen Teil der Strecke gemeinsam als Gruppe zu laufen und sich dann aufzuteilen, um im eigenen Komforttempo den Großteil der Route zu bezwingen.
+
 
 ## Verpflegung
 
@@ -103,16 +120,30 @@ Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte ach
 Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
 
 ### Verantwortung
-Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
 
+**Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz.
+
+Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
 Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
 
 
 ## Mobilität
 
+### Transport
+
 Zwischen Start und Ziel liegen [ca. 25 min / ca. 30 km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). 
 
-Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche Nahverkehrsangebote wie [FichtelBaxi (Anrufbus)](https://freiraum-fichtelgebirge.de/fichtelbaxi/) zurückgegriffen werden.
+Je nach Teilnehmerzahl kann ein privater Auto-Shuttle-Service vom Ziel oder ggf. einem Verpflegungspunkt zurück zum Start angeboten werden. Bitte bei der [Anmeldung](#anmeldung) mit angeben, ob ein Transport dringend benötigt wird.
+
+Wir können dies jedoch noch nicht garantieren, daher bitte bis kurz vor dem Lauf unsere [Kommunikationskanäle](https://www.instagram.com/fichtelultra/) oder Emails abwarten.
+
+### Parken
+
+Am Start und Ziel sind ausreichend Parkplätze vorhanden. Die Parkplätze der Luisenburg Festspiele sind ggf. Kostenpflichtig.
+
+### Öffentlicher Verkehr
+
+Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche Nahverkehrsangebote wie [FichtelBaxi (Anrufbus)](https://freiraum-fichtelgebirge.de/fichtelbaxi/) oder ÖPNV zurückgegriffen werden.
 
 
 ## Ausrüstung
@@ -146,9 +177,9 @@ Da sich die Tour neben Wanderungen auch hervorragend für Trailevents eignet, wu
 
 ## Haftungsausschluss 
 
-Die Beanspruchung der auf dieser Homepage vorgestellten Touren erfolgt auf eigenes Risiko. Der Verfasser dieser Touren schließt die Haftungsübernahme für Schäden jeglicher Art aus. Dies gilt sowohl für Personen-, Tier- als auch für Sachschäden, insbesondere für Folgen von Unfällen. 
+Die Beanspruchung der auf dieser Website vorgestellten Touren erfolgt auf eigenes Risiko. Der Verfasser dieser Touren schließt die Haftungsübernahme für Schäden jeglicher Art aus. Dies gilt sowohl für Personen-, Tier- als auch für Sachschäden, insbesondere für Folgen von Unfällen. 
 
-Der Verfasser setzt voraus, dass Beanspruchende der Wandervorschläge sich ihrer körperlichen, psychischen und gesundheitlichen Grenzen bewusst sind. Die Beanspruchenden werden gegen den Verfasser der Touren keinerlei Ansprüche wegen Schäden und Verletzungen jeglicher Art, die durch die Inanspruchnahme der Wandertouren entstehen können, geltend machen. Für eventuelle seelische, körperliche oder materielle Schäden wird keine Haftung übernommen. 
+Der Verfasser setzt voraus, dass Beanspruchende der Tourenvorschläge sich ihrer körperlichen, psychischen und gesundheitlichen Grenzen bewusst sind. Die Beanspruchenden werden gegen den Verfasser der Touren keinerlei Ansprüche wegen Schäden und Verletzungen jeglicher Art, die durch die Inanspruchnahme der Touren entstehen können, geltend machen. Für eventuelle seelische, körperliche oder materielle Schäden wird keine Haftung übernommen. 
 
 Es wird empfohlen, dass die Beanspruchenden sich vor Beginn der Tour über die Wetterverhältnisse informieren.
 
@@ -156,4 +187,4 @@ Darüber hinaus sind die Informationen oder Beschilderung vor Ort zu berücksich
 
 ---
 
-Zuletzt aktualisiert: 04.08.2024
+Zuletzt aktualisiert: 01.08.2025
