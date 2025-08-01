@@ -77,6 +77,10 @@ p {
   line-height: 1.5;
 }
 
+.text-body {
+  font-weight: 500;
+}
+
 .text-small {
   font-size: clamp(0.8rem, 0.7vw + 0.7rem, var(--size-90));
   line-height: 1.5;
@@ -599,6 +603,16 @@ main {
   margin-block-end: var(--size-100);
 }
 
+.postContent h2 {
+  padding-top: var(--size-100);
+  border-top: var(--size-80) solid color-mix(in srgb, var(--accent-1-strong), var(--neutral-strongest) 20%);
+}
+
+/* Spezielle Regel: h3 direkt nach h2 mit anderer margin */
+.postContent h2 + h3 {
+  margin-block-start: var(--size-200);
+}
+
 .postContent p {
     margin-bottom: var(--size-90);
 }
@@ -628,7 +642,6 @@ th {
   color: var(--neutral-strongest);
   font-weight: 600;
   text-align: left;
-  border-bottom: 2px solid var(--neutral-strongest);
   position: sticky;
   top: 0;
   z-index: 2;
@@ -953,11 +966,6 @@ html {
 .postContent h3 {
   margin-block-start: calc(var(--size-400) * 1.5);
   margin-block-end: var(--size-90);
-}
-
-/* Spezielle Regel: h3 direkt nach h2 mit anderer margin */
-.postContent h2 + h3 {
-  margin-block-start: var(--size-400);
 }
 
 figcaption {

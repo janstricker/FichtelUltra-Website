@@ -13,7 +13,6 @@ primaryLink: mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20F
 secondaryCTA: Alle Infos
 secondaryLink: ""
 featured: "true"
-slug: fun-run-2
 ---
 
 
@@ -21,17 +20,28 @@ Die zweite Edition des FichtelUltra Fun Run findet am **Samstag den 18. Oktober 
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
-## Anmeldung
+## Teilnahme
 
-Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link möglich. Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
+### Anmeldung
 
-Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung. Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
+Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link möglich. 
 
 <div class="btn-group">
-    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A" download>
+    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A">
       <button class="btn inline">Jetzt Anmelden</button>
     </a>
 </div>
+
+Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services. 
+
+### Rahmenbedingungen
+
+Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. 
+
+Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung. 
+
+Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
+
 
 ## Strecke
 
@@ -77,11 +87,33 @@ Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um k
 Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
 
 
+## Verpflegung
+
+### Verpflegungspunkte
+Es gibt 3 stumme Verpflegungspunkte (VP) in Form von Kisten entlang der Route:
+* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km (+660 m, -540 m)
+* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km, +460 m, -530 m)
+* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km, +420 m, -490 m)
+* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km, +390 m, -410 m)
+
+In jeder Kiste werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) bereitgestellt. Zusätzlich kann Eigenverpflegung vor dem Start in die Kisten gegeben werden (ggf. kennzeichnen).
+
+Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
+
+Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
+
+### Verantwortung
+Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
+
+Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
+
+
 ## Mobilität
 
 Zwischen Start und Ziel liegen [ca. 25 min / ca. 30 km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). 
 
 Je nach persönlichem Ein-/Ausstiegspunkt kann eventuell auch auf öffentliche Nahverkehrsangebote wie [FichtelBaxi (Anrufbus)](https://freiraum-fichtelgebirge.de/fichtelbaxi/) zurückgegriffen werden.
+
 
 ## Ausrüstung
 
@@ -102,27 +134,6 @@ Die Tour ist nur mit geeigneter Laufbekleidung zu absolvieren. Die Ausrüstung s
 * Stirnlampe
 * Sonnenbrille
 * Sonnencreme
-
-## Verpflegung
-
-
-### Verpflegungspunkte
-Es gibt 3 stumme Verpflegungspunkte (VP) in Form von Kisten entlang der Route:
-* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km (+660 m, -540 m)
-* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km, +460 m, -530 m)
-* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km, +420 m, -490 m)
-* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km, +390 m, -410 m)
-
-In jeder Kiste werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) bereitgestellt. Zusätzlich kann Eigenverpflegung vor dem Start in die Kisten gegeben werden (ggf. kennzeichnen).
-
-Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
-
-Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
-
-### Verantwortung
-Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich. Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
-
-Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
 
 
 ## Hintergründe
