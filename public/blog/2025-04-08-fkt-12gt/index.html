@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="de" dir="ltr">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
+    
+<meta name="theme-color" content="#DFDED3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3">
+  <meta charset="utf-8">
+<meta name="viewport" content="width=device-width">
+<title>FKT 12 Gipfel Tour | FichtelUltra</title>
+
+    <link rel="stylesheet" href="/css/_normalize.css">
+    <link rel="stylesheet" href="/css/lightbox.css">
+    <link rel="stylesheet" href="/css/main.css">
+
+      <script src="/js/lightbox.js"></script>
+      <script src="/js/main.js"></script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=swap" rel="stylesheet">
+</head>
+
+
+<body class="blog">
+  <header class="header" id="siteHeader">
+    <div class="header-content header-content-logo">
+        <a href="/" class="header-logo-link">
+            <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
+            </svg>
+            <span class="titleDefault">Fichtel</span>
+            <span class="titleDefault">Ultra</span>
+        </a>
+        <p class="titleActive header-section-link">
+            <a href="/blog">
+                blog
+            </a>
+        </p>
+    </div>
+    
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    
+    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        <menu class="menuFullscreen">
+  
+  <ul class="menu">
+    
+      
+      
+        
+        <a class="menu-item events" href="/events/">
+          <li>
+            Events
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item blog" href="/blog/">
+          <li>
+            Blog
+          </li>
+        </a>
+      
+    
+      
+      
+        
+        <a class="menu-item info" href="/info/">
+          <li>
+            Info
+          </li>
+        </a>
+      
+    
+  </ul>
+</menu>
+    </div>
+    <style>
+      .fullscreenMenuContainer {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+      }
+      .fullscreenMenuContainer.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
+      hamburger.addEventListener('click', function() {
+        if (!menuContainer.classList.contains('open')) {
+          menuContainer.style.display = 'block';
+          setTimeout(() => menuContainer.classList.add('open'), 10);
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
+        } else {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+    </script>
+</header>
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      
+        <img class="postHeaderImg" src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.31.jpeg" alt="album/WhatsApp Image 2025-04-09 at 18.38.31.jpeg"/>
+      
+
+<div class="postHeader">
+      <time class="date-container text-small text-muted" datetime="2025-04-08T00:00:00Z">
+          <span class="dynamic-date">
+            &nbsp;    
+          </span>
+      </time>
+  
+      <h1>FKT 12 Gipfel Tour</h1>
+      
+      
+        <div class="tags">
+            <span class="tag">FKT</span> <span class="tag">12GT</span> <span class="tag">Challenge</span> 
+        </div>
+      
+</div>
+
+<div class="postContent">
+  <p>Ein weiterer Versuch von Christian, die <a href="https://fastestknowntime.com/fkt/christian-pecher-12-gipfel-tour-germany-2025-04-08" target="_blank" rel="noopener">Fastest Known Time</a> für die 12-Gipfel-Tour aufzustellen. Das Ziel war, die Tour in weniger als 6 Stunden zu absolvieren. Ob das geklappt hat?</p>
+<h2 id="strecke">Strecke</h2>
+<p><figure role="figure" aria-label="Detaillierte Planung für den Rekordversuch">
+      <a href="/blog/2025-04-08-fkt-12gt/images/12gt.jpeg" data-lightbox="blogpost" data-title="Detaillierte Planung für den Rekordversuch">
+        <img
+          alt="Detaillierte Planung für den Rekordversuch"
+          title="Detaillierte Planung für den Rekordversuch"
+          width="2884"
+          height="1212"
+          srcset="/blog/2025-04-08-fkt-12gt/images/12gt_hu_9551402709f11ee0.webp 420w, /blog/2025-04-08-fkt-12gt/images/12gt_hu_dfa2ea60b282ba8b.webp 789w, /blog/2025-04-08-fkt-12gt/images/12gt_hu_1d21869afb788d4a.webp 1019w, /blog/2025-04-08-fkt-12gt/images/12gt_hu_9b7749193d94e624.webp 1430w, /blog/2025-04-08-fkt-12gt/images/12gt_hu_d97a071ced794841.webp 2048w, "
+          sizes="(min-width: 800px) 50vw, 100vw"
+          src="/blog/2025-04-08-fkt-12gt/images/12gt_hu_48127e2b832bd479.jpeg"decoding="async"
+            loading="lazy"/>
+      </a>
+      <figcaption>Detaillierte Planung für den Rekordversuch</figcaption>
+    </figure></p>
+<h2 id="style">Style</h2>
+<p>Unsupported: Ich habe von Anfang an alle Verpflegung mitgenommen. Während des Abstiegs nach Karches habe ich meine Flaschen einmal an einer Wasserquelle aufgefüllt. Unterwegs bin ich außer anderen Wanderern, die ich nicht kenne, niemandem begegnet.</p>
+<h2 id="bericht">Bericht</h2>
+<p>Ich habe das Auto bei der Alten Vorsuchhütte geparkt und ein kurzes Warm-up gemacht. Um 10:00 Uhr bin ich losgelaufen. Auf dem Weg zur Piste hoch fühlten sich meine Beine Beine sehr schwer an. Es schien nicht so, als ob das an diesem Tag eine Spitzenzeit werden würde.</p>
+<p><figure role="figure" aria-label="Viel Gepäck das mitgeschleppt werden muss.">
+      <a href="/blog/2025-04-08-fkt-12gt/images/2.jpeg" data-lightbox="blogpost" data-title="Viel Gepäck das mitgeschleppt werden muss.">
+        <img
+          alt="Viel Gepäck das mitgeschleppt werden muss."
+          title="Viel Gepäck das mitgeschleppt werden muss."
+          width="3024"
+          height="4032"
+          srcset="/blog/2025-04-08-fkt-12gt/images/2_hu_97f43ee537d9049d.webp 420w, /blog/2025-04-08-fkt-12gt/images/2_hu_f0a04655653e44ac.webp 789w, /blog/2025-04-08-fkt-12gt/images/2_hu_67fe8f522c506639.webp 1019w, /blog/2025-04-08-fkt-12gt/images/2_hu_6c994a316c788e8a.webp 1430w, /blog/2025-04-08-fkt-12gt/images/2_hu_3ff6c54584bf1c71.webp 2048w, "
+          sizes="(min-width: 800px) 50vw, 100vw"
+          src="/blog/2025-04-08-fkt-12gt/images/2_hu_43028f1c0ab37bbc.jpeg"decoding="async"
+            loading="lazy"/>
+      </a>
+      <figcaption>Viel Gepäck das mitgeschleppt werden muss.</figcaption>
+    </figure></p>
+<p>Um 10:09 Uhr bin ich oben auf der Schönburgwarte (Kornberg) angekommen. Beim Downhill hatte ich bereits leichte Krämpfe in beiden inneren Oberschenkelmuskeln, was meine Zweifel noch verstärkte. Im flachen Stück Richtung Kirchenlamitz hatte ich zwar immer noch schwere Beine, aber die Krämpfe wurden weniger.</p>
+<p>Um 10:59 Uhr bin ich oben auf der Aussichtsplattform am Epprechtstein angekommen. Ein Teil des Verschlusses am Zip-Beutel für das Handy reißt ab – Shite. Von nun an ist es jedes Mal ein ziemliches Gefummel, das Handy aus der Tüte zu bekommen.</p>
+<p>Ich mache mich zügig auf den Weg Richtung Waldstein, die Krämpfe sind inzwischen fast weg. Kurzer Stopp, um die Flaschen zu wechseln, beim Aufstieg und erste kurze Pinkelpause.</p>
+<p>Oben auf der Schüssel (Waldstein) bin ich um 11:38 Uhr. Die Sonne kommt heraus und es wird kurzzeitig sogar etwas warm.</p>
+<p>Es folgt ein zügiger Downhill Richtung Weißenstadt. Um 12:24 Uhr bin ich oben am Aussichtspunkt Rudolfstein, um 12:46 Uhr auf dem Backöfele (Schneeberg). Weiter geht es Richtung Nußhardt. Um 12:57 Uhr erreiche ich den Gipfel.</p>
+<p>Es folgt ein schneller Downhill nach Karches. Am Brunnen fülle ich meine Flaschen auf. Es wird bewölkter und kühler, also raus mit den Handschuhen. Beim Anstieg wieder kurze Pinkelpause.</p>
+<p>Um 13:38 Uhr bin ich oben am Asenturm (Ochsenkopf). Langsam spüre die Anstrengung.</p>
+<p>Um 14:25 Uhr ist die Platte erklommen und dann ein schneller Downhill bis zum Silberhaus-Parkplatz.</p>
+<p><figure role="figure" aria-label="Aussicht von der Platte über das Fichtelgebirge.">
+      <a href="/blog/2025-04-08-fkt-12gt/images/1.jpeg" data-lightbox="blogpost" data-title="Aussicht von der Platte über das Fichtelgebirge.">
+        <img
+          alt="Aussicht von der Platte über das Fichtelgebirge."
+          title="Aussicht von der Platte über das Fichtelgebirge."
+          width="2794"
+          height="3725"
+          srcset="/blog/2025-04-08-fkt-12gt/images/1_hu_c82d050be155b737.webp 420w, /blog/2025-04-08-fkt-12gt/images/1_hu_19492fd456a8b6b8.webp 789w, /blog/2025-04-08-fkt-12gt/images/1_hu_2756722d4b7e76e1.webp 1019w, /blog/2025-04-08-fkt-12gt/images/1_hu_eabe01c4408b6731.webp 1430w, /blog/2025-04-08-fkt-12gt/images/1_hu_78312b08b65e9027.webp 2048w, "
+          sizes="(min-width: 800px) 50vw, 100vw"
+          src="/blog/2025-04-08-fkt-12gt/images/1_hu_23c18796afd18af.jpeg"decoding="async"
+            loading="lazy"/>
+      </a>
+      <figcaption>Aussicht von der Platte über das Fichtelgebirge.</figcaption>
+    </figure></p>
+<p>Der Anstieg zur Hohen Matze zieht sich. Um 14:56 Uhr erreiche ich das Gipfelkreuz. Mein Kopf beginnt zu schmerzen, wahrscheinlich habe ich bisher zu wenig Wasser getrunken.</p>
+<p>Trotzdem folgt ein zügiger Anstieg, da mir langsam die Zeit ausgeht. Oben am Kösseine-Turm bin ich um 15:26 Uhr. Das erste Stück des Weges ist aufgrund umgefallener Bäume recht unwegsam. Ich werde langsamer.</p>
+<p>Um 15:41 Uhr erreiche ich den Großen Haberstein, um 15:47 Uhr den Burgstein Felsen. Jetzt folgt ein Downhill-Sprint auf der Forststraße.</p>
+<p>Um 15:55 Uhr komme ich am Denkmal an der Luisenburg an.
+Endzeit: <strong>05:55:33!</strong>. Hier der Beweis auf <a href="https://www.strava.com/activities/14116665410/overview" target="_blank" rel="noopener">Strava</a>.</p>
+<p><figure role="figure" aria-label="Knapp aber mein Ziel habe ich geschafft!">
+      <a href="/blog/2025-04-08-fkt-12gt/images/3.jpeg" data-lightbox="blogpost" data-title="Knapp aber mein Ziel habe ich geschafft!">
+        <img
+          alt="Knapp aber mein Ziel habe ich geschafft!"
+          title="Knapp aber mein Ziel habe ich geschafft!"
+          width="2560"
+          height="3414"
+          srcset="/blog/2025-04-08-fkt-12gt/images/3_hu_4acfbc997f101788.webp 420w, /blog/2025-04-08-fkt-12gt/images/3_hu_13b4d64ddf7afb49.webp 789w, /blog/2025-04-08-fkt-12gt/images/3_hu_bd42e604f631bb92.webp 1019w, /blog/2025-04-08-fkt-12gt/images/3_hu_60b4df8ef4765361.webp 1430w, /blog/2025-04-08-fkt-12gt/images/3_hu_3bdd00b7bb1bf146.webp 2048w, "
+          sizes="(min-width: 800px) 50vw, 100vw"
+          src="/blog/2025-04-08-fkt-12gt/images/3_hu_98a7de886deecc8f.jpeg"decoding="async"
+            loading="lazy"/>
+      </a>
+      <figcaption>Knapp aber mein Ziel habe ich geschafft!</figcaption>
+    </figure></p>
+<h2 id="learnings">Learnings</h2>
+<p>Diesmal wäre ein längeres Warm-up nötig gewesen. Ich hatte zu wenig Wasser dabei, vor allem gegen Ende. Das ist die größte Challenge der Tour, wenn man unsupported läuft, da es auf den ersten 30 km keine Wasserquelle gibt.
+Die Aussichtstürme hochzugehen, Fotos zu machen und wieder runterzugehen, kostet viel Zeit. Bei 12 Gipfeln kommen so 20 bis 30 Minuten zusammen.</p>
+<h2 id="verpflegung">Verpflegung</h2>
+<ul>
+<li>3735 ml Water</li>
+<li>1x NDURANZ Nrgy Gel 45</li>
+<li>1x SiS Nootropics Gel</li>
+<li>320g Maurten 320 Drink Mix</li>
+<li>250g NDURANZ Nrgy Unit 90 Drink Mix</li>
+<li>9x 4ENERGY Salt Caps</li>
+<li>1x NDURANZ Caffein Caps</li>
+</ul>
+<p>Total: 598g Carbs (101 g/h) 3581mg Sodium (605mg/h).
+Überbleibsel: 1/4 Flasche mit Drink Mix</p>
+<h2 id="ausrüstung">Ausrüstung</h2>
+<ul>
+<li>Salomon S/Lab 10L Pack</li>
+<li>iPhone 11</li>
+<li>Garmin Fenix 6Pro</li>
+<li>Schuhe: La Sportiva Prodigio Pro</li>
+<li>Cap</li>
+<li>Buff</li>
+<li>Handschuhe</li>
+<li>Running tights</li>
+<li>Long sleeve</li>
+<li>Regenjacke</li>
+<li>Rettungsdecke</li>
+</ul>
+
+</div>
+
+      
+        <h3>Galerie</h3>
+        
+<ul class="image-gallery">
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.31_hu_df21b4e81eb73de6.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.31_hu_a065ea42ffb446d3.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.32_hu_d0cfd8da21c808df.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.32_hu_4f8a9c18e42854e0.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.35_hu_d8f19d6b3913b015.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.35_hu_327575ee472b07ae.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.38_hu_542ff252b8b9153f.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.38_hu_21047f0b12bcef33.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.39_hu_f5cb3b0811c915a7.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.39_hu_b5a9682a33415270.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.40_hu_2fb25866196a7800.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.40_hu_62735f6618bd699d.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.41_hu_61ced314fdebfe3.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.41_hu_1a92a15901fe5d00.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.42%20%282%29_hu_5c20c992006c25d2.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.42%20%282%29_hu_56e174f58864e5b8.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.43_hu_d5b3937d7b13cc41.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.43_hu_e4a32f272c08da2.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.44_hu_e7bee34a55372c6a.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.44_hu_2369f2a96a97363e.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.50_hu_164e478b05e45e77.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.50_hu_4702d7b54aa9779c.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.56_hu_e1cd3b9ec69fb784.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.38.56_hu_b82659d9899160d2.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.03_hu_cd692d85b4bd2482.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.03_hu_48a832ca13e7936c.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.54_hu_27045beacad3752d.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.54_hu_7962d1faa69e0722.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.55_hu_66b9bb4e852184d3.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.55_hu_35214605ce4ae65f.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.57%20%281%29_hu_5b72f976fde140fe.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.57%20%281%29_hu_b92ba9ffd5d5183a.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+<li>
+      <a href="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.57_hu_52b657d945e30fde.jpeg" title="WhatsApp Image 2025-04-09 at 18" class="lightbox-image">
+        <img src="/blog/2025-04-08-fkt-12gt/album/WhatsApp%20Image%202025-04-09%20at%2018.39.57_hu_5615e9579cb79d0a.jpeg" alt="WhatsApp Image 2025-04-09 at 18" title="WhatsApp Image 2025-04-09 at 18">
+      </a>
+    </li>
+
+</ul>
+      
+    </main>
+  </div>
+  <footer class="footer text-small">
+    <ul class="links text-muted ">
+        <li><a href="/">Home</a></li>
+        <li><a href="/legal/impressum/">Impressum</a></li>
+        <li><a href="/legal/datenschutz/">Datenschutz</a></li>
+        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
+        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
+    </ul>
+    <a class="copyright" href="/">
+        <p class="text-muted ">
+           Fichtel<span style="font-weight: 800;">Ultra</span> 2025 
+        </p>
+    </a>
+</footer>
+</body>
+</html>

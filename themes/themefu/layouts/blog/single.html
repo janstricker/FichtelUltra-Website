@@ -40,7 +40,7 @@
 </div>
 
       {{ if .Resources.GetMatch "album/*" }}
-        <h4>Galerie</h4>
+        <h3>Galerie</h3>
         {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
       {{ end }}
     </main>
