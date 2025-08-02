@@ -40,7 +40,7 @@ Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services.
 
 Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. 
 
-Es erfolgen keine Zeitmessung, Absperrung oder ärztliche Versorgung. 
+Es erfolgen keine Absperrung, ärztliche Versorgung oder Zeitmessung (außer optional nachträglich über Strava).
 
 Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
 
@@ -92,17 +92,16 @@ Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die e
 
 ### Zeitplan
 
-Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird mindestens zwei Geschwindigkeitsgruppen geben:
+Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird zwei Geschwindigkeitsgruppen geben:
 
 * **Schnell**: 
-  * ca. **7 - 9 h** Endzeit 
-  * Zieleinlauf ca. 14:00 - 16:00 Uhr
+  * ca. **8 h** Endzeit 
+  * Zieleinlauf ca. 13:30 - 14:00 Uhr
 * **Langsam**: 
-  * ca. **10 - 12 h** Endzeit
-  * Zieleinlauf ca. 17:00 - 19:00 Uhr
+  * ca. **10 h** Endzeit
+  * Zieleinlauf ca. 17:00 - 17:30 Uhr
 
 Unser Ziel ist es, zumindest ab Start einen Teil der Strecke gemeinsam als Gruppe zu laufen und sich dann aufzuteilen, um im eigenen Komforttempo den Großteil der Route zu bezwingen.
-
 
 ## Verpflegung
 
@@ -121,11 +120,9 @@ Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere S
 
 ### Verantwortung
 
-**Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz.
+**Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz!
 
-Bei einer deratig langen und anspruchsvolleren Belastung wird empfohlen regelmäßig und häufig zu essen und entsprechende Verpflegung mit sich zu führen. 
-Gut eignen sich hierfür Riegel, Sport-Gels, Gummibärchen und andere Snacks welche auch in Bewegung gut konsumiert werden können (Faustregel: stündlich ca. 40-60g Kohlehydrate). Zudem ist es ratsam nicht nur ausreichend zu trinken, sondern auch Elektrolyte in Form von Tabletten oder Pulvern zu sich zu nehmen.
-
+Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden – ideal sind Snacks wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
 
 ## Mobilität
 
