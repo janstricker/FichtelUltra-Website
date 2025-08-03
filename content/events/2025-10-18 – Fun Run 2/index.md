@@ -1,7 +1,7 @@
 ---
 title: Fun Run 2
 meta_title: Fun Run 2
-summary: Fichtelgebirgs Trailrun
+summary: "66,4 km und fast 2000 Höhenmeter: Komm' mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour."
 event_date: 2025-10-18
 totalLenght: 66.4 km
 elevation: +1.940 / -1.970 hm
@@ -18,7 +18,7 @@ featured: "true"
 
 Die zweite Edition des FichtelUltra Fun Run findet am **Samstag den 18. Oktober 2025** statt. Wir starten gemeinsam um **07:00 Uhr**.
 
- Eine einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der [berühmten 12 Gipfel Tour im Fichtelgebirge](#hintergründe). Diesmal erwarten uns neue Streckenabschnitte, weitere tolle Aussichtspunkte und landschaftliche Highlights wie z.B. der Fichtelsee.
+ Eine einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der [berühmten 12 Gipfel Tour](#hintergründe). Diesmal erwarten uns neue Streckenabschnitte, weitere tolle Aussichtspunkte und landschaftliche Highlights wie z.B. der Fichtelsee.
 
 Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestreiten. Schließt euch einer Gruppe an die zu eurem Tempo passt und probiert aus wie weit ihr es schafft. 
 
