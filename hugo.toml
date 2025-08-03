@@ -1,7 +1,19 @@
-baseURL = 'https://fichtelultra.de/'
-languageCode = 'de-DE'
-title = 'FichtelUltra'
-theme = 'futheme'
+canonifyURLs = false
+baseURL = "/"
+languageCode = "de"
+defaultContentLanguage = "de"
+title = "FichtelUltra"
+theme = "themefu"
 
 [params]
-  homepageSections = ["about", "projects", "blog"]
+  description = "Ein Blog über Events und Abenteuer im Fichtelgebirge."
+  titlePart1 = "Fichtel"
+  titlePart2 = "Ultra"
+
+[taxonomies]
+  tag = "tags"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true # Ermöglicht das Rendern von raw HTML in Markdown (z.B. für Bilder)

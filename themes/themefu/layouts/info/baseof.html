@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+  {{ partial "head.html" . }}
+</head>
+
+{{ $class := .Params.color | default "info" }}
+<body class="{{$class}}">
+  {{ partial "header.html" . }}
+  <div class="container min-h-content hpadding">
+    <main class="mainSection">
+      {{ with .Resources.GetMatch "*/title.*" }}
+        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+      {{ else with .Resources.GetMatch "*/*.*" }}
+        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+      {{ end }}
+
+        <div class="postContent">
+          {{ .Content }}
+        </div>
+
+      {{ if .Resources.GetMatch "album/*" }}
+        <h4>Galerie</h4>
+        {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
+      {{ end }}
+    </main>
+  </div>
+  {{ partial "footer.html" . }}
+</body>
+</html>

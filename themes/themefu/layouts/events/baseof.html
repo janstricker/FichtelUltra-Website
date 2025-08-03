@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+<head>
+<!-- Chrome, Firefox OS and Opera -->
+<meta name="theme-color" content="#EDFF7D">
+<!-- iOS Safari -->
+<meta name="apple-mobile-web-app-status-bar-style" content="#EDFF7D">
+
+  {{ partial "head.html" . }}
+</head>
+
+<body class="events">
+  {{ partial "header.html" . }}
+    <div class="container min-h-content hpadding">
+      <main class="mainSection">
+      {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+
+  {{ partial "footer.html" . }}
+</body>
+</html>

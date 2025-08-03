@@ -1,0 +1,55 @@
+<header class="headerHome">
+    <div class="decalContainer">
+      <svg class="decal" width="931" height="606" viewBox="0 0 931 606" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 496.099L341.029 303.302L3.00003 110.505L64.2014 3.604L465.344 232.398L866.486 3.60406L927.688 110.505L589.659 303.302L927.688 496.099L866.486 603L465.344 374.206L64.2013 603L3 496.099Z" stroke="#FF1414" style="stroke-width: var(--svg-stroke-width);" vector-effect="non-scaling-stroke"/>
+      </svg>
+    </div>
+    <div class="header-content header-content-logo">
+        <a href="/" class="header-logo-link">
+            <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
+            </svg>
+            <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
+            <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
+        </a>
+        <p class="titleActive header-section-link">
+            <a href="/{{ .Section }}">
+                {{ .Section }}
+            </a>
+        </p>
+    </div>
+    {{ if not .IsHome }}
+    <div class="mainMenu">
+        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
+            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            </svg>
+        </button>
+    </div>
+    {{ end }}
+    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+        {{ partial "menu-fullscreen.html" . }}
+    </div>
+    <script>
+      // CSS-Variablen für Logo-Größe setzen
+      document.documentElement.style.setProperty('--fu-logo-width', '200px');
+      document.documentElement.style.setProperty('--fu-logo-height', '60px');
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      hamburger.addEventListener('click', function() {
+        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
+          menuContainer.style.display = 'block';
+        } else {
+          menuContainer.style.display = 'none';
+        }
+      });
+      // Optional: Schließen bei Klick außerhalb
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.style.display = 'none';
+        }
+      });
+    </script>
+</header>

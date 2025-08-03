@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  {{ $class := .Params.color | default "base" }}
+  <body class="{{$class}}">
+    {{ partial "header.html" . }}
+    <div class="container min-h-content hpadding">
+      <main class="mainSection">
+        {{ with .Resources.GetMatch "*/title.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+        {{ else with .Resources.GetMatch "*/*.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
+        {{ end }}
+
+        <div class="postHeader">
+          {{ with .Params.date }}
+            <time class="date-container text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
+              <span class="dynamic-date"></span>
+            </time>
+          {{ end }}
+
+          <h1>{{ .Title }}</h1>
+
+          {{ with .Params.tags }}
+            <div class="tags">
+              {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+            </div>
+          {{ end }}
+        </div>
+
+        <div class="postContent">
+          {{ .Content }}
+        </div>
+
+        {{ if .Resources.GetMatch "album/*" }}
+          <h4>Galerie</h4>
+          {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
+        {{ end }}
+      </main>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
+</html>

@@ -1,0 +1,39 @@
+
+name: Build and Deploy to FTP (develop branches) # Workflow-Name
+
+on:
+  push:
+    branches:
+      - '*develop*' # Triggert bei Push auf Branches mit "develop" im Namen
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # Verwende die neueste Ubuntu-Umgebung
+    environment: Deploy   # <-- Add this line
+
+    steps:
+      - name: Checkout repository
+        # Klont das Repository in den Runner
+        uses: actions/checkout@v4
+
+      - name: Set up Hugo
+        # Installiert Hugo in der gewünschten Version
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: 'latest' # Nutze die neueste Hugo-Version
+          extended: true # Aktiviere die Extended-Version für SCSS/SASS
+
+      - name: Build Hugo site
+        # Baut die statische Website mit Hugo
+        run: hugo --minify
+
+      - name: Upload via FTP
+        # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+        with:
+          server: ${{ secrets.SERVER }} # FTP-Server-Adresse 
+          username: ${{ secrets.USERNAME }} # FTP-Benutzername 
+          password: ${{ secrets.PASSWORD }} # FTP-Passwort 
+          local-dir: ./public/ # Quellverzeichnis für Upload
+          server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
+          timeout: 300000   # Set timeout to 5 minutes

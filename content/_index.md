@@ -1,7 +1,9 @@
-+++
-header-image = "static/fuheader.jpg"
-+++
-
-#Trailrunning im Fichtelgebirge
-
-Freundschaft, Sport und wilde Ideen
+---
+fmContentType : "home"
+title : "Trailrunning im Fichtelgebirge"
+subtitle : "Freundschaft, Sport und wilde Ideen."
+primaryCTA : "Jetzt Anmelden"
+primaryLink : "/"
+secondaryCTA : "Alle Infos"
+secondaryLink : "/"
+---
