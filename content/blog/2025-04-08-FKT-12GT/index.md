@@ -17,7 +17,7 @@ Unsupported: Ich habe von Anfang an alle Verpflegung mitgenommen. Während des A
 
 ## Bericht
 
-Ich habe das Auto bei der Alten Vorsuchhütte geparkt und ein kurzes Warm-up gemacht. Um 10:00 Uhr bin ich losgelaufen. Auf dem Weg zur Piste hoch fühlten sich meine Beine Beine sehr schwer an. Es schien nicht so, als ob das an diesem Tag eine Spitzenzeit werden würde.
+Ich habe das Auto bei der Alten Vorsuchhütte geparkt und ein kurzes Warm-up gemacht. Um 10:00 Uhr bin ich losgelaufen. Auf dem Weg zur Piste hoch fühlten sich meine Beine sehr schwer an. Es schien nicht so, als ob das an diesem Tag eine Spitzenzeit werden würde.
 
 ![Trinkflaschen, Gels und weitere Verpflegung liegen auf einem Tisch](images/2.jpeg "Viel Gepäck das mitgeschleppt werden muss.")
 
