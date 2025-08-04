@@ -5,11 +5,14 @@ color: "info"
 
 # Freundschaft und wilde Ideen
 
-Das ist der Kern von dem, was uns antreibt – und was uns seit vielen Jahren verbindet.
-
-FichtelUltra ist ein weiteres Herzensprojekt von uns dreien: [Jan Stricker](https://www.strava.com/athletes/105491252), [Christian Pecher](https://www.strava.com/athletes/24152579) und [Christian Friedel](https://www.strava.com/athletes/92862021?oq=fried).  
+Das ist der Kern von dem, was uns antreibt – und was uns seit vielen Jahren verbindet. FichtelUltra ist ein weiteres Herzensprojekt von uns dreien: 
+* Jan Stricker – ["Strolch/Strocko"](https://www.strava.com/athletes/105491252)
+* Christian Pecher – ["Pechi/Pocker"](https://www.strava.com/athletes/24152579)
+* Christian Friedel – ["Mitsch/Fried"](https://www.strava.com/athletes/92862021?oq=fried) 
 
 Wir sind im Fichtelgebirge aufgewachsen, kennen uns seit Kindheitstagen und sind nicht nur Freunde, sondern auch kreative Komplizen.
+
+![Gruppenfoto von den drei Machern von FichtelUltra. Von Links: Jan Stricker, Christian Pecher, Christian Friedel.](images/about.webp "Das sind wird: Strocko, Pechi und Fried.")
 
 ## Unsere Geschichte
 
@@ -29,5 +32,8 @@ So unterschiedlich unsere Phasen und Persönlichkeiten auch sein mögen – was 
 ## Alles fließt
 
 Wir lieben es, Projekte von Grund auf zu bauen, sie mit Energie, Humor und Herzblut zu füllen – und andere damit anzustecken. Wenn ihr uns irgendwo begegnet – bei einem Lauf, auf einer Party im Wald oder beim Basteln der nächsten verrückten Idee – sprecht uns an. Wir freuen uns drauf.
+
+Wir bedanken uns außerdem bei unseren treuen Freunden und allen die uns unterstützen! Ohne euch wären unsere Abenteuer nicht möglich:    
+Lena, Sabrina, Bea, Tami, Fabi, Edda, Lea, Susi, Markus, und vielen mehr... 
 
 Bis bald auf den Hometrails!
