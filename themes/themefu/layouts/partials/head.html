@@ -6,7 +6,7 @@
 {{ partialCached "head/font.html" . }}
 
 {{/* Open Graph Meta Tags */}}
-{{ $defaultOgImage := "/ogimage.webp" }}
+{{ $defaultOgImage := "/ogimage.jpg" }}
 {{ $ogImage := $defaultOgImage }}
 {{/* Für Blog/Event-Posts: title-Bild suchen */}}
 {{ if or (eq .Section "blog") (eq .Section "events") }}
@@ -15,13 +15,19 @@
   {{ end }}
 {{ end }}
 <meta property="og:title" content="{{ .Title }} – FichtelUltra" />
+<meta property="og:site_name" content="FichtelUltra" />
+<meta property="og:locale" content="de_DE" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="{{ .Permalink }}" />
 <meta property="og:image" content="{{ $ogImage }}" />
-{{ with .Params.summary }}<meta property="og:description" content="{{ . }}" />{{ end }}
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:title" content="{{ .Title }} – FichtelUltra" />
-<meta name="twitter:image" content="{{ $ogImage }}" />
+<meta property="og:image:alt" content="Trailrunning im Fichtelgebirge – FichtelUltra" />
+{{ with .Lastmod }}<meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />{{ end }}
+{{ with .Params.summary }}
+  <meta property="og:description" content="{{ . }}" />
+{{ else }}
+  <meta property="og:description" content="Trailrunning im Fichtelgebirge – FichtelUltra" />
+{{ end }}
+
 
 <!-- Matomo -->
 <script>
