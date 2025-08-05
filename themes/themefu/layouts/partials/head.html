@@ -6,12 +6,12 @@
 {{ partialCached "head/font.html" . }}
 
 {{/* Open Graph Meta Tags */}}
-{{ $defaultOgImage := "/ogimage.jpg" }}
+{{ $defaultOgImage := "/ogimage.jpg" | absURL }}
 {{ $ogImage := $defaultOgImage }}
 {{/* Für Blog/Event-Posts: title-Bild suchen */}}
 {{ if or (eq .Section "blog") (eq .Section "events") }}
   {{ with .Resources.GetMatch "*/title.*" }}
-    {{ $ogImage = .RelPermalink }}
+    {{ $ogImage = .Permalink }}
   {{ end }}
 {{ end }}
 <meta property="og:title" content="{{ .Title }} – FichtelUltra" />
@@ -25,7 +25,7 @@
 {{ with .Params.summary }}
   <meta property="og:description" content="{{ . }}" />
 {{ else }}
-  <meta property="og:description" content="Trailrunning im Fichtelgebirge – FichtelUltra" />
+  <meta property="og:description" content="Aus Freundschaft gewachsen, vom Fichtelgebirge inspiriert: FichtelUltra bringt Menschen zusammen, die gern draußen sind, wild träumen und weit laufen." />
 {{ end }}
 
 
