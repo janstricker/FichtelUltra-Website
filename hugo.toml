@@ -1,5 +1,5 @@
 canonifyURLs = false
-baseURL = "/"
+baseURL = "https://fichtelultra.de/"
 languageCode = "de"
 defaultContentLanguage = "de"
 title = "FichtelUltra"
