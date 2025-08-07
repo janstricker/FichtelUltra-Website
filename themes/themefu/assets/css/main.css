@@ -965,6 +965,10 @@ html {
   padding: var(--size-200) 0;
 }
 
+.postContent h1:first-of-type {
+  margin-block-start: var(--size-400);
+}
+
 .postContent h1,
 .postContent h2 {
   margin-block-start: calc(var(--size-400) * 3);
