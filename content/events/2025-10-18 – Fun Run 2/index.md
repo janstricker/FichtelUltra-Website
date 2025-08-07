@@ -26,7 +26,7 @@ Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestre
 
 ### Anmeldung
 
-Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link möglich. 
+Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link bzw. per Mail an [anmeldung@fichtelultra.de](mailto:anmeldung@fichtelultra.de) möglich. Bitte Name, Pace und Verpflegungs- & Transportwunsch angeben.
 
 <div class="btn-group">
     <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A">
