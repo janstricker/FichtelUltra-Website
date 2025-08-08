@@ -1,7 +1,7 @@
 ---
-title: "Recap Fun Run 2024 – Eine Idee wird Realität"
+title: "Recap Fun Run 2024"
 meta_title: "Recap Fun Run 2024"
-summary: "Die erste Edition des Fichtel Ultra Fun Runs ist inzwischen schon ein Jahr her."
+summary: "Unsere Idee wird Realität"
 date: "2025-08-17"
 tags: ['Fun Run', '12GT']
 ---
