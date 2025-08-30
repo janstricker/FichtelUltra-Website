@@ -3,13 +3,51 @@
   {{ range $index, $element := .Pages }}
   <a href="{{ $element.RelPermalink }}">
   <article class="post {{ if modBool $index 2 }}even{{ end }}">
-        {{ with $element.Resources.GetMatch "*/title.*" }}
-          <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-        {{ else with $element.Resources.GetMatch "*/*.*" }}
-          <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-        {{ else}}
+        {{/* Replace static image output with responsive picture using Hugo Image Processing */}}
+        {{ $img := $element.Resources.GetMatch "*/title.*" }}
+        {{ if not $img }}
+          {{ $img = $element.Resources.GetMatch "*/*.*" }}
+        {{ end }}
+
+        {{ if $img }}
+          {{ $widths := slice 320 640 1024 1600 }}
+          {{ $avifSrcset := slice }}
+          {{ $webpSrcset := slice }}
+          {{ $fallbackSrcset := slice }}
+
+          {{ range $i, $w := $widths }}
+            {{ $resized := $img.Resize (printf "%dx" $w) }}
+            {{ if $resized }}
+              {{ $avif := $resized.Convert "avif" }}
+              {{ $webp := $resized.Convert "webp" }}
+              {{ $fallback := $resized }}
+              {{ $avifSrcset = $avifSrcset | append (printf "%s %dw" $avif.RelPermalink $w) }}
+              {{ $webpSrcset = $webpSrcset | append (printf "%s %dw" $webp.RelPermalink $w) }}
+              {{ $fallbackSrcset = $fallbackSrcset | append (printf "%s %dw" $fallback.RelPermalink $w) }}
+            {{ end }}
+          {{ end }}
+
+          <picture>
+            {{ if gt (len $avifSrcset) 0 }}
+              <source type="image/avif" srcset="{{ delimit $avifSrcset ", " }}" sizes="(min-width:900px) 900px, 100vw">
+            {{ end }}
+            {{ if gt (len $webpSrcset) 0 }}
+              <source type="image/webp" srcset="{{ delimit $webpSrcset ", " }}" sizes="(min-width:900px) 900px, 100vw">
+            {{ end }}
+            <img
+              class="postImg"
+              src="{{ (index $fallbackSrcset 0) | split " " | first }}"
+              srcset="{{ delimit $fallbackSrcset ", " }}"
+              sizes="(min-width:900px) 900px, 100vw"
+              alt="{{ $element.Title }}"
+              loading="lazy"
+              decoding="async"
+              />
+          </picture>
+        {{ else }}
           <div class="fallback"></div>
         {{ end }}
+
       <div class="postTeaserContent">
         <time class="text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
             <span class="dynamic-date"></span>
