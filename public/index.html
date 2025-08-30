@@ -13,14 +13,63 @@
 <meta name="viewport" content="width=device-width">
 <title>FichtelUltra</title>
 
+
+  <style id="critical-home-css"> 
+:root{
+  --main-bg:#fff;
+  --accent:#EDFF7D;
+  --header-height:84px;  
+  --fu-logo-width:200px;
+  --fu-logo-height:60px;
+  --decalTop:-50%;
+  --decalLeft:0%;
+  --decalWidth:120%;
+}
+html,body{height:100%;margin:0;background:var(--main-bg);color:#111}
+body{font-family:PlusJakartaSans,system-ui,-apple-system,'Segoe UI',Roboto,Arial,Helvetica Neue;line-height:1.4}
+.header, header, .site-header{display:block}
+.headerHome{position:relative;min-height:var(--header-height);height:var(--header-height);display:flex;align-items:center}
+.decalContainer{height:var(--header-height);overflow:hidden;display:block}
+ 
+.decal{width:var(--decalWidth);max-width:none;transform:translate(var(--decalLeft),var(--decalTop));opacity:0;transition:opacity .4s ease, transform .6s ease;will-change:transform,opacity;transform-origin:center}
+.fichtelUltraLogo{width:var(--fu-logo-width);height:var(--fu-logo-height);flex:0 0 auto;will-change:transform,opacity}
+.container{max-width:1100px;margin:0 auto;padding:0 1rem}
+.mainSection{padding:1.25rem 0}
+.post{display:flex;align-items:flex-start;gap:1rem;padding:.75rem 0;border-bottom:1px solid rgba(0,0,0,.05)}
+.postImg{width:192px;height:128px;object-fit:cover;flex:0 0 192px}
+.postTeaserContent h2{margin:.25rem 0;font-size:1.25rem}
+.postTeaserContent p{margin:.25rem 0;color:#444}
+.nav, nav{display:flex;gap:.75rem;align-items:center}
+.logo{max-height:48px}
+ 
+.menu{min-height:44px}
+ 
+.home-intro{min-height:120px}
+ 
+.hero, .postHeader, h1{visibility:visible}
+ 
+.text-small{font-size:.85rem}
+.text-muted{color:#6b6b6b}
+.tag{display:inline-block;background:#f1f1f1;padding:.2rem .4rem;border-radius:4px;font-size:.8rem}
+</style>
+
+
+
+
     <link rel="stylesheet" href="/css/_normalize.css">
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/main.css">
 
+    <script src="/js/header.js"></script>
+      <script src="/js/header.js"></script>
       <script src="/js/lightbox.js"></script>
       <script src="/js/main.js"></script>
 
-<link rel="stylesheet" href="/font/plus-jakarta-sans.css">
+<link rel="preload" href="/font/plus-jakarta-sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/font/plus-jakarta-sans.css"></noscript>
+<style> 
+html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+</style>
 
 
 
@@ -121,26 +170,6 @@
   </ul>
 </menu>
     </div>
-    <script>
-      
-      document.documentElement.style.setProperty('--fu-logo-width', '200px');
-      document.documentElement.style.setProperty('--fu-logo-height', '60px');
-      const hamburger = document.getElementById('hamburgerMenu');
-      const menuContainer = document.getElementById('fullscreenMenuContainer');
-      hamburger.addEventListener('click', function() {
-        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
-          menuContainer.style.display = 'block';
-        } else {
-          menuContainer.style.display = 'none';
-        }
-      });
-      
-      document.addEventListener('click', function(e) {
-        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
-          menuContainer.style.display = 'none';
-        }
-      });
-    </script>
 </header>
         
         <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">

@@ -12,14 +12,23 @@
 <meta name="viewport" content="width=device-width">
 <title>On Tour | FichtelUltra</title>
 
+
+
+
     <link rel="stylesheet" href="/css/_normalize.css">
     <link rel="stylesheet" href="/css/lightbox.css">
     <link rel="stylesheet" href="/css/main.css">
 
+    <script src="/js/header.js"></script>
+      <script src="/js/header.js"></script>
       <script src="/js/lightbox.js"></script>
       <script src="/js/main.js"></script>
 
-<link rel="stylesheet" href="/font/plus-jakarta-sans.css">
+<link rel="preload" href="/font/plus-jakarta-sans.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="/font/plus-jakarta-sans.css"></noscript>
+<style> 
+html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;}
+</style>
 
 
 
@@ -130,26 +139,6 @@
   </ul>
 </menu>
     </div>
-    <script>
-      
-      document.documentElement.style.setProperty('--fu-logo-width', '200px');
-      document.documentElement.style.setProperty('--fu-logo-height', '60px');
-      const hamburger = document.getElementById('hamburgerMenu');
-      const menuContainer = document.getElementById('fullscreenMenuContainer');
-      hamburger.addEventListener('click', function() {
-        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
-          menuContainer.style.display = 'block';
-        } else {
-          menuContainer.style.display = 'none';
-        }
-      });
-      
-      document.addEventListener('click', function(e) {
-        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
-          menuContainer.style.display = 'none';
-        }
-      });
-    </script>
 </header>
         
         <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
