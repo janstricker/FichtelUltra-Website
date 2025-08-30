@@ -27,10 +27,25 @@
 <meta property="og:image" content="{{ $ogImage }}" />
 <meta property="og:image:alt" content="Trailrunning im Fichtelgebirge – FichtelUltra" />
 {{ with .Lastmod }}<meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />{{ end }}
+
+{{- /* Description Priorität: page.Params.summary > page.Params.description > site.Params.description */ -}}
 {{ with .Params.summary }}
   <meta property="og:description" content="{{ . }}" />
+  <meta name="description" content="{{ . }}" />
+{{ else if .Params.description }}
+  <meta property="og:description" content="{{ .Params.description }}" />
+  <meta name="description" content="{{ .Params.description }}" />
+{{ else if .IsHome }}
+  <meta property="og:description" content="{{ site.Params.description }}" />
+  <meta name="description" content="{{ site.Params.description }}" />
 {{ else }}
   <meta property="og:description" content="Aus Freundschaft gewachsen, vom Fichtelgebirge inspiriert: FichtelUltra bringt Menschen zusammen, die gern draußen sind, wild träumen und weit laufen." />
+  <meta name="description" content="Aus Freundschaft gewachsen, vom Fichtelgebirge inspiriert: FichtelUltra bringt Menschen zusammen, die gern draußen sind, wild träumen und weit laufen." />
+{{ end }}
+
+{{- /* Verhindere Indexierung von Taxonomie/Tag-Listen */ -}}
+{{ if in .Permalink "/tags/" }}
+  <meta name="robots" content="noindex,follow" />
 {{ end }}
 
 

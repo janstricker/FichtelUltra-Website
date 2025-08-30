@@ -4,6 +4,7 @@ languageCode = "de"
 defaultContentLanguage = "de"
 title = "FichtelUltra"
 theme = "themefu"
+disableKinds = ["taxonomy", "taxonomyTerm"]
 
 [params]
   description = "Ein Blog über Events und Abenteuer im Fichtelgebirge."
