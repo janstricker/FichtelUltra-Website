@@ -4,6 +4,8 @@
 
 {{ if .IsHome }}
   {{ partial "critical-home.html" . }}
+  {{/* Preload header background image used by .headerHome to make it discoverable for LCP */}}
+  <link rel="preload" as="image" href="/header.webp" fetchpriority="high">
 {{ end }}
 
 {{ partialCached "head/css.html" . }}
