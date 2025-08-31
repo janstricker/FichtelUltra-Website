@@ -4,9 +4,10 @@ languageCode = "de"
 defaultContentLanguage = "de"
 title = "FichtelUltra"
 theme = "themefu"
+disableKinds = ["taxonomy"]
 
 [params]
-  description = "Ein Blog über Events und Abenteuer im Fichtelgebirge."
+  description = "Aus Freundschaft gewachsen, vom Fichtelgebirge inspiriert: FichtelUltra bringt Menschen zusammen, die gern draußen sind, wild träumen und weit laufen."
   titlePart1 = "Fichtel"
   titlePart2 = "Ultra"
 

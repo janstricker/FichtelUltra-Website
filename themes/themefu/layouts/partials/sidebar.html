@@ -1,21 +1,3 @@
 <aside class="sidebar">
-    <h3>Filter nach Tags</h3>
-    {{ $section := .Section }}
-    {{ $tags := slice }}
-    {{ range where .Site.RegularPages "Section" $section }}
-        {{ with .Params.tags }}
-            {{ range . }}
-                {{ if not (in $tags .) }}
-                    {{ $tags = $tags | append . }}
-                {{ end }}
-            {{ end }}
-        {{ end }}
-    {{ end }}
-    <ul>
-        {{ range $tags }}
-            <li>
-                <a href="?tags={{ . }}" class="tag-filter">{{ . }}</a>
-            </li>
-        {{ end }}
-    </ul>
+  {{/* Tag-Filter entfernt: Tags werden intern verwendet, sollen aber nicht öffentlich verlinkt werden. */}}
 </aside>

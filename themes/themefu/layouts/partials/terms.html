@@ -5,19 +5,25 @@ For a given taxonomy, renders a list of terms assigned to the page.
 @context {string} taxonomy The taxonomy.
 
 @example: {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
-*/}}
+*/ -}}
 
 {{- $page := .page }}
 {{- $taxonomy := .taxonomy }}
 
 {{- with $page.GetTerms $taxonomy }}
-  {{- $label := (index . 0).Parent.LinkTitle }}
-  <div>
-    <div>{{ $label }}:</div>
-    <ul>
-      {{- range . }}
-        <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
-      {{- end }}
-    </ul>
-  </div>
+  {{- /* Wenn nur ein Term existiert und sein LinkTitle gleich 'tags' oder leer ist, dann nichts rendern. */}}
+  {{- if gt (len .) 0 }}
+    {{- $filtered := where . "LinkTitle" "ne" "tags" }}
+    {{- if gt (len $filtered) 0 }}
+      {{- $label := (index $filtered 0).Parent.LinkTitle }}
+      <div>
+        <div>{{ $label }}:</div>
+        <ul>
+          {{- range $filtered }}
+            <li><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></li>
+          {{- end }}
+        </ul>
+      </div>
+    {{- end }}
+  {{- end }}
 {{- end }}
