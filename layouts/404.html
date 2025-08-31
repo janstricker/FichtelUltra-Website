@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+
+  <body class="base page-404">
+    <div class="flex-container min-h-full">
+      <div class="containerHome">
+  {{ partial "header-home.html" (dict "Site" .Site "IsHome" true "Section" "") }}
+
+        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
+          <section class="home-intro">
+            <h1>404 — Seite nicht gefunden</h1>
+            <p class="text-lead">Die angeforderte Seite existiert nicht oder wurde verschoben.</p>
+            <div class="btn-group" role="group" aria-label="Navigation">
+              <a href="/" class="btn primary">Zur Startseite</a>
+              <a href="/blog/" class="btn">Blog</a>
+              <a href="/events/" class="btn">Events</a>
+            </div>
+            <p class="text-small text-muted">Wenn du denkst, das ist ein Fehler, kontaktiere uns bitte unter <a href="MAILTO:info@fichtelultra.de">info@fichtelultra.de</a>.</p>
+          </section>
+        </main>
+      </div>
+      {{ partial "menu.html" (dict "context" . "ariaLabel" "Primary Navigation") }}
+    </div>
+
+    {{ partial "footer.html" . }}
+    {{ partialCached "head/js.html" . }}
+  </body>
+</html>

@@ -12,7 +12,7 @@ disableKinds = ["taxonomy"]
   titlePart2 = "Ultra"
 
 [taxonomies]
-  tag = "tags"
+# taxonomies intentionally disabled to prevent generation of /tags/ pages
 
 [markup]
   [markup.goldmark]
