@@ -2,10 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Fun Run on FichtelUltra</title>
-    <link>https://friendly-waddle-5r9x597jxxvhjg-1313.app.github.dev/tags/fun-run/</link>
+    <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/fun-run/</link>
     <description>Recent content in Fun Run on FichtelUltra</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <atom:link href="https://friendly-waddle-5r9x597jxxvhjg-1313.app.github.dev/tags/fun-run/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 17 Aug 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/tags/fun-run/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Recap Fun Run 2024</title>
+      <link>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/2025-08-17-recap-fun-run/</link>
+      <pubDate>Sun, 17 Aug 2025 00:00:00 +0000</pubDate>
+      <guid>https://miniature-funicular-4vrw6rp5vq427467-1313.app.github.dev/blog/2025-08-17-recap-fun-run/</guid>
+      <description>Unsere Idee wird Realität</description>
+    </item>
   </channel>
 </rss>
