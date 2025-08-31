@@ -11,39 +11,24 @@
 
         {{ if $img }}
           {{ $widths := slice 320 640 1024 1600 }}
-          {{ $avifSrcset := slice }}
-          {{ $webpSrcset := slice }}
           {{ $fallbackSrcset := slice }}
 
           {{ range $i, $w := $widths }}
             {{ $resized := $img.Resize (printf "%dx" $w) }}
             {{ if $resized }}
-              {{ $avif := $resized.Convert "avif" }}
-              {{ $webp := $resized.Convert "webp" }}
-              {{ $fallback := $resized }}
-              {{ $avifSrcset = $avifSrcset | append (printf "%s %dw" $avif.RelPermalink $w) }}
-              {{ $webpSrcset = $webpSrcset | append (printf "%s %dw" $webp.RelPermalink $w) }}
-              {{ $fallbackSrcset = $fallbackSrcset | append (printf "%s %dw" $fallback.RelPermalink $w) }}
+              {{ $fallbackSrcset = $fallbackSrcset | append (printf "%s %dw" $resized.RelPermalink $w) }}
             {{ end }}
           {{ end }}
 
-          <picture>
-            {{ if gt (len $avifSrcset) 0 }}
-              <source type="image/avif" srcset="{{ delimit $avifSrcset ", " }}" sizes="(min-width:900px) 900px, 100vw">
-            {{ end }}
-            {{ if gt (len $webpSrcset) 0 }}
-              <source type="image/webp" srcset="{{ delimit $webpSrcset ", " }}" sizes="(min-width:900px) 900px, 100vw">
-            {{ end }}
-            <img
-              class="postImg"
-              src="{{ (index $fallbackSrcset 0) | split " " | first }}"
-              srcset="{{ delimit $fallbackSrcset ", " }}"
-              sizes="(min-width:900px) 900px, 100vw"
-              alt="{{ $element.Title }}"
-              loading="lazy"
-              decoding="async"
-              />
-          </picture>
+          <img
+            class="postImg"
+            src="{{ index (split (index $fallbackSrcset 0) " ") 0 }}"
+            srcset="{{ delimit $fallbackSrcset ", " }}"
+            sizes="(min-width:900px) 900px, 100vw"
+            alt="{{ $element.Title }}"
+            loading="lazy"
+            decoding="async"
+          />
         {{ else }}
           <div class="fallback"></div>
         {{ end }}
