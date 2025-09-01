@@ -56,11 +56,14 @@ Höhenmeter:
 * 1.970 hm Abstieg
 
 <div class="btn-group">
-<a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
-  <button class="btn inline">Download GPX</button>
-</a>
+    <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
+      <button class="btn inline">Download GPX</button>
+    </a>
     <a href="https://www.komoot.com/de-de/tour/2430785320" target="_blank" external>
       <button class="btn inline">Strecke auf Komoot</button>
+    </a>
+    <a href="https://connect.garmin.com/modern/event/calendar/23655322?shareableEventUuid=9abd88de-258e-4b46-a039-8fdf187ed94d" target="_blank" external>
+      <button class="btn inline">Event auf Garmin</button>
     </a>
 </div>
 
