@@ -902,7 +902,7 @@ html {
     height: calc((100vh / 3) - var(--footer-height));
   }
   .mainHome {
-    height: calc((100vh / 2) - var(--footer-height));
+    min-height: calc((100vh / 2) - var(--footer-height));
   }
 
   .menu-item {
