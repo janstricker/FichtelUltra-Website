@@ -1,5 +1,19 @@
 {{- $jsFiles := resources.Match "js/*.js" }}
+{{- $hasGallery := or (.Resources.Match "album/*" | len) (in (printf "%s" .Content) "lightbox-image") }}
+{{- $header := resources.Get "js/header.js" }}
+{{- if $header }}
+  {{- if eq hugo.Environment "development" }}
+    <script src="{{ $header.RelPermalink }}"></script>
+  {{- else }}
+    {{- with $header | js.Build (dict "minify" true) | fingerprint }}
+      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+      <noscript><script src="{{ .RelPermalink }}"></script></noscript>
+    {{- end }}
+  {{- end }}
+{{- end }}
+
 {{- range $jsFiles }}
+  {{- $name := .Name | lower -}}
   {{- if eq hugo.Environment "development" }}
     {{- with . | js.Build }}
       <script src="{{ .RelPermalink }}"></script>
@@ -7,7 +21,15 @@
   {{- else }}
     {{- $opts := dict "minify" true }}
     {{- with . | js.Build $opts | fingerprint }}
-      <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- if (in $name "lightbox") }}
+        {{- if $hasGallery }}
+          <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
+          <noscript><script src="{{ .RelPermalink }}"></script></noscript>
+        {{- end }}
+      {{- else }}
+        <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
+        <noscript><script src="{{ .RelPermalink }}"></script></noscript>
+      {{- end }}
     {{- end }}
   {{- end }}
 {{- end }}

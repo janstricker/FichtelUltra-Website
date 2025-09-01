@@ -32,24 +32,4 @@
     <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
         {{ partial "menu-fullscreen.html" . }}
     </div>
-    <script>
-      // CSS-Variablen für Logo-Größe setzen
-      document.documentElement.style.setProperty('--fu-logo-width', '200px');
-      document.documentElement.style.setProperty('--fu-logo-height', '60px');
-      const hamburger = document.getElementById('hamburgerMenu');
-      const menuContainer = document.getElementById('fullscreenMenuContainer');
-      hamburger.addEventListener('click', function() {
-        if (menuContainer.style.display === 'none' || menuContainer.style.display === '') {
-          menuContainer.style.display = 'block';
-        } else {
-          menuContainer.style.display = 'none';
-        }
-      });
-      // Optional: Schließen bei Klick außerhalb
-      document.addEventListener('click', function(e) {
-        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
-          menuContainer.style.display = 'none';
-        }
-      });
-    </script>
 </header>
