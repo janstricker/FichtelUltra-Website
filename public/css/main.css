@@ -848,6 +848,7 @@ html {
   gap: var(--size-100);
   justify-content: start;
   align-items: center;
+  margin-bottom: var(--size-200);
 }
 
 .btn {
@@ -990,4 +991,37 @@ figcaption {
 
 .text-separator.desktop-only {
   display: none;
+}
+
+/* Site banner for pre-order CTA */
+.site-banner {
+  background-color: var(--accent-2-strong);
+  color: var(--neutral-weakest);
+  font-weight: 500;
+  padding-block: var(--size-200);
+  padding-inline: var(--size-400);
+  overflow: hidden;
+}
+.site-banner__link {
+  color: inherit;
+  text-decoration: none;
+  display: block;
+}
+.site-banner__marquee {
+  display: inline-block;
+  white-space: nowrap;
+  will-change: transform;
+  animation: banner-marquee 12s linear infinite;
+}
+
+@keyframes banner-marquee {
+  0%   { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+
+/* Respect reduced motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .site-banner__marquee {
+    animation: none;
+  }
 }
