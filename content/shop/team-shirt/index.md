@@ -14,11 +14,11 @@ Ab sofort könnt ihr das erste FichtelUltra Team-Shirt unter [folgendem Link](ht
 
 Das Shirt ist in allen gängigen Größen verfügbar und entweder Unisex, Tailliert oder selbst als Kindergröße. Bitte bei der Bestellung mit angeben. Für alle Details siehe [Größentabelle von Peppex Sports](https://www.peppex-sports.de/wp-content/uploads/2019/02/P223_Kurzarm_Groessentabelle_6XL_MG_12-3-24.jpg)
 
-* Größen XXS - 5XL
-* Unisex, Tailliert oder Kindergröße
+* Kinder-, Damen- und Herrenschnitt
+* Größen XS - 5XL + Kindergrößen
 * 100% Polyester (Recycelter Polyester)
 * Atmungsaktiv, schnell trocknend
-* Kinder-, Damen- und Herrenschnitt
+
 * COOLMESH Technologie; 135 g/m²
 * Oeko Tex 100
 
