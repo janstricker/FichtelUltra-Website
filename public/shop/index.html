@@ -1,14 +1,11 @@
-
-
 <!DOCTYPE html>
 <html lang="de" dir="ltr">
-  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
-      
-      <meta name="theme-color" content="#9C9992">
-      
-      <meta name="apple-mobile-web-app-status-bar-style" content="#9C9992">
-    
-    <meta charset="utf-8">
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=&amp;path=livereload" data-no-instant defer></script>
+  
+<meta name="theme-color" content="#DFDED3">
+
+<meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3">
+  <meta charset="utf-8">
 <meta name="viewport" content="width=device-width">
 <title>Shop | FichtelUltra</title>
 
@@ -63,19 +60,10 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
   })();
 </script>
 
-  </head>
+</head>
 
-  <body class="base">
-    
-    <div class="flex-container min-h-full">
-      <div class="containerHome">
-        
-        <header class="headerHome">
-    <div class="decalContainer">
-      <svg class="decal" width="931" height="606" viewBox="0 0 931 606" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M3 496.099L341.029 303.302L3.00003 110.505L64.2014 3.604L465.344 232.398L866.486 3.60406L927.688 110.505L589.659 303.302L927.688 496.099L866.486 603L465.344 374.206L64.2013 603L3 496.099Z" stroke="#FF1414" style="stroke-width: var(--svg-stroke-width);" vector-effect="non-scaling-stroke"/>
-      </svg>
-    </div>
+<body class="blog">
+  <header class="header" id="siteHeader">
     <div class="header-content header-content-logo">
         <a href="/" class="header-logo-link">
             <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -93,15 +81,15 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
     
     <div class="mainMenu">
         <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
-            <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
+            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
+                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
             </svg>
         </button>
     </div>
     
-    <div id="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
+    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
         <menu class="menuFullscreen">
   
   <ul class="menu">
@@ -139,73 +127,126 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
   </ul>
 </menu>
     </div>
+    <style>
+      .fullscreenMenuContainer {
+        opacity: 0;
+        transform: translateY(-20px);
+        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
+        pointer-events: none;
+      }
+      .fullscreenMenuContainer.open {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+      }
+      #hamburgerIcon .bar {
+        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
+        fill: #222;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar {
+        fill: #fff;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar1 {
+        transform: translateY(7px) rotate(45deg);
+        transform-origin: 16px 8.5px;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar2 {
+        opacity: 0;
+      }
+      #hamburgerMenu.open #hamburgerIcon .bar3 {
+        transform: translateY(-7px) rotate(-45deg);
+        transform-origin: 16px 23.5px;
+      }
+    </style>
+    <script>
+      const hamburger = document.getElementById('hamburgerMenu');
+      const menuContainer = document.getElementById('fullscreenMenuContainer');
+      const header = document.getElementById('siteHeader');
+      hamburger.addEventListener('click', function() {
+        if (!menuContainer.classList.contains('open')) {
+          menuContainer.style.display = 'block';
+          setTimeout(() => menuContainer.classList.add('open'), 10);
+          header.classList.add('header-invert');
+          hamburger.classList.add('open');
+        } else {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+      
+      document.addEventListener('click', function(e) {
+        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+          menuContainer.classList.remove('open');
+          header.classList.remove('header-invert');
+          hamburger.classList.remove('open');
+          setTimeout(() => menuContainer.style.display = 'none', 300);
+        }
+      });
+    </script>
 </header>
-
-        
-        <a href="/shop/team-shirt" class="site-banner__link" aria-label="Jetzt Team Shirt vorbestellen">
-          <div class="site-banner">
-            <div class="btn" role="text">Jetzt Team Shirt vorbestellen!</div>
-          </div>
-        </a>
-
-        
-        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
-
-          
-            
-            <section class="home-intro">
-              <h1>Shop</h1>
-              
-              
-              <div class="btn-group" role="group" aria-label="Event Aktionen">
-                
-                
-              </div>
-            </section>
-            
-          
-        </main>
-      </div>
+    <div class="container min-h-content hpadding">
+      <main class="mainSection">
       
-      <menu class="menuSidebar">
   
-  <ul class="menu">
-    
-      
-      
+  
+  <a href="/shop/team-shirt/">
+  <article class="post even">
         
-        <a class="menu-item events" href="/events/">
-          <li>
-            Events
-          </li>
-        </a>
-      
-    
-      
-      
         
-        <a class="menu-item blog" href="/blog/">
-          <li>
-            Blog
-          </li>
-        </a>
-      
-    
-      
-      
         
-        <a class="menu-item info" href="/info/">
-          <li>
-            Info
-          </li>
-        </a>
-      
-    
-  </ul>
-</menu>
+
+        
+          
+          
+
+          
+            
+            
+              
+            
+          
+            
+            
+              
+            
+          
+            
+            
+              
+            
+          
+            
+            
+              
+            
+          
+
+          <img
+            class="postImg"
+            src="/shop/team-shirt/images/title_hu_813fd638ba958ed8.webp"
+            srcset="/shop/team-shirt/images/title_hu_813fd638ba958ed8.webp 320w, /shop/team-shirt/images/title_hu_ef3a2b3fd722b4d.webp 640w, /shop/team-shirt/images/title_hu_3d0b20ba9388c7f6.webp 1024w, /shop/team-shirt/images/title_hu_bc150c2118ccc33.webp 1600w"
+            sizes="(min-width:900px) 900px, 100vw"
+            alt="Team-Shirt"
+            loading="lazy"
+            decoding="async"
+          />
+        
+
+      <div class="postTeaserContent">
+        <h2>Team-Shirt</h2>
+        <p class="text-body">Das erste FichtelUltra Team-Shirt</p>
+        
+      </div>
+  </article>
+  </a>
+  
+
+      </main>
     </div>
-    
-    <footer class="footer text-small">
+
+  <footer class="footer text-small">
     <ul class="links text-muted ">
         <li><a href="/">Home</a></li>
         <li><a href="/legal/impressum/">Impressum</a></li>
@@ -219,5 +260,5 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
         </p>
     </a>
 </footer>
-  </body>
+</body>
 </html>

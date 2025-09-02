@@ -36,6 +36,11 @@
       <div class="postTeaserContent">
         <h2>{{ $element.LinkTitle }}</h2>
         <p class="text-body">{{ $element.Summary }}</p>
+        {{ with $element.Params.tags }}
+        <div class="tags">
+          {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+        </div>
+        {{ end }}
       </div>
   </article>
   </a>
