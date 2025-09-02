@@ -6,6 +6,10 @@
 <!-- iOS Safari -->
 <meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3">
   {{ partial "head.html" . }}
+
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
 </head>
 
 {{ $class := .Params.color | default "blog" }}
@@ -22,7 +26,6 @@
 <div class="postHeader">  
       <h1>{{ .Title }}</h1>
 </div>
-
 <div class="postContent">
   {{ .Content }}
 </div>
