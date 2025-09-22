@@ -501,6 +501,7 @@ main {
   color: var(--neutral-weakest)
 }
 
+
 .post {
   display: flex;
   flex-direction: row;

@@ -1,4 +1,5 @@
 {{ define "main" }}
+
   <!-- Zukünftige und heutige Events -->
   {{ $now := now }}
   {{ $sortedPages := .RegularPages.ByDate.Reverse }}
@@ -6,81 +7,84 @@
   {{ $futureEvents := where $sortedPages "Params.event_date" ">=" $nowDate }}
   {{ $pastEvents := where $sortedPages "Params.event_date" "<" $nowDate }}
   
-  {{ if gt (len $futureEvents) 0 }}
-    {{ range $index, $element := $futureEvents }}
-    <a href="{{ $element.RelPermalink }}">
-    <article class="post {{ if modBool $index 2 }}even{{ end }}">
-          {{ with $element.Resources.GetMatch "*/title.*" }}
-            <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-          {{ else with $element.Resources.GetMatch "*/*.*" }}
-            <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
-          {{ else}} 
-            <div class="fallback"></div>
-          {{ end }}
-        <div class="postTeaserContent">
-          <time class="text-small" datetime="{{ $element.Params.event_date }}">
-            <span class="event-countdown" data-date="{{ $element.Params.event_date }}">&nbsp;</span><br/>
-            <span class="event-date">&nbsp;</span>
-          </time>          
-          <script>
-            document.addEventListener('DOMContentLoaded', function() {
-              var countdownEls = document.querySelectorAll('.event-countdown');
-              var dateEls = document.querySelectorAll('.event-date');
-              countdownEls.forEach(function(countdownEl, idx) {
-                var dateStr = countdownEl.getAttribute('data-date');
-                var eventDate = new Date(dateStr);
-                var now = new Date();
-                var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-                var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
-                var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
-                if (daysDiff >= 0) {
-                  if (daysDiff + 1 > 31) {
-                    var weeks = Math.ceil((daysDiff + 1) / 7);
-                    countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
-                  } else {
-                    countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
-                  }
-                  dateEls[idx].textContent = weekday + ", " + dateString;
-                } else {
-                  countdownEl.textContent = "";
-                  dateEls[idx].textContent = dateString;
-                }
-              });
-            });
-          </script>
 
-          <h2>{{ $element.LinkTitle }}</h2>
-
-          <div class="eventInfo">
-           <div class="routeMeta">
-              {{ with $element.Params.totalLenght }}
-                {{ . }}
-                {{ if or ($element.Params.elevation) ($element.Params.duration) }}<span class="text-separator"> ・ </span>{{ end }}
-              {{ end }}
-              {{ with $element.Params.elevation }}
-                {{ . }}
-                {{ if $element.Params.duration }}<span class="text-separator"> ・ </span>{{ end }}
-              {{ end }}
-              {{ with $element.Params.duration }}
-                {{ . }}
-              {{ end }}
-            </div>
-            <p class="text-body">{{ $element.Summary }}</p>
-
-            <!--
-            {{ with $element.Params.tags }}
-            <div class="tags">
-              {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
-            </div>
+  <div class="postCurrentList">
+    {{ if gt (len $futureEvents) 0 }}
+      {{ range $index, $element := $futureEvents }}
+      <a href="{{ $element.RelPermalink }}">
+      <article class="post {{ if modBool $index 2 }}even{{ end }}">
+            {{ with $element.Resources.GetMatch "*/title.*" }}
+              <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
+            {{ else with $element.Resources.GetMatch "*/*.*" }}
+              <img class="postImg" src="{{ .RelPermalink }}" alt="{{ $element.Title }}"/>
+            {{ else}} 
+              <div class="fallback"></div>
             {{ end }}
-            -->
+          <div class="postTeaserContent">
+            <time class="text-small" datetime="{{ $element.Params.event_date }}">
+              <span class="event-countdown" data-date="{{ $element.Params.event_date }}">&nbsp;</span><br/>
+              <span class="event-date">&nbsp;</span>
+            </time>          
+            <script>
+              document.addEventListener('DOMContentLoaded', function() {
+                var countdownEls = document.querySelectorAll('.event-countdown');
+                var dateEls = document.querySelectorAll('.event-date');
+                countdownEls.forEach(function(countdownEl, idx) {
+                  var dateStr = countdownEl.getAttribute('data-date');
+                  var eventDate = new Date(dateStr);
+                  var now = new Date();
+                  var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
+                  var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
+                  var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
+                  if (daysDiff >= 0) {
+                    if (daysDiff + 1 > 31) {
+                      var weeks = Math.ceil((daysDiff + 1) / 7);
+                      countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
+                    } else {
+                      countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
+                    }
+                    dateEls[idx].textContent = weekday + ", " + dateString;
+                  } else {
+                    countdownEl.textContent = "";
+                    dateEls[idx].textContent = dateString;
+                  }
+                });
+              });
+            </script>
+  
+            <h2>{{ $element.LinkTitle }}</h2>
+  
+            <div class="eventInfo">
+             <div class="routeMeta">
+                {{ with $element.Params.totalLenght }}
+                  {{ . }}
+                  {{ if or ($element.Params.elevation) ($element.Params.duration) }}<span class="text-separator"> ・ </span>{{ end }}
+                {{ end }}
+                {{ with $element.Params.elevation }}
+                  {{ . }}
+                  {{ if $element.Params.duration }}<span class="text-separator"> ・ </span>{{ end }}
+                {{ end }}
+                {{ with $element.Params.duration }}
+                  {{ . }}
+                {{ end }}
+              </div>
+              <p class="text-body">{{ $element.Summary }}</p>
+  
+              <!--
+              {{ with $element.Params.tags }}
+              <div class="tags">
+                {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+              </div>
+              {{ end }}
+              -->
+            </div>
           </div>
-        </div>
-    </article>
-    </a>
+      </article>
+      </a>
+      {{ end }}
     {{ end }}
-  {{ end }}
-
+  
+  </div>
   <!-- Vergangene Events -->
   {{ if gt (len $pastEvents) 0 }}
   <div class="postArchiveList">
