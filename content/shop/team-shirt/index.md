@@ -12,10 +12,8 @@ Ab sofort könnt ihr das erste FichtelUltra Team-Shirt unter [folgendem Link](ht
 
 ## Größen & Material
 
-Das Shirt ist in allen gängigen Größen verfügbar und entweder Unisex, Tailliert oder selbst als Kindergröße. Bitte bei der Bestellung mit angeben. Für alle Details siehe [Größentabelle von Peppex Sports](https://www.peppex-sports.de/wp-content/uploads/2019/02/P223_Kurzarm_Groessentabelle_6XL_MG_12-3-24.jpg)
+Das Shirt ist in ausgewählten Größen verfügbar. Für alle Details siehe [Größentabelle von Peppex Sports](https://www.peppex-sports.de/wp-content/uploads/2019/02/P223_Kurzarm_Groessentabelle_6XL_MG_12-3-24.jpg)
 
-* Kinder-, Damen- und Herrenschnitt
-* Größen XS - 5XL + Kindergrößen
 * 100% Polyester (Recycelter Polyester)
 * Atmungsaktiv, schnell trocknend
 
@@ -24,7 +22,7 @@ Das Shirt ist in allen gängigen Größen verfügbar und entweder Unisex, Tailli
 
 ## Verfügbarkeit & Abholung
 
-Die Shirts werden ab ca. Mitte September durch unseren Partner [Peppex Sports](https://www.peppex-sports.de/) produziert und können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden.  
+Die Shirts werden ab Mitte September durch unseren Partner [Peppex Sports](https://www.peppex-sports.de/) produziert und können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden.  
 
 Nur Vorbesteller erhalten garantiert ein Shirt in ihrer Größe. Verkauf vor Ort sowie Versand nach dem Event sind voraussichtlich möglich, sofern nicht bereits alle Shirts vergriffen sind.
 
