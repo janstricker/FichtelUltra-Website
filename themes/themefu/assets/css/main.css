@@ -672,6 +672,8 @@ tr > td:last-child {
   border-top-right-radius: var(--size-80);
   border-bottom-right-radius: var(--size-80);
   overflow: hidden;
+  word-break: break-word;
+  hyphens: auto;
 }
 
 tr:nth-child(even) td {

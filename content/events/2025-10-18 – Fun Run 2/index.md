@@ -9,7 +9,7 @@ tags:
   - Event
   - 12GT
 primaryCTA: Jetzt Anmelden
-primaryLink: mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A
+primaryLink: mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0APers%C3%B6nliche%20Nachricht%3A
 secondaryCTA: Alle Infos
 secondaryLink: ""
 featured: "true"
@@ -26,10 +26,10 @@ Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestre
 
 ### Anmeldung
 
-Die Anmeldung ist bis einschließlich **15.10.2025** unter folgendem Link bzw. per Mail an [anmeldung@fichtelultra.de](mailto:anmeldung@fichtelultra.de) möglich. Bitte Name, Pace und Verpflegungs- & Transportwunsch angeben.
+Die Anmeldung ist bis einschließlich ~15.10.2025~ **07.10.2025** unter folgendem Link bzw. per Mail an [anmeldung@fichtelultra.de](mailto:anmeldung@fichtelultra.de) möglich. Bitte Name, Pace und Verpflegungswunsch angeben.
 
 <div class="btn-group">
-    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0ATransport%20zur%C3%BCck%20zum%20Start%3A%20Ja%20%2F%20Nein%0A%0APers%C3%B6nliche%20Nachricht%3A">
+    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0APers%C3%B6nliche%20Nachricht%3A">
       <button class="btn inline">Jetzt Anmelden</button>
     </a>
 </div>
@@ -43,6 +43,12 @@ Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um k
 Es erfolgen keine Absperrung, ärztliche Versorgung oder Zeitmessung (außer optional nachträglich über Strava).
 
 Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
+
+Die Tour findet auch bei leichtem Regen statt, jedoch nicht bei Unwetter.
+
+### Frühzeitiges Ende
+
+Das Beenden der Tour ist jederzeit möglich. Wir bitten lediglich darum sich bei der Support Crew an einem Versorgungspunkt oder telefonisch abzumelden (Telefonnummer wird beim Start bekannt gegeben).
 
 
 ## Strecke
@@ -91,35 +97,52 @@ Höhenmeter:
 | **Gipfel 14** </br>  64,3 km </br> 879 m  | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
 | **Ziel**  </br>  66,3 km </br> 700 m      | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
 
-Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
+### Verhalten am Gipfel
+
+Die meisten Gipfel sind mit Aussichtsplattformen versehen die über einen schmalen Aufstieg oder eine Treppe erreichbar sind. Aufgrund unserer Gruppengröße empfehlen wir folgendes Vorgehen, um Stau zu vermeiden und nicht zu viel Zeit zu verlieren:
+* Besteigen einer Plattform ist optional
+* Wer nicht aufsteigt, kann kurz Pause machen (aber bitte nicht beides)
+* Besteigen & Aufenthalt sollten max. 2-3 Minuten dauern
 
 ### Zeitplan
 
-Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird zwei Geschwindigkeitsgruppen geben:
+Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird zwei Gruppen geben:
 
 * **Schnell**: 
-  * ca. **8 h** Endzeit 
-  * Zieleinlauf ca. 13:30 - 14:00 Uhr
+  * ca. **8,5 h** Endzeit 
+  * Zieleinlauf ca. 14:30 - 15:30 Uhr
+  * Pacing erfolgt eigenständig
 * **Langsam**: 
-  * ca. **10 h** Endzeit
+  * ca. **10,5 h** Endzeit
   * Zieleinlauf ca. 17:00 - 17:30 Uhr
+  * Pacing als Gruppe
 
-Unser Ziel ist es, zumindest ab Start einen Teil der Strecke gemeinsam als Gruppe zu laufen und sich dann aufzuteilen, um im eigenen Komforttempo den Großteil der Route zu bezwingen.
+Ab Start laufen wir bis zum ersten Gipfel gemeinsam und teilen uns dann in die beiden Gruppen auf.
+
+  <a href="https://docs.google.com/spreadsheets/d/10A9uJRrdrUwKm9_sGN6e49D3Pe9GbBp0k_U2LJMh3-8/edit?gid=0#gid=0" target="_blank" external>
+    <button class="btn inline">Pace Tabelle (Google Drive)</button>
+  </a>
 
 ## Verpflegung
 
-### Verpflegungspunkte
-Es gibt 3 stumme Verpflegungspunkte (VP) in Form von Kisten entlang der Route:
-* **VP 1** – [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) – 23,3 km (+660 m, -540 m)
-* **VP 2** – [Seehaus Parkplatz](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6) – 38,9 km (nach ca. 15 km, +460 m, -530 m)
-* **VP 3** – [Silberhaus Parkplatz](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA) – 53,8 km (nach ca. 15 km, +420 m, -490 m)
-* **Ziel** – [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6) – 66,3 km (nach ca. 13 km, +390 m, -410 m)
-
-In jeder Kiste werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) bereitgestellt. Zusätzlich kann Eigenverpflegung vor dem Start in die Kisten gegeben werden (ggf. kennzeichnen).
+### Support Crew
+Unsere Support-Crew begleitet uns in zwei Autos und passen uns an den [unten genannten Punkten](#verpflegungspunkte) ab. In den Autos werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) in ergänzenden Mengen (siehe [Verantwortung](#verantwortung)) bereitgestellt. Eigenverpflegung kann vor dem Start in die Autos (schnell/langsam) abgegeben werden (ggf. kennzeichnen). Die Verpflegungspunkte werden zwischen den angegebenen Zeitpunkten oder bis zum passieren des letzten Teilnehmenden durch unsere Support Crew besetzt. 
+Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
 
 Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
 
-Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
+Wir freuen uns über **freiwillige Spenden!** :)
+
+### Verpflegungspunkte
+
+| Verpflegungspunkt                                 | Ort                                                        | Support Crew              | Service                                              |
+|:--------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
+| **Start**                                         | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
+| **VP 1** – 23,3 km </br> +23,3 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 2** – 38,9 km </br> +15 km, +460 m, -530 m   | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 3** – 53,8 km </br> +15 km, +420 m, -490 m   | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **Ziel** – 66,3 km </br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
+
 
 ### Verantwortung
 
@@ -131,11 +154,7 @@ Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen un
 
 ### Transport
 
-Zwischen Start und Ziel liegen [ca. 25 min / ca. 30 km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). 
-
-Je nach Teilnehmerzahl kann ein privater Auto-Shuttle-Service vom Ziel oder ggf. einem Verpflegungspunkt zurück zum Start angeboten werden. Bitte bei der [Anmeldung](#anmeldung) mit angeben, ob ein Transport dringend benötigt wird.
-
-Wir können dies jedoch noch nicht garantieren, daher bitte bis kurz vor dem Lauf unsere [Kommunikationskanäle](https://www.instagram.com/fichtelultra/) oder Emails abwarten.
+Zwischen Start und Ziel liegen [ca. 25 min / ca. 30 km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). In den Autos der Supporter sind einige Plätze für einen privaten Transport zurück zum Start vorhanden, jedoch bereits größtenteils durch Teilnehmende reserviert. Bitte plant eure Rückkehr daher eigenständig, oder greift auf öffentliche Verkehrsmittel zurück. Danke für euer Verständnis.
 
 ### Parken
 
@@ -167,6 +186,20 @@ Die Tour ist nur mit geeigneter Laufbekleidung zu absolvieren. Die Ausrüstung s
 * Sonnencreme
 
 
+## Zuschauer
+
+Interessierte können die Laufgruppen jederzeit für Support entlang der Strecke abpassen. Besonders eignen sich aufgrund ihrer Erreichbarkeit folgende Orte:
+* [VP1, Waldsteinhaus, Gasthaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7)
+* [Weißenstädter See, östliche Seepromenade](https://maps.app.goo.gl/EL8fC4pJthziheQF8)
+* [Seehaus, Gasthaus](https://maps.app.goo.gl/g18xYye9PNd2ibni6)
+* [VP2, Parkplatz Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)
+* [Ochsenkopfgipfel (Seilbahn), Gasthaus](https://maps.app.goo.gl/BYD9Cc2s2bGQDLKx7)
+* [Fichtelsee, Hotel/Gasthaus](https://maps.app.goo.gl/Yw5Cww3tRQ9NAaj4A)
+* [VP3, Parkplatz Silberhaus, Gasthaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)
+* [Wurmloh, Rastplatz](https://maps.app.goo.gl/uTsk4ydYsQPaY3iJA)
+* [Ziel, Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)
+
+
 ## Hintergründe
 
 Die 12 Gipfel Tour gilt als eine der prestigeträchtigsten Routen im [Fichtelgebirge](https://www.fichtelgebirge.bayern/) und verbindet die schönsten und höchsten Punkte des Naturparks mit spektakulären Aussichten. Neben dem höchsten Gipfel Frankens und Nordbayerns, dem Schneeberg, führt die Tour über insgesamt 12 Gipfel, mit fast 2000 Höhenmetern Auf- und 2000 Höhenmetern Abstieg, und erstreckt sich über rund 60 Kilometer.
@@ -187,4 +220,4 @@ Darüber hinaus sind die Informationen oder Beschilderung vor Ort zu berücksich
 
 ---
 
-Zuletzt aktualisiert: 01.08.2025
+Zuletzt aktualisiert: 22.09.2025
