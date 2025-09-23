@@ -1,10 +1,10 @@
 ---
 title: Fun Run 2
 meta_title: Fun Run 2
-summary: "66,4 km und fast 2000 Höhenmeter: Komm' mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour."
+summary: "66 km und fast 2000 Höhenmeter: Komm' mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour."
 event_date: 2025-10-18
-totalLenght: 66.4 km
-elevation: +1.940 / -1.970 hm
+totalLenght: 66 km
+elevation: +1.940 hm / -1.970 hm
 tags:
   - Event
   - 12GT
@@ -55,17 +55,17 @@ Das Beenden der Tour ist jederzeit möglich. Wir bitten lediglich darum sich bei
 
 ### Daten
 
-Distanz: **66,4 km**  
+Distanz: **66,0 km**  
 
 Höhenmeter: 
 * 1.940 hm Aufstieg
-* 1.970 hm Abstieg
+* 1.960 hm Abstieg
 
 <div class="btn-group">
-    <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2.gpx" download>
+    <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2-v02.gpx" download>
       <button class="btn inline">Download GPX</button>
     </a>
-    <a href="https://www.komoot.com/de-de/tour/2430785320" target="_blank" external>
+    <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank" external>
       <button class="btn inline">Strecke auf Komoot</button>
     </a>
     <a href="https://connect.garmin.com/modern/event/calendar/23655322?shareableEventUuid=9abd88de-258e-4b46-a039-8fdf187ed94d" target="_blank" external>
@@ -75,27 +75,29 @@ Höhenmeter:
 
 ### Verlauf
 
-| Wegpunkt                                  | Ort                                                            | Beschreibung                               |
-|:------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
-| **Start** </br>  0,0 km  </br> 700 m      | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
-| **Gipfel 1** </br>  1,0 km  </br> 827 m   | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
-| **Gipfel 2** </br>  7,4 km  </br> 678 m   | Kleiner Kornberg                                               | Steinskulptur, Markierung des Gipfels      |
-| **Gipfel 3** </br>  16,0 km </br> 798 m   | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
-| **Gipfel 4** </br>  23,1 km </br> 877 m   | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
-| **VP 1**  </br>  23,3 km </br> 832 m      | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
-| **Gipfel 5** </br>  31,5 km </br> 866 m   | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
-| **Gipfel 6** </br>  34,6 km </br> 1.051 m | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
-| **Gipfel 7** </br>  36,6 km </br> 972 m   | Nusshardt                                                      | Spitze der Aussichtsplattform              |
-| **VP 2**  </br>  38,9 km </br> 774 m      | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
-| **Gipfel 8** </br>  41,4 km </br> 929 m   | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
-| **Gipfel 9** </br>  43,1 km </br> 1.024 m | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
-| **Gipfel 10** </br>  51,7 km </br> 855 m  | Platte                                                         | Gipfelkreuz                                |
-| **VP 3**  </br>  53,8 km </br> 712 m      | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
-| **Gipfel 11** </br>  57,0 km </br> 813 m  | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
-| **Gipfel 12** </br>  61,5 km </br> 939 m  | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
-| **Gipfel 13** </br>  63,6 km </br> 847 m  | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
-| **Gipfel 14** </br>  64,3 km </br> 879 m  | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
-| **Ziel**  </br>  66,3 km </br> 700 m      | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
+| Wegpunkt                                  | [Zeit](#zeitplan)                               | Ort                                                            | Beschreibung                               |
+|:------------------------------------------|:------------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| **Start** </br>  0,0 km  </br> 700 m      | 07:00 Uhr                                       | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
+| **Gipfel 1** </br>  1,0 km  </br> 827 m   | ~07:10 Uhr (Beide Gruppen)                      | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
+| **Gipfel 2** </br>  16,0 km </br> 798 m   | ~08:47 Uhr (Schnell) </br> ~09:12 Uhr (Langsam) | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
+| **Gipfel 3** </br>  23,1 km </br> 877 m   | ~09:40 Uhr (Schnell) </br> ~10:18 Uhr (Langsam) | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
+| **VP 1**  </br>  23,1 km </br> 832 m      | ~09:44 Uhr (Schnell) </br> ~10:22 Uhr (Langsam) | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
+| **Gipfel 4** </br>  31,5 km </br> 866 m   | ~10:44 Uhr (Schnell) </br> ~11:39 Uhr (Langsam) | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
+| **Gipfel 5** </br>  34,6 km </br> 1.051 m | ~11:11 Uhr (Schnell) </br> ~12:11 Uhr (Langsam) | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
+| **Gipfel 6** </br>  36,6 km </br> 972 m   | ~11:28 Uhr (Schnell) </br> ~12:32 Uhr (Langsam) | Nußhardt                                                       | Spitze der Aussichtsplattform              |
+| **VP 2**  </br>  38,9 km </br> 774 m      | ~11:45 Uhr (Schnell) </br> ~12:53 Uhr (Langsam) | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
+| **Gipfel 7** </br>  41,4 km </br> 929 m   | ~12:08 Uhr (Schnell) </br> ~13:21 Uhr (Langsam) | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
+| **Gipfel 8** </br>  43,1 km </br> 1.024 m | ~12:23 Uhr (Schnell) </br> ~13:42 Uhr (Langsam) | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
+| **Wegpunkt** </br>  48,5 km </br> 752 m   | ~13:00 Uhr (Schnell) </br> ~14:29 Uhr (Langsam) | Fichtelsee                                                     | Landschaftliches Highlight                 |
+| **Gipfel 9** </br>  51,7 km </br> 855 m   | ~13:25 Uhr (Schnell) </br> ~14:58 Uhr (Langsam) | Platte                                                         | Gipfelkreuz                                |
+| **VP 3**  </br>  53,8 km </br> 712 m      | ~13:42 Uhr (Schnell) </br> ~15:20 Uhr (Langsam) | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
+| **Gipfel 10** </br>  57,0 km </br> 813 m  | ~14:10 Uhr (Schnell) </br> ~15:54 Uhr (Langsam) | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
+| **Gipfel 11** </br>  61,5 km </br> 939 m  | ~14:50 Uhr (Schnell) </br> ~16:41 Uhr (Langsam) | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
+| **Gipfel 12** </br>  63,6 km </br> 847 m  | ~15:06 Uhr (Schnell) </br> ~17:04 Uhr (Langsam) | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
+| **Gipfel 13** </br>  64,3 km </br> 879 m  | ~15:13 Uhr (Schnell) </br> ~17:14 Uhr (Langsam) | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
+| **Ziel**  </br>  66 km </br> 700 m        | ~15:25 Uhr (Schnell) </br> ~17:30 Uhr (Langsam) | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
+
+
 
 ### Verhalten am Gipfel
 
@@ -135,20 +137,20 @@ Wir freuen uns über **freiwillige Spenden!** :)
 
 ### Verpflegungspunkte
 
-| Verpflegungspunkt                                 | Ort                                                        | Support Crew              | Service                                              |
-|:--------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
-| **Start**                                         | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
-| **VP 1** – 23,3 km </br> +23,3 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 2** – 38,9 km </br> +15 km, +460 m, -530 m   | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 3** – 53,8 km </br> +15 km, +420 m, -490 m   | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **Ziel** – 66,3 km </br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
+| Verpflegungspunkt                                                           | Ort                                                        | Support Crew              | Service                                              |
+|:----------------------------------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
+| **Start**                                                                   | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
+| **VP 1** Uhr (Schnell) </br> 23,3 km (Langsam) </br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 2** Uhr (Schnell) </br> 38,9 km (Langsam) </br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 3** Uhr (Schnell) </br> 53,8 km (Langsam) </br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **Ziel** Uhr (Schnell) </br> 66 km </ (Langsam)br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
 
 
 ### Verantwortung
 
 **Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz!
 
-Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden – ideal sind Snacks wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
+Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden Uhr (Schnell) </br> ideal sind Snacks (Langsam) wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
 
 ## Mobilität
 
