@@ -137,20 +137,20 @@ Wir freuen uns über **freiwillige Spenden!** :)
 
 ### Verpflegungspunkte
 
-| Verpflegungspunkt                                                           | Ort                                                        | Support Crew              | Service                                              |
-|:----------------------------------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
-| **Start**                                                                   | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
-| **VP 1** Uhr (Schnell) </br> 23,3 km (Langsam) </br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 2** Uhr (Schnell) </br> 38,9 km (Langsam) </br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 3** Uhr (Schnell) </br> 53,8 km (Langsam) </br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **Ziel** Uhr (Schnell) </br> 66 km </ (Langsam)br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
+| Verpflegungspunkt                                   | Ort                                                        | Support Crew              | Service                                              |
+|:----------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
+| **Start**                                           | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
+| **VP 1** </br> 23 km </br> +23 km, +660 m, -540 m   | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 2** </br> 38,9 km </br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 3** </br> 53,8 km </br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **Ziel** </br> 66 km </br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
 
 
 ### Verantwortung
 
 **Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz!
 
-Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden Uhr (Schnell) </br> ideal sind Snacks (Langsam) wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
+Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden. Ideal sind Snacks wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
 
 ## Mobilität
 
