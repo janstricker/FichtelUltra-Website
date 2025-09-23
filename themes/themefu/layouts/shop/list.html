@@ -1,0 +1,48 @@
+{{ define "main" }}
+  <!-- Display child pages -->
+  {{ range $index, $element := .Pages }}
+  <a href="{{ $element.RelPermalink }}">
+  <article class="post {{ if modBool $index 2 }}even{{ end }}">
+        {{/* Replace static image output with responsive picture using Hugo Image Processing */}}
+        {{ $img := $element.Resources.GetMatch "*/title.*" }}
+        {{ if not $img }}
+          {{ $img = $element.Resources.GetMatch "*/*.*" }}
+        {{ end }}
+
+        {{ if $img }}
+          {{ $widths := slice 320 640 1024 1600 }}
+          {{ $fallbackSrcset := slice }}
+
+          {{ range $i, $w := $widths }}
+            {{ $resized := $img.Resize (printf "%dx" $w) }}
+            {{ if $resized }}
+              {{ $fallbackSrcset = $fallbackSrcset | append (printf "%s %dw" $resized.RelPermalink $w) }}
+            {{ end }}
+          {{ end }}
+
+          <img
+            class="postImg"
+            src="{{ index (split (index $fallbackSrcset 0) " ") 0 }}"
+            srcset="{{ delimit $fallbackSrcset ", " }}"
+            sizes="(min-width:900px) 900px, 100vw"
+            alt="{{ $element.Title }}"
+            loading="lazy"
+            decoding="async"
+          />
+        {{ else }}
+          <div class="fallback"></div>
+        {{ end }}
+
+      <div class="postTeaserContent">
+        <h2>{{ $element.LinkTitle }}</h2>
+        <p class="text-body">{{ $element.Summary }}</p>
+        {{ with $element.Params.tags }}
+        <div class="tags">
+          {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+        </div>
+        {{ end }}
+      </div>
+  </article>
+  </a>
+  {{ end }}
+{{ end }}

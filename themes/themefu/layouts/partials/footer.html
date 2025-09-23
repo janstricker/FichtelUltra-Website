@@ -12,3 +12,18 @@
         </p>
     </a>
 </footer>
+
+{{- /* Conditionally include lightbox JS at end of body on pages that use it */ -}}
+{{- $hasGallery := or (.Resources.Match "album/*" | len) (in (printf "%s" .Content) "lightbox-image") (in (printf "%s" .Content) "data-lightbox") }}
+{{- if $hasGallery }}
+  {{- $lb := resources.Get "js/lightbox.js" }}
+  {{- if $lb }}
+    {{- if eq hugo.Environment "development" }}
+      <script src="{{ $lb.RelPermalink }}"></script>
+    {{- else }}
+      {{- with $lb | js.Build (dict "minify" true) | fingerprint }}
+        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+      {{- end }}
+    {{- end }}
+  {{- end }}
+{{- end }}

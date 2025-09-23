@@ -1,5 +1,6 @@
 {{- $jsFiles := resources.Match "js/*.js" }}
-{{- $hasGallery := or (.Resources.Match "album/*" | len) (in (printf "%s" .Content) "lightbox-image") }}
+{{- /* Detect gallery usage: album resources OR class 'lightbox-image' OR data-lightbox attributes in rendered content */ -}}
+{{- $hasGallery := or (.Resources.Match "album/*" | len) (in (printf "%s" .Content) "lightbox-image") (in (printf "%s" .Content) "data-lightbox") }}
 {{- $header := resources.Get "js/header.js" }}
 {{- if $header }}
   {{- if eq hugo.Environment "development" }}

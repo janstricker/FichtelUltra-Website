@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Info on FichtelUltra</title>
-    <link>https://friendly-waddle-5r9x597jxxvhjg-1313.app.github.dev/info/</link>
+    <link>https://fichtelultra.de/info/</link>
     <description>Recent content in Info on FichtelUltra</description>
     <generator>Hugo</generator>
     <language>de</language>
-    <atom:link href="https://friendly-waddle-5r9x597jxxvhjg-1313.app.github.dev/info/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://fichtelultra.de/info/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>
