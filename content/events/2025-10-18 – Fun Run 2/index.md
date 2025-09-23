@@ -75,29 +75,34 @@ Höhenmeter:
 
 ### Verlauf
 
-| Wegpunkt                                  | Zeit | Ort                                                            | Beschreibung                               |
-|:------------------------------------------|:-----|:---------------------------------------------------------------|:-------------------------------------------|
-| **Start** </br>  0,0 km  </br> 700 m      |      | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
-| **Gipfel 1** </br>  1,0 km  </br> 827 m   |      | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
-| **Gipfel 2** </br>  7,4 km  </br> 678 m   |      | Kleiner Kornberg                                               | Steinskulptur, Markierung des Gipfels      |
-| **Gipfel 3** </br>  16,0 km </br> 798 m   |      | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
-| **Gipfel 4** </br>  23,1 km </br> 877 m   |      | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
-| **VP 1**  </br>  23,3 km </br> 832 m      |      | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
-| **Gipfel 5** </br>  31,5 km </br> 866 m   |      | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
-| **Gipfel 6** </br>  34,6 km </br> 1.051 m |      | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
-| **Gipfel 7** </br>  36,6 km </br> 972 m   |      | Nusshardt                                                      | Spitze der Aussichtsplattform              |
-| **VP 2**  </br>  38,9 km </br> 774 m      |      | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
-| **Gipfel 8** </br>  41,4 km </br> 929 m   |      | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
-| **Gipfel 9** </br>  43,1 km </br> 1.024 m |      | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
-| **Gipfel 10** </br>  51,7 km </br> 855 m  |      | Platte                                                         | Gipfelkreuz                                |
-| **VP 3**  </br>  53,8 km </br> 712 m      |      | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
-| **Gipfel 11** </br>  57,0 km </br> 813 m  |      | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
-| **Gipfel 12** </br>  61,5 km </br> 939 m  |      | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
-| **Gipfel 13** </br>  63,6 km </br> 847 m  |      | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
-| **Gipfel 14** </br>  64,3 km </br> 879 m  |      | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
-| **Ziel**  </br>  66,3 km </br> 700 m      |      | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
+| Wegpunkt                                  | Ort                                                            | Beschreibung                               |
+|:------------------------------------------|:---------------------------------------------------------------|:-------------------------------------------|
+| **Start** </br>  0,0 km  </br> 700 m      | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
+| **Gipfel 1** </br>  1,0 km  </br> 827 m   | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
+| **Gipfel 2** </br>  7,4 km  </br> 678 m   | Kleiner Kornberg                                               | Steinskulptur, Markierung des Gipfels      |
+| **Gipfel 3** </br>  16,0 km </br> 798 m   | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
+| **Gipfel 4** </br>  23,1 km </br> 877 m   | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
+| **VP 1**  </br>  23,3 km </br> 832 m      | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
+| **Gipfel 5** </br>  31,5 km </br> 866 m   | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
+| **Gipfel 6** </br>  34,6 km </br> 1.051 m | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
+| **Gipfel 7** </br>  36,6 km </br> 972 m   | Nusshardt                                                      | Spitze der Aussichtsplattform              |
+| **VP 2**  </br>  38,9 km </br> 774 m      | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
+| **Gipfel 8** </br>  41,4 km </br> 929 m   | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
+| **Gipfel 9** </br>  43,1 km </br> 1.024 m | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
+| **Gipfel 10** </br>  51,7 km </br> 855 m  | Platte                                                         | Gipfelkreuz                                |
+| **VP 3**  </br>  53,8 km </br> 712 m      | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
+| **Gipfel 11** </br>  57,0 km </br> 813 m  | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
+| **Gipfel 12** </br>  61,5 km </br> 939 m  | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
+| **Gipfel 13** </br>  63,6 km </br> 847 m  | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
+| **Gipfel 14** </br>  64,3 km </br> 879 m  | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
+| **Ziel**  </br>  66,3 km </br> 700 m      | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
 
-Einige der Gipfel sind mit Türmen oder Aussichtsplattformen ausgestattet, die ebenfalls bestiegen werden müssen. Die weißen, verlassenen Militärtürme auf dem Kornberg und dem Schneeberg können nicht bestiegen werden.
+### Verhalten am Gipfel
+
+Die meisten Gipfel sind mit Aussichtsplattformen versehen die über einen schmalen Aufstieg oder eine Treppe erreichbar sind. Aufgrund unserer Gruppengröße empfehlen wir folgendes Vorgehen, um Stau zu vermeiden und nicht zu viel Zeit zu verlieren:
+* Besteigen einer Plattform ist optional
+* Wer nicht aufsteigt, kann kurz Pause machen (aber bitte nicht beides)
+* Besteigen & Aufenthalt sollten max. 2-3 Minuten dauern
 
 ### Zeitplan
 
@@ -114,10 +119,21 @@ Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird 
 
 Ab Start laufen wir bis zum ersten Gipfel gemeinsam und teilen uns dann in die beiden Gruppen auf.
 
+  <a href="https://docs.google.com/spreadsheets/d/10A9uJRrdrUwKm9_sGN6e49D3Pe9GbBp0k_U2LJMh3-8/edit?gid=0#gid=0" target="_blank" external>
+    <button class="btn inline">Pace Tabelle (Google Drive)</button>
+  </a>
+
 ## Verpflegung
 
+### Support Crew
+Unsere Support-Crew begleitet uns in zwei Autos und passen uns an den [unten genannten Punkten](#verpflegungspunkte) ab. In den Autos werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) in ergänzenden Mengen (siehe [Verantwortung](#verantwortung)) bereitgestellt. Eigenverpflegung kann vor dem Start in die Autos (schnell/langsam) abgegeben werden (ggf. kennzeichnen). Die Verpflegungspunkte werden zwischen den angegebenen Zeitpunkten oder bis zum passieren des letzten Teilnehmenden durch unsere Support Crew besetzt. 
+Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
+
+Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
+
+Wir freuen uns über **freiwillige Spenden!** :)
+
 ### Verpflegungspunkte
-Unsere Support-Crew begleitet uns in zwei Autos und passen uns an folgenden Punkten ab:
 
 | Verpflegungspunkt                                 | Ort                                                        | Support Crew              | Service                                              |
 |:--------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
@@ -127,12 +143,6 @@ Unsere Support-Crew begleitet uns in zwei Autos und passen uns an folgenden Punk
 | **VP 3** – 53,8 km </br> +15 km, +420 m, -490 m   | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
 | **Ziel** – 66,3 km </br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
 
-In den Autos werden stilles Wasser in Flaschen, Obst (z.B. Bananen, Äpfel) und salzige und süße Snacks (z.B. Salzstangen, Gummibärchen) in ergänzenden Mengen (siehe [Verantwortung](#verantwortung)) bereitgestellt. Eigenverpflegung kann vor dem Start in die Autos (schnell/langsam) abgegeben werden (ggf. kennzeichnen). Die Verpflegungspunkte werden zwischen den angegebenen Zeitpunkten oder bis zum passieren des letzten Teilnehmenden durch unsere Support Crew besetzt. 
-Im Ziel gibt es für alle Teilnehmenden Wasser, alkoholfreies Bier und weitere Snacks (z.B. Laugenbrezen).
-
-Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte achtet darauf, dass eure Verpflegung problemlos für diesen Teil der Strecke ausreicht.
-
-Wir freuen uns über **freiwillige Spenden!** :)
 
 ### Verantwortung
 
