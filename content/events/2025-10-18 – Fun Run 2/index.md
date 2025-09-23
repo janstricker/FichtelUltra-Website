@@ -4,7 +4,7 @@ meta_title: Fun Run 2
 summary: "66 km und fast 2000 Höhenmeter: Komm' mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour."
 event_date: 2025-10-18
 totalLenght: 66 km
-elevation: +1.940 Uhr (Schnell) </br> -1.970 hm (Langsam)
+elevation: +1.940 hm / -1.970 hm
 tags:
   - Event
   - 12GT
@@ -156,7 +156,7 @@ Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen un
 
 ### Transport
 
-Zwischen Start und Ziel liegen [ca. 25 min Uhr (Schnell) </br> ca. 30 (Langsam) km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). In den Autos der Supporter sind einige Plätze für einen privaten Transport zurück zum Start vorhanden, jedoch bereits größtenteils durch Teilnehmende reserviert. Bitte plant eure Rückkehr daher eigenständig, oder greift auf öffentliche Verkehrsmittel zurück. Danke für euer Verständnis.
+Zwischen Start und Ziel liegen [ca. 25 min / ca. 30 km Fahrt mit dem Auto](https://maps.app.goo.gl/DfDDo7vywzujFtDK8). In den Autos der Supporter sind einige Plätze für einen privaten Transport zurück zum Start vorhanden, jedoch bereits größtenteils durch Teilnehmende reserviert. Bitte plant eure Rückkehr daher eigenständig, oder greift auf öffentliche Verkehrsmittel zurück. Danke für euer Verständnis.
 
 ### Parken
 
