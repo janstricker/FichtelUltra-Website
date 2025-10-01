@@ -3,7 +3,7 @@ title: "Team-Shirt"
 summary: "Das erste FichtelUltra Team-Shirt"
 ---
 
-Ab sofort könnt ihr das erste FichtelUltra Team-Shirt unter [folgendem Link](https://buy.stripe.com/fZu5kC7UEbCgaQ56N7g7e00) vorbestellen!
+Ihr könnt das erste FichtelUltra Team-Shirt unter [folgendem Link](https://buy.stripe.com/fZu5kC7UEbCgaQ56N7g7e00) bestellen!
 
 <stripe-buy-button
   buy-button-id="buy_btn_1S2qCTA5m0TWgh1MXvmAMq0y"
@@ -16,15 +16,14 @@ Das Shirt ist in ausgewählten Größen verfügbar. Für alle Details siehe [Gr�
 
 * 100% Polyester (Recycelter Polyester)
 * Atmungsaktiv, schnell trocknend
-
 * COOLMESH Technologie; 135 g/m²
 * Oeko Tex 100
 
 ## Verfügbarkeit & Abholung
 
-Die Shirts werden ab Mitte September durch unseren Partner [Peppex Sports](https://www.peppex-sports.de/) produziert und können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden.  
+Die Shirts können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden. Versand als Warensendung ist möglich.
 
-Nur Vorbesteller erhalten garantiert ein Shirt in ihrer Größe. Verkauf vor Ort sowie Versand nach dem Event sind voraussichtlich möglich, sofern nicht bereits alle Shirts vergriffen sind.
+Die Stückzahl ist begrenzt und es wird keine Nachbestellung geben.
 
 ## Design
 
@@ -33,6 +32,3 @@ Das Design zeigt eine topografische Karte des Fichtelgebirges sowie die [Strecke
 ![](images/shirt-front.png "Vorderseite des Shirts. (Abbildungen können abweichen)")
 
 ![](images/shirt-back.png "Rückseite des Shirts. (Abbildungen können abweichen)")
-
-
-**Hinweis:** Aufgrund des digitalen Druckverfahrens in CMYK ist die Farbe voraussichtlich eher gelblich statt wirklich leuchtend Neon. Die Abbildungen können abweichen.
