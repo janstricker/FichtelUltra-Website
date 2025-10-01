@@ -21,7 +21,7 @@ Das Shirt ist in ausgewählten Größen verfügbar. Für alle Details siehe [Gr�
 
 ## Verfügbarkeit & Abholung
 
-Die Shirts können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden. Versand als Warensendung ist möglich.
+Die Shirts können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden.
 
 Die Stückzahl ist begrenzt und es wird keine Nachbestellung geben.
 
