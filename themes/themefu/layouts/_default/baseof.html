@@ -108,7 +108,7 @@
                 <div class="btn-group" role="group" aria-label="Event Aktionen">
                   {{ if .Params.primaryCTA }}
                     <a
-                      href="{{ .Params.primaryLink }}"
+                      href="{{ if .Params.secondaryLink }}{{ .Params.secondaryLink }}{{ else }}{{ .RelPermalink }}{{ end }}"
                       class="btn primary"
                       tabindex="0"
                       aria-label="{{ .Params.primaryCTA }}"
