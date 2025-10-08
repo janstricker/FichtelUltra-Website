@@ -8,10 +8,8 @@ elevation: +1.940 hm / -1.970 hm
 tags:
   - Event
   - 12GT
-primaryCTA: Jetzt Anmelden
-primaryLink: mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0APers%C3%B6nliche%20Nachricht%3A
-secondaryCTA: Alle Infos
-secondaryLink: ""
+primaryCTA: Alle Infos
+primaryLink: ""
 featured: "true"
 ---
 
@@ -24,27 +22,13 @@ Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestre
 
 ## Teilnahme
 
-### Anmeldung
-
-Die Anmeldung ist bis einschließlich ~15.10.2025~ **07.10.2025** unter folgendem Link bzw. per Mail an [anmeldung@fichtelultra.de](mailto:anmeldung@fichtelultra.de) möglich. Bitte Name, Pace und Verpflegungswunsch angeben.
-
-<div class="btn-group">
-    <a href="mailto:anmeldung@fichtelultra.de?subject=Neue%20Anmeldung%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025&body=Hiermit%20melde%20ich%20folgende%20Personen%20zum%20FichtelUltra%20Fun%20Run%202%20am%2018.10.2025%20an%3A%0A%0AAnzahl%3A%20X%0ANamen%3A%20Vorname%20Nachname%20(%2B%20ggf.%20weitere)%0APace%20Gruppe%3A%20Schnell%20%2F%20Langsam%0AVerpflegung%3A%20Ja%20%2F%20Nein%0APers%C3%B6nliche%20Nachricht%3A">
-      <button class="btn inline">Jetzt Anmelden</button>
-    </a>
-</div>
-
-Nachmeldungen vor Ort sind möglich, jedoch nur ohne zusätzliche Services. 
-
 ### Rahmenbedingungen
 
-Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. 
-
-Es erfolgen keine Absperrung, ärztliche Versorgung oder Zeitmessung (außer optional nachträglich über Strava).
-
-Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
-
-Die Tour findet auch bei leichtem Regen statt, jedoch nicht bei Unwetter.
+* Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. 
+* Nur angemeldeten Teilnehmenden wird der [Transport von Eigenverpflegung](#support-crew) ermöglicht und zusätzliche Verpflegung bereitgestellt.
+* Es erfolgen keine Absperrung, ärztliche Versorgung oder Zeitmessung (außer optional nachträglich über Strava).
+* Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
+* Die Tour findet auch bei leichtem Regen statt, jedoch nicht bei Unwetter.
 
 ### Frühzeitiges Ende
 
@@ -137,20 +121,20 @@ Wir freuen uns über **freiwillige Spenden!** :)
 
 ### Verpflegungspunkte
 
-| Verpflegungspunkt                                                           | Ort                                                        | Support Crew              | Service                                              |
-|:----------------------------------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
-| **Start**                                                                   | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
-| **VP 1** Uhr (Schnell) </br> 23,3 km (Langsam) </br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 2** Uhr (Schnell) </br> 38,9 km (Langsam) </br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 3** Uhr (Schnell) </br> 53,8 km (Langsam) </br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **Ziel** Uhr (Schnell) </br> 66 km </ (Langsam)br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
+| Verpflegungspunkt                                    | Ort                                                        | Support Crew              | Service                                              |
+|:-----------------------------------------------------|:-----------------------------------------------------------|:--------------------------|:-----------------------------------------------------|
+| **Start**                                            | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
+| **VP 1** </br> 23,3 km  </br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 2** </br> 38,9 km </br> +15 km, +460 m, -530 m  | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 3** </br> 53,8 km </br> +15 km, +420 m, -490 m  | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **Ziel** </br> 66 km </br> +13 km, +390 m, -410 m    | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
 
 
 ### Verantwortung
 
 **Alle Teilnehmenden sind selbst für ihre Verpflegung unterwegs verantwortlich!** Die Verfpflegungspunkte dienen als Ergänzung, aber nicht als Ersatz!
 
-Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden Uhr (Schnell) </br> ideal sind Snacks (Langsam) wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
+Bei einer derart langen und intensiven Belastung sollte regelmäßig gegessen und getrunken werden. Ideal sind Snacks wie Riegel, Gels oder Gummibärchen (ca. 40–60 g Kohlenhydrate pro Stunde) sowie Elektrolyte in Form von Tabletten oder Pulvern.
 
 ## Mobilität
 
