@@ -25,6 +25,7 @@ Es ist wie immer kein Wettkampf, sondern eine Challenge die wir gemeinsam bestre
 ### Rahmenbedingungen
 
 * Die Teilnahme ist kostenlos und erfolgt auf eigenes Risiko. Es handelt sich um keine offizielle Veranstaltung, sondern einen Tourenvorschlag im privaten Rahmen. 
+* Anmeldeschluss 07.10.2025. **Nachmeldungen sind möglich**, jedoch ohne zusätzliche Serivces.
 * Nur angemeldeten Teilnehmenden wird der [Transport von Eigenverpflegung](#support-crew) ermöglicht und zusätzliche Verpflegung bereitgestellt.
 * Es erfolgen keine Absperrung, ärztliche Versorgung oder Zeitmessung (außer optional nachträglich über Strava).
 * Die Route ist nicht markiert, sondern wird nur als [GPX Datei](#strecke) zur eigenen Navigation zur Verfügung gestellt.
@@ -119,6 +120,21 @@ Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte ach
 
 Wir freuen uns über **freiwillige Spenden!** :)
 
+### Mithelfen
+Gerne können Angehörige und Freunde die Teilnehmenden unterstützen. Zur Koordination tretet bitte der Community auf WhatsApp bei.
+
+  <a href="https://chat.whatsapp.com/EzF5FVVbbn037pPaNvwLio" target="_blank" external>
+    <button class="btn inline">Community auf WhatsApp</button>
+  </a>
+
+Mögliche Hilfe:
+* Auf-/Abbauen
+* Getränke ausschenken
+* Taschen aus-/einladen
+* Müll entsorgen 
+* Essen & Getränke mitbringen (Kuchen, Herzhaftes (am besten vegetarisch), Kaffee, Tee, Limo)
+* Gute Stimmung machen 😉
+
 ### Verpflegungspunkte
 
 | Verpflegungspunkt                                    | Ort                                                        | Support Crew              | Service                                              |
@@ -186,6 +202,10 @@ Interessierte können die Laufgruppen jederzeit für Support entlang der Strecke
 * [Ziel, Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)
 
 
+## Pasta Party
+Am Tag vor dem Event, den **17.10.2025** von 16:00 - 20:00 Uhr, findet eine Pasta Party im [Café Schwarzer in Selb](https://www.schwarzerpeter-95100.de/) statt. Es gibt Nudeln mit Pesto (auch vegan), solange der Vorrat reicht. Eine Anmeldung ist nicht nötig.
+
+
 ## Hintergründe
 
 Die 12 Gipfel Tour gilt als eine der prestigeträchtigsten Routen im [Fichtelgebirge](https://www.fichtelgebirge.bayern/) und verbindet die schönsten und höchsten Punkte des Naturparks mit spektakulären Aussichten. Neben dem höchsten Gipfel Frankens und Nordbayerns, dem Schneeberg, führt die Tour über insgesamt 12 Gipfel, mit fast 2000 Höhenmetern Auf- und 2000 Höhenmetern Abstieg, und erstreckt sich über rund 60 Kilometer.
@@ -206,4 +226,4 @@ Darüber hinaus sind die Informationen oder Beschilderung vor Ort zu berücksich
 
 ---
 
-Zuletzt aktualisiert: 22.09.2025
+Zuletzt aktualisiert: 14.10.2025
