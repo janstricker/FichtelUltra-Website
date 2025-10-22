@@ -10,7 +10,7 @@ tags:
   - 12GT
 primaryCTA: Alle Infos
 primaryLink: ""
-featured: "true"
+featured: ""
 ---
 
 
@@ -52,9 +52,6 @@ Höhenmeter:
     </a>
     <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank" external>
       <button class="btn inline">Strecke auf Komoot</button>
-    </a>
-    <a href="https://connect.garmin.com/modern/event/calendar/23655322?shareableEventUuid=9abd88de-258e-4b46-a039-8fdf187ed94d" target="_blank" external>
-      <button class="btn inline">Event auf Garmin</button>
     </a>
 </div>
 
@@ -106,10 +103,6 @@ Gemeinsam starten wir um 07:00 Uhr morgens am [Kornberghaus](#verlauf). Es wird 
 
 Ab Start laufen wir bis zum ersten Gipfel gemeinsam und teilen uns dann in die beiden Gruppen auf.
 
-  <a href="https://docs.google.com/spreadsheets/d/10A9uJRrdrUwKm9_sGN6e49D3Pe9GbBp0k_U2LJMh3-8/edit?gid=0#gid=0" target="_blank" external>
-    <button class="btn inline">Pace Tabelle (Google Drive)</button>
-  </a>
-
 ## Verpflegung
 
 ### Support Crew
@@ -121,11 +114,7 @@ Der erste Abschnitt nach dem Start ist der längste der gesamten Tour. Bitte ach
 Wir freuen uns über **freiwillige Spenden!** :)
 
 ### Mithelfen
-Gerne können Angehörige und Freunde die Teilnehmenden unterstützen. Zur Koordination tretet bitte der Community auf WhatsApp bei.
-
-  <a href="https://chat.whatsapp.com/EzF5FVVbbn037pPaNvwLio" target="_blank" external>
-    <button class="btn inline">Community auf WhatsApp</button>
-  </a>
+Gerne können Angehörige und Freunde die Teilnehmenden unterstützen. 
 
 Mögliche Hilfe:
 * Auf-/Abbauen
@@ -226,4 +215,4 @@ Darüber hinaus sind die Informationen oder Beschilderung vor Ort zu berücksich
 
 ---
 
-Zuletzt aktualisiert: 14.10.2025
+Zuletzt aktualisiert: 22.10.2025

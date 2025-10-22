@@ -186,83 +186,37 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
             
             
             
-              <div class="home-intro">
+              
+              <section class="home-intro">
+                <h1>Trailrunning im Fichtelgebirge</h1>
                 
-                <time class="text-small text-muted" datetime="2025-10-18">
-                  <span id="event-countdown" data-date="2025-10-18">&nbsp;</span><br />
-                  <span id="event-date">&nbsp;</span>
-                </time>
+                  <p class="text-body">Aus Freundschaft gewachsen, vom Fichtelgebirge inspiriert: FichtelUltra bringt Menschen zusammen, die gern draußen sind, wild träumen und weit laufen.</p>
                 
-                <script>
-                  document.addEventListener('DOMContentLoaded', function () {
-                    var countdownEl = document.getElementById('event-countdown');
-                    var dateEl = document.getElementById('event-date');
-                    var dateStr = countdownEl.getAttribute('data-date');
-                    var eventDate = new Date(dateStr);
-                    var now = new Date();
-                    var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-                    var weekday = [
-                      "Sonntag",
-                      "Montag",
-                      "Dienstag",
-                      "Mittwoch",
-                      "Donnerstag",
-                      "Freitag",
-                      "Samstag",
-                    ][eventDate.getDay()];
-                    var dateString =
-                      ("0" + eventDate.getDate()).slice(-2) +
-                      "." +
-                      ("0" + (eventDate.getMonth() + 1)).slice(-2) +
-                      "." +
-                      eventDate.getFullYear();
-                    if (daysDiff >= 0) {
-                      if (daysDiff + 1 > 31) {
-                        var weeks = Math.ceil((daysDiff + 1) / 7);
-                        countdownEl.textContent =
-                          "Noch " +
-                          weeks +
-                          " Woche" +
-                          (weeks !== 1 ? "n" : "") +
-                          " (" +
-                          (daysDiff + 1) +
-                          " Tag" +
-                          ((daysDiff + 1) !== 1 ? "e" : "") +
-                          ")";
-                      } else {
-                        countdownEl.textContent =
-                          "Noch " +
-                          (daysDiff + 1) +
-                          " Tag" +
-                          ((daysDiff + 1) !== 1 ? "e" : "");
-                      }
-                      dateEl.textContent = weekday + ", " + dateString;
-                    } else {
-                      countdownEl.textContent = "";
-                      dateEl.textContent = dateString;
-                    }
-                  });
-                </script>
-                <h2>Fun Run 2</h2>
-                <div class="eventInfo">
-                  <p class="text-body">66 km und fast 2000 Höhenmeter: Komm&rsquo; mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour.</p>
-                  
-                </div>
                 
                 <div class="btn-group" role="group" aria-label="Event Aktionen">
                   
                     <a
-                      href="/events/2025-10-18--fun-run-2/"
+                      href="/info"
                       class="btn primary"
                       tabindex="0"
-                      aria-label="Alle Infos"
+                      aria-label="Über uns"
                     >
-                      Alle Infos
+                      Über uns
                     </a>
                   
                   
+                    <a
+                      href="/blog"
+                      class="btn"
+                      tabindex="0"
+                      aria-label="Aktuelles"
+                    >
+                      Aktuelles
+                    </a>
+                  
                 </div>
-              </div>
+              </section>
+              
             
           
         </main>

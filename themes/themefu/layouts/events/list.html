@@ -5,7 +5,7 @@
   {{ $sortedPages := .RegularPages.ByDate.Reverse }}
   {{ $nowDate := time.Format "2006-01-02" $now }}
   {{ $futureEvents := where $sortedPages "Params.event_date" ">=" $nowDate }}
-  {{ $pastEvents := where $sortedPages "Params.event_date" "<" $nowDate }}
+  {{ $pastEvents := sort (where $sortedPages "Params.event_date" "<" $nowDate) "Params.event_date" "desc" }}
   
 
   <div class="postCurrentList">
