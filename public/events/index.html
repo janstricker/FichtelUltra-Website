@@ -209,67 +209,6 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
 
   <div class="postCurrentList">
     
-      
-      <a href="/events/2025-10-18--fun-run-2/">
-      <article class="post even">
-            
-              <img class="postImg" src="/events/2025-10-18--fun-run-2/images/title.webp" alt="Fun Run 2"/>
-            
-          <div class="postTeaserContent">
-            <time class="text-small" datetime="2025-10-18">
-              <span class="event-countdown" data-date="2025-10-18">&nbsp;</span><br/>
-              <span class="event-date">&nbsp;</span>
-            </time>          
-            <script>
-              document.addEventListener('DOMContentLoaded', function() {
-                var countdownEls = document.querySelectorAll('.event-countdown');
-                var dateEls = document.querySelectorAll('.event-date');
-                countdownEls.forEach(function(countdownEl, idx) {
-                  var dateStr = countdownEl.getAttribute('data-date');
-                  var eventDate = new Date(dateStr);
-                  var now = new Date();
-                  var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-                  var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
-                  var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
-                  if (daysDiff >= 0) {
-                    if (daysDiff + 1 > 31) {
-                      var weeks = Math.ceil((daysDiff + 1) / 7);
-                      countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
-                    } else {
-                      countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
-                    }
-                    dateEls[idx].textContent = weekday + ", " + dateString;
-                  } else {
-                    countdownEl.textContent = "";
-                    dateEls[idx].textContent = dateString;
-                  }
-                });
-              });
-            </script>
-  
-            <h2>Fun Run 2</h2>
-  
-            <div class="eventInfo">
-             <div class="routeMeta">
-                
-                  66 km
-                  <span class="text-separator"> ・ </span>
-                
-                
-                  &#43;1.940 hm / -1.970 hm
-                  
-                
-                
-              </div>
-              <p class="text-body">66 km und fast 2000 Höhenmeter: Komm&rsquo; mit auf diese einzigartige Trailrunning Erfahrung im Fichtelgebirge, inspiriert von der berühmten 12 Gipfel Tour.</p>
-  
-              
-            </div>
-          </div>
-      </article>
-      </a>
-      
-    
   
   </div>
   
@@ -285,6 +224,17 @@ html{font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue'
                 17.08.2024
             </time>
             <h4 class="">Fun Run 2024</h>          </div>
+      </article>
+      </a>
+      
+      <a href="/events/2025-10-18--fun-run-2/">
+      <article class="postArchive">
+          <div class="postTeaserContent Archive">
+            
+            <time class="text-small text-muted" datetime="2025-10-18">
+                18.10.2025
+            </time>
+            <h4 class="">Fun Run 2</h>          </div>
       </article>
       </a>
       

@@ -10,7 +10,7 @@ tags:
   - 12GT
 primaryCTA: Alle Infos
 primaryLink: ""
-featured: "true"
+featured: ""
 ---
 
 
