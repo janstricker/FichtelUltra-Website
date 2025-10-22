@@ -19,11 +19,9 @@ Das Shirt ist in ausgewählten Größen verfügbar. Für alle Details siehe [Gr�
 * COOLMESH Technologie; 135 g/m²
 * Oeko Tex 100
 
-## Verfügbarkeit & Abholung
+## Versand & Verfügbarkeit
 
-Die Shirts können am Eventtag, den 18.10.2025, beim [Start- bzw. Zielbereich](/events/2025-10-18--fun-run-2/#verlauf) abgeholt werden.
-
-Die Stückzahl ist begrenzt und es wird keine Nachbestellung geben.
+Die Shirts werden als Großbrief versandt. Die Stückzahl ist begrenzt und es wird keine Nachbestellung geben.
 
 ## Design
 
