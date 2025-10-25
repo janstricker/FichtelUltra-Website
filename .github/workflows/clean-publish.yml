@@ -1,5 +1,5 @@
 
-name: Publish Website # Workflow-Name
+name: Clean Publish Website # Workflow-Name
 
 on:
   workflow_dispatch:
