@@ -1,16 +1,18 @@
 <footer class="footer text-small">
-    <ul class="links text-muted ">
-        {{ if not .IsHome }}<li><a href="/">Home</a></li>{{ end }}
-        <li><a href="/legal/impressum/">Impressum</a></li>
-        <li><a href="/legal/datenschutz/">Datenschutz</a></li>
-        <li><a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a></li>
-        <li><a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a></li>
-    </ul>
-    <a class="copyright" href="/">
-        <p class="text-muted ">
-           Fichtel<span style="font-weight: 800;">Ultra</span> {{ now.Year }} 
-        </p>
-    </a>
+  <ul class="links text-muted ">
+    {{ if not .IsHome }}<li><a href="/">Home</a></li>{{ end }}
+    <li><a href="/legal/impressum/">Impressum</a></li>
+    <li><a href="/legal/datenschutz/">Datenschutz</a></li>
+    <li>
+      <a href="https://www.instagram.com/fichtelultra/" target="_blank" rel="noopener">Instagram</a>
+    </li>
+    <li>
+      <a href="https://www.strava.com/clubs/fichtelultra" target="_blank" rel="noopener">Strava</a>
+    </li>
+  </ul>
+  <a class="copyright" href="/">
+    <p class="text-muted ">Fichtel<span style="font-weight: 800;">Ultra</span> {{ now.Year }}</p>
+  </a>
 </footer>
 
 {{- /* Conditionally include lightbox JS at end of body on pages that use it */ -}}
@@ -22,7 +24,11 @@
       <script src="{{ $lb.RelPermalink }}"></script>
     {{- else }}
       {{- with $lb | js.Build (dict "minify" true) | fingerprint }}
-        <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></script>
+        <script
+          src="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+        ></script>
       {{- end }}
     {{- end }}
   {{- end }}

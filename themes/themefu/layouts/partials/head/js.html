@@ -7,7 +7,12 @@
     <script src="{{ $header.RelPermalink }}"></script>
   {{- else }}
     {{- with $header | js.Build (dict "minify" true) | fingerprint }}
-      <script src="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous" defer></script>
+      <script
+        src="{{ .RelPermalink }}"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous"
+        defer
+      ></script>
       <noscript><script src="{{ .RelPermalink }}"></script></noscript>
     {{- end }}
   {{- end }}
@@ -24,11 +29,21 @@
     {{- with . | js.Build $opts | fingerprint }}
       {{- if (in $name "lightbox") }}
         {{- if $hasGallery }}
-          <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
+          <script
+            src="{{ .RelPermalink }}"
+            integrity="{{- .Data.Integrity }}"
+            crossorigin="anonymous"
+            defer
+          ></script>
           <noscript><script src="{{ .RelPermalink }}"></script></noscript>
         {{- end }}
       {{- else }}
-        <script src="{{ .RelPermalink }}" integrity="{{- .Data.Integrity }}" crossorigin="anonymous" defer></script>
+        <script
+          src="{{ .RelPermalink }}"
+          integrity="{{- .Data.Integrity }}"
+          crossorigin="anonymous"
+          defer
+        ></script>
         <noscript><script src="{{ .RelPermalink }}"></script></noscript>
       {{- end }}
     {{- end }}

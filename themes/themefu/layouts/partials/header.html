@@ -1,88 +1,120 @@
 <header class="header" id="siteHeader">
-    <div class="header-content header-content-logo">
-        <a href="/" class="header-logo-link">
-            <svg class="fichtelUltraLogo" viewBox="0 0 176 208" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path clip-rule="evenodd" d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z" fill="currentColor" fill-rule="evenodd"/>
-            </svg>
-            <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
-            <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}">{{ .Site.Params.titlePart2 }}</span>
-        </a>
-        <p class="titleActive header-section-link">
-            <a href="/{{ .Section }}">
-                {{ .Section }}
-            </a>
-        </p>
-    </div>
-    {{ if not .IsHome }}
+  <div class="header-content header-content-logo">
+    <a href="/" class="header-logo-link">
+      <svg
+        class="fichtelUltraLogo"
+        viewBox="0 0 176 208"
+        fill="none"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          clip-rule="evenodd"
+          d="m17.5633 0 140.8727.00001219v23.28158781h-140.8727zm0 46.5642h140.8727v23.2816h-140.8727zm-17.5633 141.2218 64.3385-36.456-64.33849485-36.456 11.64869485-20.2144 76.3513 43.2634 76.351-43.2634 11.649 20.2144-64.339 36.456 64.339 36.456-11.649 20.214-76.351-43.263-76.3513 43.263z"
+          fill="currentColor"
+          fill-rule="evenodd"
+        />
+      </svg>
+      <span class="titleDefault">{{ .Site.Params.titlePart1 }}</span>
+      <span class="{{ if .IsHome }}titleActive{{ else }}titleDefault{{ end }}"
+        >{{ .Site.Params.titlePart2 }}</span
+      >
+    </a>
+    <p class="titleActive header-section-link">
+      <a href="/{{ .Section }}">
+        {{ .Section }}
+      </a>
+    </p>
+  </div>
+  {{ if not .IsHome }}
     <div class="mainMenu">
-        <button id="hamburgerMenu" aria-label="Menü öffnen" style="background:none;border:none;cursor:pointer;padding:0;">
-            <svg id="hamburgerIcon" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor"/>
-                <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor"/>
-            </svg>
-        </button>
+      <button
+        id="hamburgerMenu"
+        aria-label="Menü öffnen"
+        style="background:none;border:none;cursor:pointer;padding:0;"
+      >
+        <svg
+          id="hamburgerIcon"
+          width="32"
+          height="32"
+          viewBox="0 0 32 32"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect class="bar bar1" y="7" width="32" height="3" rx="1.5" fill="currentColor" />
+          <rect class="bar bar2" y="14" width="32" height="3" rx="1.5" fill="currentColor" />
+          <rect class="bar bar3" y="21" width="32" height="3" rx="1.5" fill="currentColor" />
+        </svg>
+      </button>
     </div>
-    {{ end }}
-    <div id="fullscreenMenuContainer" class="fullscreenMenuContainer" style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;">
-        {{ partial "menu-fullscreen.html" . }}
-    </div>
-    <style>
-      .fullscreenMenuContainer {
-        opacity: 0;
-        transform: translateY(-20px);
-        transition: opacity 0.3s cubic-bezier(.4,0,.2,1), transform 0.3s cubic-bezier(.4,0,.2,1);
-        pointer-events: none;
+  {{ end }}
+  <div
+    id="fullscreenMenuContainer"
+    class="fullscreenMenuContainer"
+    style="display:none;position:fixed;top:var(--header-height);left:0;width:100vw;height:calc(100vh - var(--header-height));z-index:1000;"
+  >
+    {{ partial "menu-fullscreen.html" . }}
+  </div>
+  <style>
+    .fullscreenMenuContainer {
+      opacity: 0;
+      transform: translateY(-20px);
+      transition:
+        opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        transform 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+      pointer-events: none;
+    }
+    .fullscreenMenuContainer.open {
+      opacity: 1;
+      transform: translateY(0);
+      pointer-events: auto;
+    }
+    #hamburgerIcon .bar {
+      transition:
+        transform 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        fill 0.3s cubic-bezier(0.4, 0, 0.2, 1),
+        opacity 0.3s;
+      fill: #222;
+    }
+    #hamburgerMenu.open #hamburgerIcon .bar {
+      fill: #fff;
+    }
+    #hamburgerMenu.open #hamburgerIcon .bar1 {
+      transform: translateY(7px) rotate(45deg);
+      transform-origin: 16px 8.5px;
+    }
+    #hamburgerMenu.open #hamburgerIcon .bar2 {
+      opacity: 0;
+    }
+    #hamburgerMenu.open #hamburgerIcon .bar3 {
+      transform: translateY(-7px) rotate(-45deg);
+      transform-origin: 16px 23.5px;
+    }
+  </style>
+  <script>
+    const hamburger = document.getElementById('hamburgerMenu')
+    const menuContainer = document.getElementById('fullscreenMenuContainer')
+    const header = document.getElementById('siteHeader')
+    hamburger.addEventListener('click', function () {
+      if (!menuContainer.classList.contains('open')) {
+        menuContainer.style.display = 'block'
+        setTimeout(() => menuContainer.classList.add('open'), 10)
+        header.classList.add('header-invert')
+        hamburger.classList.add('open')
+      } else {
+        menuContainer.classList.remove('open')
+        header.classList.remove('header-invert')
+        hamburger.classList.remove('open')
+        setTimeout(() => (menuContainer.style.display = 'none'), 300)
       }
-      .fullscreenMenuContainer.open {
-        opacity: 1;
-        transform: translateY(0);
-        pointer-events: auto;
+    })
+    // Optional: Schließen bei Klick außerhalb
+    document.addEventListener('click', function (e) {
+      if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
+        menuContainer.classList.remove('open')
+        header.classList.remove('header-invert')
+        hamburger.classList.remove('open')
+        setTimeout(() => (menuContainer.style.display = 'none'), 300)
       }
-      #hamburgerIcon .bar {
-        transition: transform 0.3s cubic-bezier(.4,0,.2,1), fill 0.3s cubic-bezier(.4,0,.2,1), opacity 0.3s;
-        fill: #222;
-      }
-      #hamburgerMenu.open #hamburgerIcon .bar {
-        fill: #fff;
-      }
-      #hamburgerMenu.open #hamburgerIcon .bar1 {
-        transform: translateY(7px) rotate(45deg);
-        transform-origin: 16px 8.5px;
-      }
-      #hamburgerMenu.open #hamburgerIcon .bar2 {
-        opacity: 0;
-      }
-      #hamburgerMenu.open #hamburgerIcon .bar3 {
-        transform: translateY(-7px) rotate(-45deg);
-        transform-origin: 16px 23.5px;
-      }
-    </style>
-    <script>
-      const hamburger = document.getElementById('hamburgerMenu');
-      const menuContainer = document.getElementById('fullscreenMenuContainer');
-      const header = document.getElementById('siteHeader');
-      hamburger.addEventListener('click', function() {
-        if (!menuContainer.classList.contains('open')) {
-          menuContainer.style.display = 'block';
-          setTimeout(() => menuContainer.classList.add('open'), 10);
-          header.classList.add('header-invert');
-          hamburger.classList.add('open');
-        } else {
-          menuContainer.classList.remove('open');
-          header.classList.remove('header-invert');
-          hamburger.classList.remove('open');
-          setTimeout(() => menuContainer.style.display = 'none', 300);
-        }
-      });
-      // Optional: Schließen bei Klick außerhalb
-      document.addEventListener('click', function(e) {
-        if (!menuContainer.contains(e.target) && !hamburger.contains(e.target)) {
-          menuContainer.classList.remove('open');
-          header.classList.remove('header-invert');
-          hamburger.classList.remove('open');
-          setTimeout(() => menuContainer.style.display = 'none', 300);
-        }
-      });
-    </script>
+    })
+  </script>
 </header>

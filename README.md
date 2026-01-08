@@ -78,7 +78,6 @@ Dieses Projekt enthält keine automatisierten Tests. Empfohlene Smoke-Checks:
 - Lokaler Hugo-Server starten und Seiten visuell prüfen
 - `hugo`-Build lokal ausführen und Ausgabe in `public/` kontrollieren
 
-
 ## Kontakt
 
 Repository-Eigentümer: janstricker

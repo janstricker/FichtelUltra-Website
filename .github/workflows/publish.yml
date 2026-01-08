@@ -1,4 +1,3 @@
-
 name: Publish Website # Workflow-Name
 
 on:
@@ -7,7 +6,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Verwende die neueste Ubuntu-Umgebung
-    environment: Publish   # Environment für Secrets
+    environment: Publish # Environment für Secrets
 
     steps:
       - name: Checkout repository
@@ -29,9 +28,9 @@ jobs:
         # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: ${{ secrets.SERVER }} # FTP-Server-Adresse 
-          username: ${{ secrets.USERNAME }} # FTP-Benutzername 
-          password: ${{ secrets.PASSWORD }} # FTP-Passwort 
+          server: ${{ secrets.SERVER }} # FTP-Server-Adresse
+          username: ${{ secrets.USERNAME }} # FTP-Benutzername
+          password: ${{ secrets.PASSWORD }} # FTP-Passwort
           local-dir: ./public/ # Quellverzeichnis für Upload
           server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
-          timeout: 300000   # Set timeout to 5 minutes
+          timeout: 300000 # Set timeout to 5 minutes

@@ -1,8 +1,8 @@
 {{ define "main" }}
   <!-- Display child pages -->
   {{ range $index, $element := .Pages }}
-  <a href="{{ $element.RelPermalink }}">
-  <article class="post {{ if modBool $index 2 }}even{{ end }}">
+    <a href="{{ $element.RelPermalink }}">
+      <article class="post {{ if modBool $index 2 }}even{{ end }}">
         {{/* Replace static image output with responsive picture using Hugo Image Processing */}}
         {{ $img := $element.Resources.GetMatch "*/title.*" }}
         {{ if not $img }}
@@ -20,6 +20,7 @@
             {{ end }}
           {{ end }}
 
+
           <img
             class="postImg"
             src="{{ index (split (index $fallbackSrcset 0) " ") 0 }}"
@@ -33,19 +34,23 @@
           <div class="fallback"></div>
         {{ end }}
 
-      <div class="postTeaserContent">
-        <time class="text-small text-muted" datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}">
+
+        <div class="postTeaserContent">
+          <time
+            class="text-small text-muted"
+            datetime="{{ .Date | time.Format "2006-01-02T15:04:05Z07:00" }}"
+          >
             <span class="dynamic-date"></span>
-        </time>
-        <h2>{{ $element.LinkTitle }}</h2>
-        <p class="text-body">{{ $element.Summary }}</p>
-        {{ with $element.Params.tags }}
-        <div class="tags">
-          {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
+          </time>
+          <h2>{{ $element.LinkTitle }}</h2>
+          <p class="text-body">{{ $element.Summary }}</p>
+          {{ with $element.Params.tags }}
+            <div class="tags">
+              {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+            </div>
+          {{ end }}
         </div>
-        {{ end }}
-      </div>
-  </article>
-  </a>
+      </article>
+    </a>
   {{ end }}
 {{ end }}
