@@ -1,4 +1,4 @@
-{{- $image_sizes := slice "420" "789" "1019" "1430" "2048" -}}
+{{- $image_sizes := slice 420 789 1019 1430 2048 -}}
 {{- $image_quality := "Lanczos" -}}
 {{- $alt := .Text -}}
 {{- $label := .Text -}}
@@ -7,69 +7,117 @@
   {{- $caption = .Title | $.Page.RenderString -}}
   {{- $label = $caption -}}
 {{- end -}}
+
+
+<!-- 1. Try to find the image resource -->
 {{- $image := .Page.Resources.GetMatch .Destination -}}
-{{- if and (not $image) .Page.File -}}
-  {{- $image = resources.Get (path.Join .Page.File.Dir .Destination) -}}
-{{- else -}}
-  {{- $image := resources.Get $image -}}
+{{- if not $image -}}
+  {{- $image = resources.Get .Destination -}}
 {{- end -}}
-{{- with $image -}}
-  {{- if eq $image.MediaType.SubType "svg" -}}
-    <!-- SVG: Keine Größenberechnung nötig -->
-    <figure role="figure" aria-label="{{- $label | plainify -}}">
-      <a href="{{ $image.RelPermalink }}" target="_blank" rel="noopener" title="SVG in neuem Tab öffnen">
-        <img
-          alt="{{- $caption | markdownify | plainify -}}"
-          title="{{- $label | plainify -}}"
-          src="{{- $image.RelPermalink -}}"
-          decoding="async"
-          loading="lazy"
-        />
-      </a>
-      <figcaption>{{- $caption -}}</figcaption>
-    </figure>
-  {{- else -}}
+
+
+<figure role="figure" aria-label="{{- $label | plainify -}}">
+  {{- if and $image (ne $image.MediaType.SubType "svg") -}}
+    <!-- CASE A: Processable Image (JPG, PNG, TIFF, etc.) -->
     {{- $image_width := $image.Width -}}
     {{- $image_height := $image.Height -}}
     {{- if strings.Contains $image "_2x" -}}
       {{- $image_width = math.Floor (math.Div $image_width 2) -}}
       {{- $image_height = math.Floor (math.Div $image_height 2) -}}
     {{- end -}}
-    {{- $fallback_image := ($image.Resize (print "789x jpg " $image_quality)) -}}
-    <figure role="figure" aria-label="{{- $label | plainify -}}">
-      <a href="{{ $image.RelPermalink }}" data-lightbox="blogpost" data-title="{{ $caption | markdownify | plainify }}">
+
+    {{- $fallback_image := ($image.Resize (printf "789x jpg %s" $image_quality)) -}}
+    {{- $lightbox_image := ($image.Resize (printf "2048x webp %s" $image_quality)) -}}
+
+
+    <a
+      href="{{ $lightbox_image.RelPermalink }}"
+      data-lightbox="blogpost"
+      data-title="{{ $caption | markdownify | plainify }}"
+    >
+      <picture>
+        <!-- AVIF Source -->
+        <source
+          type="image/avif"
+          srcset="
+            {{- if le $image.Width (index $image_sizes 0) }}
+            {{- with $image.Resize (printf " %dx avif %s" $image.Width $image_quality) -}}
+              {{- print .RelPermalink " "
+                .Width "w, "
+              -}}
+            {{- end -}}
+          {{- end -}} {{- with $image_sizes -}}
+            {{- range $index, $size :=. -}}
+              {{- if ge
+                $image.Width $size
+              -}}
+                {{- with $image.Resize (printf "%dx avif %s" $size $image_quality) -}}
+                  {{- print
+                    .RelPermalink " " $size "w, "
+                  -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}"
+          sizes="(min-width: 800px) 50vw, 100vw"
+        />
+        <!-- WebP Source -->
+        <source
+          type="image/webp"
+          srcset="
+            {{- if le $image.Width (index $image_sizes 0) }}
+            {{- with $image.Resize (printf " %dx webp %s" $image.Width $image_quality) -}}
+              {{- print .RelPermalink " "
+                .Width "w, "
+              -}}
+            {{- end -}}
+          {{- end -}} {{- with $image_sizes -}}
+            {{- range $index, $size :=. -}}
+              {{- if ge
+                $image.Width $size
+              -}}
+                {{- with $image.Resize (printf "%dx webp %s" $size $image_quality) -}}
+                  {{- print
+                    .RelPermalink " " $size "w, "
+                  -}}
+                {{- end -}}
+              {{- end -}}
+            {{- end -}}
+          {{- end -}}"
+          sizes="(min-width: 800px) 50vw, 100vw"
+        />
+        <!-- Fallback IMG -->
         <img
           alt="{{- $caption | markdownify | plainify -}}"
           title="{{- $label | plainify -}}"
           width="{{- $image_width -}}"
           height="{{- $image_height -}}"
-          srcset="
-            {{- if le $image.Width (index $image_sizes 0) }}
-              {{- with $image.Resize (print $image.Width "x webp " $image_quality) -}}
-                {{- print .RelPermalink " " .Width "w, " -}}
-              {{- end -}}
-            {{- end -}}
-            {{- with $image_sizes -}}
-              {{- range $index, $size := . -}}
-                {{- if ge $image.Width $size -}}
-                  {{- with $image.Resize (print $size "x webp " $image_quality) -}}
-                    {{- print .RelPermalink " " $size "w, " -}}
-                  {{- end -}}
-                {{- end -}}
-              {{- end -}}
-            {{- end -}}"
-          sizes="(min-width: 800px) 50vw, 100vw"
           src="{{- $fallback_image.RelPermalink -}}"
-          {{- if strings.Contains $image "featured" -}}
-            loading="eager"
-            decoding="sync"
+          {{- if
+            strings.Contains $image "featured"
+          -}}
+            loading="eager" decoding="sync"
           {{- else -}}
-            decoding="async"
-            loading="lazy"
+            decoding="async" loading="lazy"
           {{- end -}}
         />
-      </a>
-      <figcaption>{{- $caption -}}</figcaption>
-    </figure>
+      </picture>
+    </a>
+  {{- else -}}
+    <!-- CASE B: SVG or External/Missing Image (Safe Fallback) -->
+    <a href="{{ .Destination | safeURL }}" target="_blank" rel="noopener" title="Bild öffnen">
+      <img
+        alt="{{- $caption | markdownify | plainify -}}"
+        title="{{- $label | plainify -}}"
+        src="{{- if $image }}
+          {{ $image.RelPermalink }}
+        {{ else }}
+          {{ .Destination | safeURL }}
+        {{ end -}}"
+        decoding="async"
+        loading="lazy"
+      />
+    </a>
   {{- end -}}
-{{- end -}}
+  <figcaption>{{- $caption -}}</figcaption>
+</figure>
