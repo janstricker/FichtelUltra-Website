@@ -15,18 +15,6 @@ jobs:
         # Klont das Repository in den Runner
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-          cache: 'npm'
-
-      - name: Install Dependencies
-        run: npm ci --ignore-scripts
-
-      - name: Lint Code
-        run: node node_modules/prettier/bin/prettier.cjs --check .
-
       - name: Set up Hugo
         # Installiert Hugo in der gewünschten Version
         uses: peaceiris/actions-hugo@v3
@@ -34,9 +22,21 @@ jobs:
           hugo-version: 'latest' # Nutze die neueste Hugo-Version
           extended: true # Aktiviere die Extended-Version für SCSS/SASS
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
       - name: Build Hugo site
         # Baut die statische Website mit Hugo
         run: hugo --minify
+
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Lint Code
+        run: node node_modules/prettier/bin/prettier.cjs --check .
 
       - name: Check for broken links
         uses: anishathalye/proof-html@v2
