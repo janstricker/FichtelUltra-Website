@@ -1,36 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
+  <head>
     <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#DFDED3">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3">
-  {{ partial "head.html" . }}
+    <meta name="theme-color" content="#DFDED3" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#DFDED3" />
+    {{ partial "head.html" . }}
 
-<script async
-  src="https://js.stripe.com/v3/buy-button.js">
-</script>
-</head>
 
-{{ $class := .Params.color | default "blog" }}
-<body class="{{$class}}">
-  {{ partial "header.html" . }}
-  <div class="container min-h-content hpadding">
-    <main class="mainSection">
-      {{ with .Resources.GetMatch "*/title.*" }}
-        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
-      {{ else with .Resources.GetMatch "*/*.*" }}
-        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
+    <script async src="https://js.stripe.com/v3/buy-button.js"></script>
+  </head>
 
-<div class="postHeader">  
-      <h1>{{ .Title }}</h1>
-</div>
-<div class="postContent">
-  {{ .Content }}
-</div>
-    </main>
-  </div>
-  {{ partial "footer.html" . }}
-</body>
+  {{ $class := .Params.color | default "blog" }}
+  <body class="{{ $class }}">
+    {{ partial "header.html" . }}
+    <div class="container min-h-content hpadding">
+      <main class="mainSection">
+        {{ with .Resources.GetMatch "*/title.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+        {{ else with .Resources.GetMatch "*/*.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+        {{ end }}
+
+
+        <div class="postHeader">
+          <h1>{{ .Title }}</h1>
+        </div>
+        <div class="postContent">
+          {{ .Content }}
+        </div>
+      </main>
+    </div>
+    {{ partial "footer.html" . }}
+  </body>
 </html>

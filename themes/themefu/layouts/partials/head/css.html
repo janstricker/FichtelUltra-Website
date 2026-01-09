@@ -1,11 +1,24 @@
 {{- $cssFiles := resources.Match "css/*.css" }}
 {{- range $cssFiles }}
   {{- if eq hugo.Environment "development" }}
-    <link rel="stylesheet" href="{{ .RelPermalink }}">
+    <link rel="stylesheet" href="{{ .RelPermalink }}" />
   {{- else }}
     {{- with . | minify | fingerprint }}
-      <link rel="preload" href="{{ .RelPermalink }}" as="style" onload="this.onload=null;this.rel='stylesheet'" integrity="{{ .Data.Integrity }}" crossorigin="anonymous">
-      <noscript><link rel="stylesheet" href="{{ .RelPermalink }}" integrity="{{ .Data.Integrity }}" crossorigin="anonymous"></noscript>
+      <link
+        rel="preload"
+        href="{{ .RelPermalink }}"
+        as="style"
+        onload="this.onload=null;this.rel='stylesheet'"
+        integrity="{{ .Data.Integrity }}"
+        crossorigin="anonymous"
+      />
+      <noscript
+        ><link
+          rel="stylesheet"
+          href="{{ .RelPermalink }}"
+          integrity="{{ .Data.Integrity }}"
+          crossorigin="anonymous"
+      /></noscript>
     {{- end }}
   {{- end }}
 {{- end }}
