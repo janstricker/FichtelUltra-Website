@@ -56,27 +56,27 @@ Höhenmeter:
 
 ### Verlauf
 
-| Wegpunkt                                 | [Zeit](#zeitplan)                               | Ort                                                            | Beschreibung                               |
-| :--------------------------------------- | :---------------------------------------------- | :------------------------------------------------------------- | :----------------------------------------- |
-| **Start** </br> 0,0 km </br> 700 m       | 07:00 Uhr                                       | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
-| **Gipfel 1** </br> 1,0 km </br> 827 m    | ~07:10 Uhr (Beide Gruppen)                      | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
-| **Gipfel 2** </br> 16,0 km </br> 798 m   | ~08:47 Uhr (Schnell) </br> ~09:12 Uhr (Langsam) | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
-| **Gipfel 3** </br> 23,1 km </br> 877 m   | ~09:40 Uhr (Schnell) </br> ~10:18 Uhr (Langsam) | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
-| **VP 1** </br> 23,1 km </br> 832 m       | ~09:44 Uhr (Schnell) </br> ~10:22 Uhr (Langsam) | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
-| **Gipfel 4** </br> 31,5 km </br> 866 m   | ~10:44 Uhr (Schnell) </br> ~11:39 Uhr (Langsam) | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
-| **Gipfel 5** </br> 34,6 km </br> 1.051 m | ~11:11 Uhr (Schnell) </br> ~12:11 Uhr (Langsam) | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
-| **Gipfel 6** </br> 36,6 km </br> 972 m   | ~11:28 Uhr (Schnell) </br> ~12:32 Uhr (Langsam) | Nußhardt                                                       | Spitze der Aussichtsplattform              |
-| **VP 2** </br> 38,9 km </br> 774 m       | ~11:45 Uhr (Schnell) </br> ~12:53 Uhr (Langsam) | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
-| **Gipfel 7** </br> 41,4 km </br> 929 m   | ~12:08 Uhr (Schnell) </br> ~13:21 Uhr (Langsam) | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
-| **Gipfel 8** </br> 43,1 km </br> 1.024 m | ~12:23 Uhr (Schnell) </br> ~13:42 Uhr (Langsam) | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
-| **Wegpunkt** </br> 48,5 km </br> 752 m   | ~13:00 Uhr (Schnell) </br> ~14:29 Uhr (Langsam) | Fichtelsee                                                     | Landschaftliches Highlight                 |
-| **Gipfel 9** </br> 51,7 km </br> 855 m   | ~13:25 Uhr (Schnell) </br> ~14:58 Uhr (Langsam) | Platte                                                         | Gipfelkreuz                                |
-| **VP 3** </br> 53,8 km </br> 712 m       | ~13:42 Uhr (Schnell) </br> ~15:20 Uhr (Langsam) | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
-| **Gipfel 10** </br> 57,0 km </br> 813 m  | ~14:10 Uhr (Schnell) </br> ~15:54 Uhr (Langsam) | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
-| **Gipfel 11** </br> 61,5 km </br> 939 m  | ~14:50 Uhr (Schnell) </br> ~16:41 Uhr (Langsam) | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
-| **Gipfel 12** </br> 63,6 km </br> 847 m  | ~15:06 Uhr (Schnell) </br> ~17:04 Uhr (Langsam) | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
-| **Gipfel 13** </br> 64,3 km </br> 879 m  | ~15:13 Uhr (Schnell) </br> ~17:14 Uhr (Langsam) | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
-| **Ziel** </br> 66 km </br> 700 m         | ~15:25 Uhr (Schnell) </br> ~17:30 Uhr (Langsam) | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
+| Wegpunkt                               | [Zeit](#zeitplan)                              | Ort                                                            | Beschreibung                               |
+| :------------------------------------- | :--------------------------------------------- | :------------------------------------------------------------- | :----------------------------------------- |
+| **Start** <br> 0,0 km <br> 700 m       | 07:00 Uhr                                      | [**Kornberghaus**](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Auf der Skipiste                           |
+| **Gipfel 1** <br> 1,0 km <br> 827 m    | ~07:10 Uhr (Beide Gruppen)                     | Großer Kornberg                                                | Spitze der steinernen Schönburgwarte       |
+| **Gipfel 2** <br> 16,0 km <br> 798 m   | ~08:47 Uhr (Schnell) <br> ~09:12 Uhr (Langsam) | Epprechtstein                                                  | Spitze der Aussichtsplattform              |
+| **Gipfel 3** <br> 23,1 km <br> 877 m   | ~09:40 Uhr (Schnell) <br> ~10:18 Uhr (Langsam) | Großer Waldstein                                               | Spitze der Aussichtsplattform Schüssel     |
+| **VP 1** <br> 23,1 km <br> 832 m       | ~09:44 Uhr (Schnell) <br> ~10:22 Uhr (Langsam) | [**Waldsteinhaus**](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Parkplatz                                  |
+| **Gipfel 4** <br> 31,5 km <br> 866 m   | ~10:44 Uhr (Schnell) <br> ~11:39 Uhr (Langsam) | Rudolfstein                                                    | Spitze der Aussichtsplattform              |
+| **Gipfel 5** <br> 34,6 km <br> 1.051 m | ~11:11 Uhr (Schnell) <br> ~12:11 Uhr (Langsam) | Schneeberg                                                     | Spitze der Aussichtsplattform Backöfele    |
+| **Gipfel 6** <br> 36,6 km <br> 972 m   | ~11:28 Uhr (Schnell) <br> ~12:32 Uhr (Langsam) | Nußhardt                                                       | Spitze der Aussichtsplattform              |
+| **VP 2** <br> 38,9 km <br> 774 m       | ~11:45 Uhr (Schnell) <br> ~12:53 Uhr (Langsam) | [**Seehaus**](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Parkplatz an der B303                      |
+| **Gipfel 7** <br> 41,4 km <br> 929 m   | ~12:08 Uhr (Schnell) <br> ~13:21 Uhr (Langsam) | Weißmainfels                                                   | Spitze der Aussichtsplattform              |
+| **Gipfel 8** <br> 43,1 km <br> 1.024 m | ~12:23 Uhr (Schnell) <br> ~13:42 Uhr (Langsam) | Ochsenkopf                                                     | Spitze des steinernen Asenturmes           |
+| **Wegpunkt** <br> 48,5 km <br> 752 m   | ~13:00 Uhr (Schnell) <br> ~14:29 Uhr (Langsam) | Fichtelsee                                                     | Landschaftliches Highlight                 |
+| **Gipfel 9** <br> 51,7 km <br> 855 m   | ~13:25 Uhr (Schnell) <br> ~14:58 Uhr (Langsam) | Platte                                                         | Gipfelkreuz                                |
+| **VP 3** <br> 53,8 km <br> 712 m       | ~13:42 Uhr (Schnell) <br> ~15:20 Uhr (Langsam) | [**Silberhaus**](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Parkplatz an der B303                      |
+| **Gipfel 10** <br> 57,0 km <br> 813 m  | ~14:10 Uhr (Schnell) <br> ~15:54 Uhr (Langsam) | Hohe Matze                                                     | Gipfelkreuz (unwegsames Gelände)           |
+| **Gipfel 11** <br> 61,5 km <br> 939 m  | ~14:50 Uhr (Schnell) <br> ~16:41 Uhr (Langsam) | Große Kösseine                                                 | Spitze der Aussichtsplattform Kösseineturm |
+| **Gipfel 12** <br> 63,6 km <br> 847 m  | ~15:06 Uhr (Schnell) <br> ~17:04 Uhr (Langsam) | Großer Haberstein                                              | Spitze der Aussichtsplattform              |
+| **Gipfel 13** <br> 64,3 km <br> 879 m  | ~15:13 Uhr (Schnell) <br> ~17:14 Uhr (Langsam) | Burgstein (Burgsteinfelsen)                                    | Spitze der Aussichtsplattform              |
+| **Ziel** <br> 66 km <br> 700 m         | ~15:25 Uhr (Schnell) <br> ~17:30 Uhr (Langsam) | [**Luisenburg**](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Jean Paul Gedenkstein                      |
 
 ### Verhalten am Gipfel
 

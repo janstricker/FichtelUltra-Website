@@ -41,7 +41,7 @@ Wir hatten alles Wichtige in einer Sporttasche verpackt, um schnell auf die Bed�
 
 ## DNF nach 20 Metern
 
-#### Start: Chamonix | Ortszeit: 18:00 Uhr
+### Start: Chamonix | Ortszeit: 18:00 Uhr
 
 ![Aus erster Reihe erlebten wir den emotionalen Start des UTMB mit](images/utmb-19.jpg 'Aus erster Reihe erlebten wir den emotionalen Start des UTMB mit (Foto: Lena W.)')
 
@@ -55,7 +55,7 @@ Um 01:30 Uhr Nachts starteten wir müde, aber voller Vorfreude, den Motor. Aber 
 
 ## Unterwegs durch die Alpen
 
-#### Aid-Station: Courmayeur | Zeit: 13 h 21 m | Distanz: 81,8 km
+### Aid-Station: Courmayeur | Zeit: 13 h 21 m | Distanz: 81,8 km
 
 Die Anfahrt nach Courmayeur sollte durch den Mont Blanc Tunnel erfolgen. Jedoch war dieser aufgrund von Bauarbeiten nur einspurig befahrbar und der Nachbartunnel aufgrund eines Erdrutsches (dank des spitzenmäßigen Wetters) nicht passierbar. So hatten wir uns auf sehr lange Wartezeiten eingestellt, und lagen damit bedauerlicherweise auch richtig. Aber mit Kaffee und dem UTMB Livestream ließ sich die Zeit schnell überbrücken.
 An der Aid-Station angekommen, begannen wir mit den abgemachten Vorbereitungen: Kit-Check für die Versorgung und Zubereitung eines frischen Frühstücks-Sandwiches für Pechi. Unser Spirituskocher sollte auf der Kofferraumklappe noch nicht seinen ungewöhnlichsten Einsatzort für den Tag gefunden haben. Die Hälfte war für Christian bereits geschafft, und mit neuer Kraft begab er sich im Morgengrauen wieder auf die Strecke.
@@ -64,7 +64,7 @@ An der Aid-Station angekommen, begannen wir mit den abgemachten Vorbereitungen: 
 
 ## What events 100 miles does to a person
 
-#### Aid-Station: Champex Lac | Zeit: 22 h 14 m | Distanz: 127,6 km
+### Aid-Station: Champex Lac | Zeit: 22 h 14 m | Distanz: 127,6 km
 
 Für uns ging es nach der erfolgreichen Versorgung auch unmittelbar weiter in Richtung Schweiz. Das alpine Gelände lässt leider nur umständliche Straßenführungen zu, wodurch die Entfernungen zwischen den Aid-Stations mit dem Auto teilweise mehr als doppelt so weit sind als zu Fuß. Auf der ca. 2 Stunden langen Reise nach Champex Lac machten sich auch bei uns langsam erste Ermüdungserscheinungen breit. Eine direkte Anfahrt in den auf 1470 m hoch gelegenen Ort war aufgrund von Straßensperrungen nicht möglich. So mussten wir samt Versorgungs-Kit mit einem Linienbus die steile Auffahrt erledigen und gönnten uns zur Belohnung ein halbes Stündchen Schlaf am traumhaften Bergsee.
 
@@ -84,7 +84,7 @@ Nach seinem „Nickerchen“ mussten wir ihn zu etwas Nahrungsaufnahme überrede
 
 ## Ungeahnte Energiereserven
 
-#### Aid-Station: Trient | Zeit: 26 h 34 m | Distanz: 143,8 km
+### Aid-Station: Trient | Zeit: 26 h 34 m | Distanz: 143,8 km
 
 Eine Busfahrt später saßen wir bereits wieder im Jetta, um den Loop rund um das Gebirge ebenfalls fortzusetzen. Zuvor legten wir noch einen kurzen Shopping-Stop ein, um ein Entschuldigungs-Geschenk für unsere Campingplatzwächterinnen zu besorgen. Zur nächsten Station nach Trient war es nicht weit. So mussten wir uns fast schon beeilen, damit wir Pechi nicht verpassen. Das Bordbistro zauberte noch schnell einen Kartoffelbrei auf dem Schotterparkplatz. Dieser sollte seinen Magen etwas beruhigen, welcher von Energy-Gels und Elektrolyt-Drink bereits strapaziert war. Die zweite Nacht brach bereits über uns herein und die Trails entlang der Berge erstrahlten im Licht der Stirnlampen.
 
@@ -96,7 +96,7 @@ In der Aid-Station war es diesmal noch voller und enger als zuvor. Die Athleten 
 
 ## Frittierte Sonnenstrahlen
 
-#### Aid-Station: Vallorcine | Zeit: 29 h 40 m | Distanz: 154,4 km
+### Aid-Station: Vallorcine | Zeit: 29 h 40 m | Distanz: 154,4 km
 
 Die Abstände zwischen den Stationen wurden deutlich kürzer, und somit auch unsere Fahrstrecken. Zum Glück, denn langsam hatten auch wir unsere Kapazitätsgrenzen erreicht. Die erwartete Ankunftszeit von Pechi für den nächsten Stop in Vallorcine verzögerte sich etwas. Wir kamen rechtzeitig dort an, um sogar fast eine Stunde im Auto das ein oder andere Auge zuzumachen.
 
@@ -107,7 +107,7 @@ Als wir Pechi auf der Strecke erspähten und nochmal kräftig anfeuerten, machte
 
 ## Worth it
 
-#### Ziel: Chamonix | Zeit: 34 h 05 m | Distanz: 173,2 km
+### Ziel: Chamonix | Zeit: 34 h 05 m | Distanz: 173,2 km
 
 Nun wussten wir, dass er noch knapp 18 km und 1000 hm überstehen musste. Wir begaben uns mit einem kurzen Zwischenstopp am Campingplatz in Richtung Chamonix zum Ziel. Obwohl unsere Betten schon kurzzeitig so nah waren, harrten wir die letzten Momente in einer Parkbucht im Auto aus. Die sonst so überfüllte Innenstadt von Chamonix war fast leer und dunkel. Jedoch befanden sich im hell erleuchteten Zielbereich zahlreiche Unterstützende. Diese hatten wohl alle eine ähnliche (Tor)Tour du Mont Blanc hinter sich, um ihre Held:innen jubelnd in Empfang zu nehmen.
 

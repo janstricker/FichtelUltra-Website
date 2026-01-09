@@ -5,10 +5,12 @@ summary: 'Das erste FichtelUltra Team-Shirt'
 
 Ihr könnt das erste FichtelUltra Team-Shirt unter [folgendem Link](https://buy.stripe.com/fZu5kC7UEbCgaQ56N7g7e00) bestellen!
 
+<div>
 <stripe-buy-button
   buy-button-id="buy_btn_1S2qCTA5m0TWgh1MXvmAMq0y"
   publishable-key="pk_live_51QmwglA5m0TWgh1M8jq9QqP6h5pLQwo2EvpgyBBRtlXKyeonnSj1m9DP5C52tGnK2jsLZ06lJRyxY1TuSwauyXDm00NpC3KjBT">
 </stripe-buy-button>
+</div>
 
 ## Größen & Material
 

@@ -23,7 +23,7 @@
 
 
         <!-- Hauptinhalt der Seite -->
-        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt">
+        <main class="mainHome" id="main-content" aria-label="Hauptinhalt">
           {{ if .IsHome }}
             <!-- Home-Seite: Zeige hervorgehobenes Event -->
             {{ $featuredEvent := first 1 (where (where .Site.RegularPages "Section" "events") ".Params.featured" "true") }}
