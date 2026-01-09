@@ -3,6 +3,7 @@
 <title>
   {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title site.Title }}{{ end }}
 </title>
+<link rel="icon" href="/favicon.ico" />
 
 {{ if .IsHome }}
   {{ partial "critical-home.html" . }}
@@ -31,7 +32,7 @@
 <meta property="og:image" content="{{ $ogImage }}" />
 <meta property="og:image:alt" content="Trailrunning im Fichtelgebirge – FichtelUltra" />
 {{ with .Lastmod }}
-  <meta property="og:updated_time" content="{{ .Format "2006-01-02T15:04:05Z07:00" }}" />
+  <meta property="og:updated_time" content="{{ .Format " 2006-01-02T15:04:05Z07:00" }}" />
 {{ end }}
 
 {{- /* Description Priorität: page.Params.summary > page.Params.description > site.Params.description */ -}}

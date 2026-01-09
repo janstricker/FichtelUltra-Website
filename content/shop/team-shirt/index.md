@@ -25,7 +25,7 @@ Die Shirts werden als Großbrief versandt. Die Stückzahl ist begrenzt und es wi
 
 ## Design
 
-Das Design zeigt eine topografische Karte des Fichtelgebirges sowie die [Strecke des Fun Run 2](events/2025-10-18--fun-run-2/#strecke) entlang der vielen Erhöhungen. Auf einem Ärmel sind alle Gipfel und ihre Höhenmeter abgebildet und auf der Rückseite wird unser Logo durch diverse Grafiken begleitet.
+Das Design zeigt eine topografische Karte des Fichtelgebirges sowie die [Strecke des Fun Run 2](/events/2025-10-18--fun-run-2/#strecke) entlang der vielen Erhöhungen. Auf einem Ärmel sind alle Gipfel und ihre Höhenmeter abgebildet und auf der Rückseite wird unser Logo durch diverse Grafiken begleitet.
 
 ![](images/shirt-front.png 'Vorderseite des Shirts. (Abbildungen können abweichen)')
 

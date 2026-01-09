@@ -16,7 +16,7 @@
 {{- end -}}
 
 
-<figure role="figure" aria-label="{{- $label | plainify -}}">
+<figure aria-label="{{- $label | plainify -}}">
   {{- if and $image (ne $image.MediaType.SubType "svg") -}}
     <!-- CASE A: Processable Image (JPG, PNG, TIFF, etc.) -->
     {{- $image_width := $image.Width -}}
@@ -43,7 +43,7 @@
             {{- if le $image.Width (index $image_sizes 0) }}
             {{- with $image.Resize (printf " %dx avif %s" $image.Width $image_quality) -}}
               {{- print .RelPermalink " "
-                .Width "w, "
+                .Width "w"
               -}}
             {{- end -}}
           {{- end -}} {{- with $image_sizes -}}
@@ -51,10 +51,11 @@
               {{- if ge
                 $image.Width $size
               -}}
-                {{- with $image.Resize (printf "%dx avif %s" $size $image_quality) -}}
-                  {{- print
-                    .RelPermalink " " $size "w, "
-                  -}}
+                {{- if $index }},{{- end -}}
+                {{- with $image.Resize (printf "%dx avif %s" $size
+                  $image_quality)
+                -}}
+                  {{- print .RelPermalink " " $size "w" -}}
                 {{- end -}}
               {{- end -}}
             {{- end -}}
@@ -68,7 +69,7 @@
             {{- if le $image.Width (index $image_sizes 0) }}
             {{- with $image.Resize (printf " %dx webp %s" $image.Width $image_quality) -}}
               {{- print .RelPermalink " "
-                .Width "w, "
+                .Width "w"
               -}}
             {{- end -}}
           {{- end -}} {{- with $image_sizes -}}
@@ -76,10 +77,11 @@
               {{- if ge
                 $image.Width $size
               -}}
-                {{- with $image.Resize (printf "%dx webp %s" $size $image_quality) -}}
-                  {{- print
-                    .RelPermalink " " $size "w, "
-                  -}}
+                {{- if $index }},{{- end -}}
+                {{- with $image.Resize (printf "%dx webp %s" $size
+                  $image_quality)
+                -}}
+                  {{- print .RelPermalink " " $size "w" -}}
                 {{- end -}}
               {{- end -}}
             {{- end -}}

@@ -26,7 +26,7 @@ Distanz: ca. 60 km | Höhenmeter: ca. +2000 m / -2000 m
     <a href="gpx/12_Gipfel_Tour_Fichtelgebirge.gpx" download>
       <button class="btn inline">Download GPX</button>
     </a>
-    <a href="https://www.komoot.com/de-de/tour/1710757003" target="_blank" external>
+    <a href="https://www.komoot.com/de-de/tour/1710757003" target="_blank">
       <button class="btn inline">Strecke auf Komoot</button>
     </a>
 </div>

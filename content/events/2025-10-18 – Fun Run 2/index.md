@@ -49,7 +49,7 @@ Höhenmeter:
     <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2-v02.gpx" download>
       <button class="btn inline">Download GPX</button>
     </a>
-    <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank" external>
+    <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank">
       <button class="btn inline">Strecke auf Komoot</button>
     </a>
 </div>
