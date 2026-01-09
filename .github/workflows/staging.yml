@@ -44,6 +44,10 @@ jobs:
           directory: ./public
           ignore_url_re: |
             ^https?://(www\.)?instagram\.com/.*$
+          validator_ignore: |
+            CSS: “font-optical-sizing”: Property “font-optical-sizing” doesn't exist\.
+            CSS: “border-top”: “in” is not a “color” value\.
+            CSS: “background-color”: “color-mix\(in srgb,var\(--accent-1-strong\),var\(--neutral-weakest\) 40%\)” is not a “background-color” value\.
 
       - name: Upload via FTP
         # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server
