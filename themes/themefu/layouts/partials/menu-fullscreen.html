@@ -5,8 +5,8 @@
       {{ $section := site.GetPage $name }}
       {{ if $section }}
         {{ $class := $section.Params.color | default "" }}
-        <li class="menu-item {{ $class }}">
-          <a href="{{ $section.RelPermalink }}">
+        <li class="menu-list-item">
+          <a class="menu-item {{ $class }}" href="{{ $section.RelPermalink }}">
             {{ $section.Title }}
           </a>
         </li>

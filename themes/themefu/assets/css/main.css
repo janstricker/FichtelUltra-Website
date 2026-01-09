@@ -55,6 +55,7 @@ html {
   --decalWidth: 100%;
   --svg-stroke-width: 0.25rem;
 }
+
 @media (max-width: 840px) {
   :root {
     --size-80: 0.25rem;
@@ -156,6 +157,7 @@ h4 {
   background-color: var(--eventsLite);
   color: var(--onEventsLite);
 }
+
 .blog {
   background-color: var(--blog);
   color: var(--onBlog);
@@ -471,7 +473,7 @@ main {
 
 .menu {
   height: 100%;
-  width: auto;
+  width: 100%;
   margin: 0;
   display: flex;
   flex-direction: column;
@@ -500,6 +502,20 @@ main {
 .menu-item:active {
   background-color: var(--base-strongest);
   color: var(--neutral-weakest);
+}
+
+.menu-list-item {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.menu-list-item {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
 
 .post {
@@ -668,6 +684,7 @@ tr > td:first-child {
   border-bottom-left-radius: var(--size-80);
   overflow: hidden;
 }
+
 tr > td:last-child {
   border-top-right-radius: var(--size-80);
   border-bottom-right-radius: var(--size-80);
@@ -684,6 +701,7 @@ th:first-child,
 td:first-child {
   border-left: none;
 }
+
 th:last-child,
 td:last-child {
   border-right: none;
@@ -699,17 +717,21 @@ td:last-child {
     display: block;
     width: 100%;
   }
+
   table {
     border-spacing: 0;
   }
+
   thead {
     display: none;
   }
+
   tr {
     margin-bottom: 1.2em;
     border-radius: var(--size-80);
     overflow: hidden;
   }
+
   td {
     padding: var(--size-90) var(--size-200);
     border: none;
@@ -720,6 +742,7 @@ td:last-child {
     text-align: left;
     background: var(--neutral-weakest);
   }
+
   tr > th:first-child,
   tr > td:first-child,
   tr > td:first-child,
@@ -727,6 +750,7 @@ td:last-child {
     border-radius: 0 !important;
     overflow: visible !important;
   }
+
   td:before {
     position: absolute;
     top: 0;
@@ -910,9 +934,11 @@ html {
   0% {
     background-size: 150%;
   }
+
   50% {
     background-size: 300%;
   }
+
   100% {
     background-size: 150%;
   }
@@ -922,6 +948,7 @@ html {
   color: inherit;
   text-decoration: none;
 }
+
 /* Respect reduced motion preferences */
 @media (prefers-reduced-motion: reduce) {
   .site-banner__marquee {
@@ -933,6 +960,7 @@ html {
   .flex-container {
     flex-direction: column;
   }
+
   .containerHome {
     flex-grow: 0;
   }
@@ -941,6 +969,7 @@ html {
     min-height: unset;
     height: calc((100vh / 3) - var(--footer-height));
   }
+
   .mainHome {
     min-height: calc((100vh / 2) - var(--footer-height));
   }
@@ -958,22 +987,27 @@ html {
     gap: var(--size-400);
     padding: var(--size-400);
   }
+
   .links {
     flex-direction: column;
     margin-left: 0;
   }
+
   .copyright {
     min-width: unset;
     padding: 0;
   }
+
   .btn {
     font-size: var(--size-200);
     padding: var(--size-100) var(--size-200);
   }
+
   .btn-group {
     flex-direction: column;
     align-items: start;
   }
+
   .btn.inline {
     margin-top: var(--size-100);
     margin-bottom: 0;
@@ -993,14 +1027,17 @@ html {
   .postImg {
     width: 100%;
   }
+
   .fallback {
     width: 100%;
     height: var(--size-200);
   }
+
   .postTeaserContent {
     padding: var(--size-200) 0;
     aspect-ratio: unset;
   }
+
   .postHeader {
     padding: var(--size-200) 0;
   }
@@ -1014,6 +1051,7 @@ html {
     margin-block-start: calc(var(--size-400) * 3);
     margin-block-end: var(--size-90);
   }
+
   .postContent h3 {
     margin-block-start: calc(var(--size-400) * 1.5);
     margin-block-end: var(--size-90);
@@ -1022,6 +1060,7 @@ html {
   figcaption {
     font-size: var(--size-100);
   }
+
   .date-container {
     display: flex;
     flex-direction: column;
@@ -1031,13 +1070,16 @@ html {
   .text-separator.desktop-only {
     display: none;
   }
+
   @keyframes banner-bg {
     0% {
       background-size: 250%;
     }
+
     50% {
       background-size: 400%;
     }
+
     100% {
       background-size: 250%;
     }
