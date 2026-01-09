@@ -13,7 +13,7 @@ Das ist der Kern von dem, was uns antreibt – und was uns seit vielen Jahren ve
 
 Wir sind im Fichtelgebirge aufgewachsen, kennen uns seit Kindheitstagen und sind nicht nur Freunde, sondern auch kreative Komplizen.
 
-![Gruppenfoto von den drei Machern von FichtelUltra. Von Links: Jan Stricker, Christian Pecher, Christian Friedel.](images/about.webp 'Das sind wir: Strocko, Pechi und Fried.')
+![Gruppenfoto von den drei Initiatoren von FichtelUltra. Von Links: Jan Stricker, Christian Pecher, Christian Friedel.](images/about.webp 'Das sind wir: Strocko, Pechi und Fried.')
 
 ## Unsere Geschichte
 
