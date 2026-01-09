@@ -42,6 +42,8 @@ jobs:
         uses: anishathalye/proof-html@v2
         with:
           directory: ./public
+          ignore_url: |
+            https://www.instagram.com/
 
       - name: Upload via FTP
         # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server

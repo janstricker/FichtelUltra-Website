@@ -21,11 +21,11 @@ Wir versuchten, allen im Vorfeld Mut zu machen und gaben Tipps, führten Telefon
 ## Carbloading und Community
 
 Am Vorabend trafen wir uns im [Café Schwarzer Peter](https://www.schwarzerpeter-95100.de/) in Selb zur Pasta-Party, um die Glykogenspeicher aufzufüllen – und uns natürlich als Trailrunning-Gruppe besser kennenzulernen.
-Ich hatte eine Präsentation zu den Hintergründen unseres Vorhabens und der Route, die uns am Tag darauf bevorstand, vorbereitet. Die Tour nochmal so detailliert als 3D Visualisierung zu sehen, ließ die Vorfreude wachsen und jede Kurve, jeder Gipfel weckten bei mir auch Erinnerungen an [unsere Tour vom letzten Jahr](/blog/2025-08-17-recap-fun-run/).
+I had prepared a presentation about the background of our project and the route that lay ahead of us the next day. Seeing the tour in such detail as a 3D visualization increased the anticipation, and every curve, every peak also awakened memories of [our tour last year](/blog/2025-08-17-recap-fun-run-1-2024/).
 
 Außerdem statteten wir alle VorbestellerInnen mit ihren Team-Shirts aus. Wir waren begeistert, wie gut das Druckergebnis tatsächlich geworden ist, und dankbar für jede Unterstützung.
 
-Ein großes Danke geht an das Team vom Schwarzen Peter für die Gastfreundschaft! Mit ihnen verbindet uns bereits eine kleine Event-Historie – früher unter unserem anderen Alias [„Wütende Frau isst Brot“](instagram.com/wuetendefrauisstbrot/) mit elektronischer Musik, jetzt als FichtelUltra mit sportlichem Fokus.
+Ein großes Danke geht an das Team vom Schwarzen Peter für die Gastfreundschaft! Mit ihnen verbindet uns bereits eine kleine Event-Historie – früher unter unserem anderen Alias [„Wütende Frau isst Brot“](https://instagram.com/wuetendefrauisstbrot/) mit elektronischer Musik, jetzt als FichtelUltra mit sportlichem Fokus.
 
 ![](album/FU-FR2-003.jpeg 'Ein Vortrag bei der Pasta Party im Café Schwarzer Peter – Alle lernen sich kennen, essen Nudeln und erfahren etwas über die Tour.')
 

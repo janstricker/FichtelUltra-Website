@@ -121,6 +121,7 @@
       </main>
     </div>
     {{ partial "footer.html" . }}
-    <script src="/js/main.js"></script>
+    {{ $mainJs := resources.Get "js/main.js" }}
+    <script src="{{ $mainJs.RelPermalink }}"></script>
   </body>
 </html>

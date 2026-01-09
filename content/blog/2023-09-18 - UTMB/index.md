@@ -7,7 +7,7 @@ tags: ['On Tour', 'Wettkampf']
 draft: false
 ---
 
-In der letzten August Woche 2023 machten wir uns aus Selb, Regensburg, Mainz und Innsbruck auf in Richtung Alpen. Unser Ziel: Natürlich Chamonix, Frankreich. Wenn unser liebster [Trailrunner Christian](/blog/vortrag-im-jungbrunnen/) schon die Startplatz-Lotterie für den prestigeträchtigsten Ultra Trail Europas gewinnt, wollten wir uns das Lauf-Spektakel und die hochalpine Szenerie natürlich auch nicht entgehen lassen. Doch so toll diese Reise jetzt schon klingt, stellte sie uns vor einige Herausforderungen.
+In der letzten August Woche 2023 machten wir uns aus Selb, Regensburg, Mainz und Innsbruck auf in Richtung Alpen. Unser Ziel: Natürlich Chamonix, Frankreich. Wenn unser liebster [Trailrunner Christian](/blog/2023-08-25---jungbrunnen/) schon die Startplatz-Lotterie für den prestigeträchtigsten Ultra Trail Europas gewinnt, wollten wir uns das Lauf-Spektakel und die hochalpine Szenerie natürlich auch nicht entgehen lassen. Doch so toll diese Reise jetzt schon klingt, stellte sie uns vor einige Herausforderungen.
 
 ## Schwitzen und frieren.
 
