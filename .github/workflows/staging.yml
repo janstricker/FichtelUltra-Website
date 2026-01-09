@@ -47,4 +47,6 @@ jobs:
           password: ${{ secrets.PASSWORD }} # FTP-Passwort
           local-dir: ./public/ # Quellverzeichnis für Upload
           server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
+          protocol: ftps # Use FTPS for secure connection and to avoid ECONNRESET
+          exclude: '["**/.git*/**", "**/node_modules/**"]' # Exclude unnecessary files
           timeout: 300000 # Set timeout to 5 minutes
