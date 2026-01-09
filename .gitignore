@@ -10,3 +10,6 @@ npm-debug.log
 # OS
 .DS_Store
 Thumbs.db
+
+# Ignored Workflows
+.github/workflows/reference/

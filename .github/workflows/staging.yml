@@ -38,15 +38,9 @@ jobs:
       - name: Lint Code
         run: node node_modules/prettier/bin/prettier.cjs --check .
 
-      - name: Upload via FTP
-        # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
-        with:
-          server: ${{ secrets.SERVER }} # FTP-Server-Adresse
-          username: ${{ secrets.USERNAME }} # FTP-Benutzername
-          password: ${{ secrets.PASSWORD }} # FTP-Passwort
-          local-dir: ./public/ # Quellverzeichnis für Upload
-          server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
-          protocol: ftps # Use FTPS for secure connection and to avoid ECONNRESET
-          exclude: '["**/.git*/**", "**/node_modules/**"]' # Exclude unnecessary files
-          timeout: 300000 # Set timeout to 5 minutes
+      - name: Upload via FTP (Robust lftp)
+        # Use lftp for more control and reliability
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y lftp
+          lftp -c "set ssl:verify-certificate no; set mirror:set-permissions no; open -u ${{ secrets.USERNAME }},${{ secrets.PASSWORD }} ${{ secrets.SERVER }}; mirror --reverse --verbose --delete --exclude .git/ --exclude node_modules/ ./public/ ${{ secrets.PATH }}; quit"
