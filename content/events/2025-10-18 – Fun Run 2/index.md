@@ -46,11 +46,11 @@ Höhenmeter:
 - 1.960 hm Abstieg
 
 <div class="btn-group">
-    <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2-v02.gpx" download>
-      <button class="btn inline">Download GPX</button>
+    <a href="/events/2025-10-18--fun-run-2/gpx/FichtelUltraFunRun2-v02.gpx" download class="btn inline">
+      Download GPX
     </a>
-    <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank">
-      <button class="btn inline">Strecke auf Komoot</button>
+    <a href="https://www.komoot.com/de-de/tour/2594868026" target="_blank" class="btn inline">
+      Strecke auf Komoot
     </a>
 </div>
 
@@ -127,13 +127,13 @@ Mögliche Hilfe:
 
 ### Verpflegungspunkte
 
-| Verpflegungspunkt                                   | Ort                                                        | Support Crew              | Service                                              |
-| :-------------------------------------------------- | :--------------------------------------------------------- | :------------------------ | :--------------------------------------------------- |
-| **Start**                                           | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
-| **VP 1** </br> 23,3 km </br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 2** </br> 38,9 km </br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **VP 3** </br> 53,8 km </br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
-| **Ziel** </br> 66 km </br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
+| Verpflegungspunkt                                 | Ort                                                        | Support Crew              | Service                                              |
+| :------------------------------------------------ | :--------------------------------------------------------- | :------------------------ | :--------------------------------------------------- |
+| **Start**                                         | [Kornberghaus](https://maps.app.goo.gl/adniV41VtRXfmqR79)  | Ab 06:00 Uhr              | Abgabe Eigenverpflegung                              |
+| **VP 1** <br> 23,3 km <br> +23 km, +660 m, -540 m | [Waldsteinhaus](https://maps.app.goo.gl/CARLUgYDxjyhs75p7) | Ab 08:30 - max. 11:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 2** <br> 38,9 km <br> +15 km, +460 m, -530 m | [Seehaus](https://maps.app.goo.gl/yDYk7u2tF3ehqeKn6)       | Ab 10:30 - max. 13:30 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **VP 3** <br> 53,8 km <br> +15 km, +420 m, -490 m | [Silberhaus](https://maps.app.goo.gl/DxxAZdw59MiLXWkRA)    | Ab 12:30 - max. 17:00 Uhr | Wasser, Obst, Snacks, Eigenverpflegung               |
+| **Ziel** <br> 66 km <br> +13 km, +390 m, -410 m   | [Luisenburg](https://maps.app.goo.gl/7mVkhwZQ2u9uCbSS6)    | Ab 14:00 - max. 20:00 Uhr | Bier, Brezen, Wasser, Obst, Snacks, Eigenverpflegung |
 
 ### Verantwortung
 

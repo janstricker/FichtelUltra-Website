@@ -5,11 +5,11 @@
       {{ $section := site.GetPage $name }}
       {{ if $section }}
         {{ $class := $section.Params.color | default "" }}
-        <a class="menu-item {{ $class }}" href="{{ $section.RelPermalink }}">
-          <li>
+        <li class="menu-item {{ $class }}">
+          <a href="{{ $section.RelPermalink }}">
             {{ $section.Title }}
-          </li>
-        </a>
+          </a>
+        </li>
       {{ end }}
     {{ end }}
   </ul>
