@@ -43,7 +43,7 @@ jobs:
         uses: docker://alpine:latest
         with:
           entrypoint: /bin/sh
-          args: -c "apk add --no-cache lftp ca-certificates && lftp -c \"set ssl:verify-certificate no; set mirror:set-permissions no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror --reverse --verbose --delete --exclude .git/ --exclude node_modules/ ./public/ $FTP_SERVER_DIR; quit\""
+          args: -c "apk add --no-cache lftp ca-certificates && lftp -c \"set ssl:verify-certificate no; set mirror:set-permissions no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror --reverse --verbose --delete --ignore-time --exclude .git/ --exclude node_modules/ ./public/ $FTP_SERVER_DIR; quit\""
         env:
           FTP_USERNAME: ${{ secrets.USERNAME }}
           FTP_PASSWORD: ${{ secrets.PASSWORD }}
