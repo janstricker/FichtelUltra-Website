@@ -1,12 +1,11 @@
-
 <!-- Dokumenttyp und Spracheinstellungen -->
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
   <head>
-      <!-- Chrome, Firefox OS and Opera -->
-      <meta name="theme-color" content="#9C9992">
-      <!-- iOS Safari -->
-      <meta name="apple-mobile-web-app-status-bar-style" content="#9C9992">
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#9C9992" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#9C9992" />
     <!-- Einbindung des Head-Partials (Meta, Titel, CSS, etc.) -->
     {{ partial "head.html" . }}
   </head>
@@ -18,11 +17,13 @@
         <!-- Einbindung des Header-Partials (Logo, Navigation, etc.) -->
         {{ partial "header-home.html" . }}
 
+
         <!-- Site-Banner: Team Shirt Vorbestellung -->
         {{ partial "product-teaser.html" . }}
 
+
         <!-- Hauptinhalt der Seite -->
-        <main class="mainHome" role="main" id="main-content" aria-label="Hauptinhalt"> 
+        <main class="mainHome" id="main-content" aria-label="Hauptinhalt">
           {{ if .IsHome }}
             <!-- Home-Seite: Zeige hervorgehobenes Event -->
             {{ $featuredEvent := first 1 (where (where .Site.RegularPages "Section" "events") ".Params.featured" "true") }}
@@ -30,60 +31,12 @@
               <div class="home-intro">
                 <!-- Event-Datum und Countdown -->
                 <time class="text-small text-muted" datetime="{{ .Params.event_date }}">
-                  <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span><br />
+                  <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span
+                  ><br />
                   <span id="event-date">&nbsp;</span>
                 </time>
                 <!-- Countdown-Skript für Event -->
-                <script>
-                  document.addEventListener('DOMContentLoaded', function () {
-                    var countdownEl = document.getElementById('event-countdown');
-                    var dateEl = document.getElementById('event-date');
-                    var dateStr = countdownEl.getAttribute('data-date');
-                    var eventDate = new Date(dateStr);
-                    var now = new Date();
-                    var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-                    var weekday = [
-                      "Sonntag",
-                      "Montag",
-                      "Dienstag",
-                      "Mittwoch",
-                      "Donnerstag",
-                      "Freitag",
-                      "Samstag",
-                    ][eventDate.getDay()];
-                    var dateString =
-                      ("0" + eventDate.getDate()).slice(-2) +
-                      "." +
-                      ("0" + (eventDate.getMonth() + 1)).slice(-2) +
-                      "." +
-                      eventDate.getFullYear();
-                    if (daysDiff >= 0) {
-                      if (daysDiff + 1 > 31) {
-                        var weeks = Math.ceil((daysDiff + 1) / 7);
-                        countdownEl.textContent =
-                          "Noch " +
-                          weeks +
-                          " Woche" +
-                          (weeks !== 1 ? "n" : "") +
-                          " (" +
-                          (daysDiff + 1) +
-                          " Tag" +
-                          ((daysDiff + 1) !== 1 ? "e" : "") +
-                          ")";
-                      } else {
-                        countdownEl.textContent =
-                          "Noch " +
-                          (daysDiff + 1) +
-                          " Tag" +
-                          ((daysDiff + 1) !== 1 ? "e" : "");
-                      }
-                      dateEl.textContent = weekday + ", " + dateString;
-                    } else {
-                      countdownEl.textContent = "";
-                      dateEl.textContent = dateString;
-                    }
-                  });
-                </script>
+
                 <h2>{{ .Title }}</h2>
                 <div class="eventInfo">
                   <p class="text-body">{{ .Summary }}</p>
@@ -91,16 +44,18 @@
                   <div class="routeMeta text-small text-muted">
                     {{ $event := . }}
                     {{ with $event.Params.totalLenght }}
-                      {{ . }}
-                      {{ if or ($event.Params.elevation) ($event.Params.duration) }}<span class="text-separator"> ・ </span>{{ end }}
+                    {{ . }}
+                    {{ if or ($event.Params.elevation) ($event.Params.duration) }}
+                      <span class="text-separator"> ・ </span>
                     {{ end }}
+                  {{ end }}
                     {{ with $event.Params.elevation }}
-                      {{ . }}
-                      {{ if $event.Params.duration }}<span class="text-separator"> ・ </span>{{ end }}
-                    {{ end }}
+                    {{ . }}
+                    {{ if $event.Params.duration }}<span class="text-separator"> ・ </span>{{ end }}
+                  {{ end }}
                     {{ with $event.Params.duration }}
-                      {{ . }}
-                    {{ end }}
+                    {{ . }}
+                  {{ end }}
                   </div>
                   -->
                 </div>
@@ -108,7 +63,11 @@
                 <div class="btn-group" role="group" aria-label="Event Aktionen">
                   {{ if .Params.primaryCTA }}
                     <a
-                      href="{{ if .Params.secondaryLink }}{{ .Params.secondaryLink }}{{ else }}{{ .RelPermalink }}{{ end }}"
+                      href="{{ if .Params.secondaryLink }}
+                        {{ .Params.secondaryLink }}
+                      {{ else }}
+                        {{ .RelPermalink }}
+                      {{ end }}"
                       class="btn primary"
                       tabindex="0"
                       aria-label="{{ .Params.primaryCTA }}"
@@ -118,7 +77,11 @@
                   {{ end }}
                   {{ if .Params.secondaryCTA }}
                     <a
-                      href="{{ if .Params.secondaryLink }}{{ .Params.secondaryLink }}{{ else }}{{ .RelPermalink }}{{ end }}"
+                      href="{{ if .Params.secondaryLink }}
+                        {{ .Params.secondaryLink }}
+                      {{ else }}
+                        {{ .RelPermalink }}
+                      {{ end }}"
                       class="btn"
                       tabindex="0"
                       aria-label="{{ .Params.secondaryCTA }}"

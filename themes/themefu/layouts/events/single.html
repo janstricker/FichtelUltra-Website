@@ -1,76 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="{{ site.Language.LanguageCode }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  <!-- Chrome, Firefox OS and Opera -->
-<meta name="theme-color" content="#EDFF7D">
-<!-- iOS Safari -->
-<meta name="apple-mobile-web-app-status-bar-style" content="#EDFF7D">
-  {{ partial "head.html" . }}
-</head>
+  <head>
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#EDFF7D" />
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="#EDFF7D" />
+    {{ partial "head.html" . }}
+  </head>
 
-{{ $class := .Params.color | default "events" }}
-<body class="{{$class}}">
-  {{ partial "header.html" . }}
-  <div class="container min-h-content hpadding">
-    <!-- Site-Banner: Team Shirt Vorbestellung -->
-    {{ partial "product-teaser.html" . }}
-    <main class="mainSection">
-      {{ with .Resources.GetMatch "*/title.*" }}
-        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
-      {{ else with .Resources.GetMatch "*/*.*" }}
-        <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}"/>
-      {{ end }}
+  {{ $class := .Params.color | default "events" }}
 
-<div class="postHeader">
-  <h1>{{ .Title }}</h1>
-  <time class="date-container text-body" datetime="{{ .Params.event_date }}">
-    <span id="event-date">&nbsp;</span>
-    <span class="text-separator desktop-only"> ・ </span>
-    <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span>
-  </time>
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      var countdownEl = document.getElementById('event-countdown');
-      var dateEl = document.getElementById('event-date');
-      var dateStr = countdownEl.getAttribute('data-date');
-      var eventDate = new Date(dateStr);
-      var now = new Date();
-      var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24));
-      var weekday = ["Sonntag","Montag","Dienstag","Mittwoch","Donnerstag","Freitag","Samstag"][eventDate.getDay()];
-      var dateString = ("0" + eventDate.getDate()).slice(-2) + "." + ("0" + (eventDate.getMonth()+1)).slice(-2) + "." + eventDate.getFullYear();
-      if (daysDiff >= 0) {
-        if (daysDiff + 1 > 31) {
-          var weeks = Math.ceil((daysDiff + 1) / 7);
-          countdownEl.textContent = "Noch " + weeks + " Woche" + (weeks !== 1 ? "n" : "") + " (" + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "") + ")";
-        } else {
-          countdownEl.textContent = "Noch " + (daysDiff+1) + " Tag" + ((daysDiff+1) !== 1 ? "e" : "");
-        }
-        dateEl.textContent = weekday + ", " + dateString;
-      } else {
-        countdownEl.textContent = "";
-        dateEl.textContent = dateString;
-      }
-    });
-  </script>
-  <!--
+
+  <body class="{{ $class }}">
+    {{ partial "header.html" . }}
+    <div class="container min-h-content hpadding">
+      <!-- Site-Banner: Team Shirt Vorbestellung -->
+      {{ partial "product-teaser.html" . }}
+      <main class="mainSection">
+        {{ with .Resources.GetMatch "*/title.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+        {{ else with .Resources.GetMatch "*/*.*" }}
+          <img class="postHeaderImg" src="{{ .RelPermalink }}" alt="{{ .Title }}" />
+        {{ end }}
+
+
+        <div class="postHeader">
+          <h1>{{ .Title }}</h1>
+          <time class="date-container text-body" datetime="{{ .Params.event_date }}">
+            <span id="event-date">&nbsp;</span>
+            <span class="text-separator desktop-only"> ・ </span>
+            <span id="event-countdown" data-date="{{ .Params.event_date }}">&nbsp;</span>
+          </time>
+          <script>
+            document.addEventListener('DOMContentLoaded', function () {
+              var countdownEl = document.getElementById('event-countdown')
+              var dateEl = document.getElementById('event-date')
+              var dateStr = countdownEl.getAttribute('data-date')
+              var eventDate = new Date(dateStr)
+              var now = new Date()
+              var daysDiff = Math.floor((eventDate - now) / (1000 * 60 * 60 * 24))
+              var weekday = [
+                'Sonntag',
+                'Montag',
+                'Dienstag',
+                'Mittwoch',
+                'Donnerstag',
+                'Freitag',
+                'Samstag',
+              ][eventDate.getDay()]
+              var dateString =
+                ('0' + eventDate.getDate()).slice(-2) +
+                '.' +
+                ('0' + (eventDate.getMonth() + 1)).slice(-2) +
+                '.' +
+                eventDate.getFullYear()
+              if (daysDiff >= 0) {
+                if (daysDiff + 1 > 31) {
+                  var weeks = Math.ceil((daysDiff + 1) / 7)
+                  countdownEl.textContent =
+                    'Noch ' +
+                    weeks +
+                    ' Woche' +
+                    (weeks !== 1 ? 'n' : '') +
+                    ' (' +
+                    (daysDiff + 1) +
+                    ' Tag' +
+                    (daysDiff + 1 !== 1 ? 'e' : '') +
+                    ')'
+                } else {
+                  countdownEl.textContent =
+                    'Noch ' + (daysDiff + 1) + ' Tag' + (daysDiff + 1 !== 1 ? 'e' : '')
+                }
+                dateEl.textContent = weekday + ', ' + dateString
+              } else {
+                countdownEl.textContent = ''
+                dateEl.textContent = dateString
+              }
+            })
+          </script>
+          <!--
   {{ with .Params.tags }}
-    <div class="tags">
-      {{ range . }}<span class="tag">{{ . }}</span> {{ end }}
-    </div>
-  {{ end }}
+            <div class="tags">
+              {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+            </div>
+          {{ end }}
   -->
-  <div class="eventInfo">
-    <div class="routeMeta">
-      {{ $len := .Params.totalLenght }}
-      {{ $elev := .Params.elevation }}
-      {{ $dur := .Params.duration }}
-      {{ if $len }}{{ $len }}{{ end }}
-      {{ if and $len (or $elev $dur) }}<span class="text-separator"> ・ </span>{{ end }}
-      {{ if $elev }}{{ $elev }}{{ end }}
-      {{ if and $elev $dur }}<span class="text-separator"> ・ </span>{{ end }}
-      {{ if $dur }}{{ $dur }}{{ end }}
-    </div>
-</div>
+          <div class="eventInfo">
+            <div class="routeMeta">
+              {{ $len := .Params.totalLenght }}
+              {{ $elev := .Params.elevation }}
+              {{ $dur := .Params.duration }}
+              {{ if $len }}{{ $len }}{{ end }}
+              {{ if and $len (or $elev $dur) }}<span class="text-separator"> ・ </span>{{ end }}
+              {{ if $elev }}{{ $elev }}{{ end }}
+              {{ if and $elev $dur }}<span class="text-separator"> ・ </span>{{ end }}
+              {{ if $dur }}{{ $dur }}{{ end }}
+            </div>
+          </div>
+        </div>
 
         <div class="postContent">
           {{ if .TableOfContents }}
@@ -86,14 +113,15 @@
           {{ end }}
 
           {{ .Content }}
-        </div>  
-      {{ if .Resources.GetMatch "album/*" }}
-        <h3>Galerie</h3>
-        {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
-      {{ end }}
-    </main>
-  </div>
-  {{ partial "footer.html" . }}
-      <script src="/js/main.js"></script>
-</body>
+        </div>
+        {{ if .Resources.GetMatch "album/*" }}
+          <h3>Galerie</h3>
+          {{ partial "image-gallery" (dict "context" . "gallery_dir" "/album") }}
+        {{ end }}
+      </main>
+    </div>
+    {{ partial "footer.html" . }}
+    {{ $mainJs := resources.Get "js/main.js" }}
+    <script src="{{ $mainJs.RelPermalink }}"></script>
+  </body>
 </html>

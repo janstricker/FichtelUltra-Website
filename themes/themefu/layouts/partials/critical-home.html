@@ -1,37 +1,129 @@
-<style id="critical-home-css">/* Critical CSS for homepage - keep minimal */
-:root{
-  --main-bg:#fff;
-  --accent:#EDFF7D;
-  --header-height:84px; /* reserve header height for LCP */
-  --fu-logo-width:200px;
-  --fu-logo-height:60px;
-  --decalTop:-50%;
-  --decalLeft:0%;
-  --decalWidth:120%;
-}
-html,body{height:100%;margin:0;background:var(--main-bg);color:#111}
-body{font-family:PlusJakartaSans,system-ui,-apple-system,'Segoe UI',Roboto,Arial,Helvetica Neue;line-height:1.4}
-.header, header, .site-header{display:block}
-.headerHome{position:relative;min-height:var(--header-height);height:var(--header-height);display:flex;align-items:center}
-.decalContainer{height:var(--header-height);overflow:hidden;display:block}
-/* decal uses transform so it remains on the compositor; initial transform set via CSS vars */
-.decal{width:var(--decalWidth);max-width:none;transform:translate(var(--decalLeft),var(--decalTop));opacity:0;transition:opacity .4s ease, transform .6s ease;will-change:transform,opacity;transform-origin:center}
-.fichtelUltraLogo{width:var(--fu-logo-width);height:var(--fu-logo-height);flex:0 0 auto;will-change:transform,opacity}
-.container{max-width:1100px;margin:0 auto;padding:0 1rem}
-.mainSection{padding:1.25rem 0}
-.post{display:flex;align-items:flex-start;gap:1rem;padding:.75rem 0;border-bottom:1px solid rgba(0,0,0,.05)}
-.postImg{width:192px;height:128px;object-fit:cover;flex:0 0 192px}
-.postTeaserContent h2{margin:.25rem 0;font-size:1.25rem}
-.postTeaserContent p{margin:.25rem 0;color:#444}
-.nav, nav{display:flex;gap:.75rem;align-items:center}
-.logo{max-height:48px}
-/* Reserve space for menu to avoid layout shifts when it renders */
-.menu{min-height:44px}
-/* Reserve space for home-intro (featured event) so countdown insertion doesn't shift layout) */
-.home-intro{min-height:120px}
-/* Ensure hero/title visible above the fold */
-.hero, .postHeader, h1{visibility:visible}
-/* Minimal utilities */
-.text-small{font-size:.85rem}
-.tag{display:inline-block;background:#f1f1f1;padding:.2rem .4rem;border-radius:4px;font-size:.8rem}
+<style id="critical-home-css">
+  /* Critical CSS for homepage - keep minimal */
+  :root {
+    --main-bg: #fff;
+    --accent: #edff7d;
+    --header-height: 84px; /* reserve header height for LCP */
+    --fu-logo-width: 200px;
+    --fu-logo-height: 60px;
+    --decalTop: -50%;
+    --decalLeft: 0%;
+    --decalWidth: 120%;
+  }
+  html,
+  body {
+    height: 100%;
+    margin: 0;
+    background: var(--main-bg);
+    color: #111;
+  }
+  body {
+    font-family:
+      PlusJakartaSans,
+      system-ui,
+      -apple-system,
+      'Segoe UI',
+      Roboto,
+      Arial,
+      Helvetica Neue;
+    line-height: 1.4;
+  }
+  .header,
+  header,
+  .site-header {
+    display: block;
+  }
+  .headerHome {
+    position: relative;
+    min-height: var(--header-height);
+    height: var(--header-height);
+    display: flex;
+    align-items: center;
+  }
+  .decalContainer {
+    height: var(--header-height);
+    overflow: hidden;
+    display: block;
+  }
+  /* decal uses transform so it remains on the compositor; initial transform set via CSS vars */
+  .decal {
+    width: var(--decalWidth);
+    max-width: none;
+    transform: translate(var(--decalLeft), var(--decalTop));
+    opacity: 0;
+    transition:
+      opacity 0.4s ease,
+      transform 0.6s ease;
+    will-change: transform, opacity;
+    transform-origin: center;
+  }
+  .fichtelUltraLogo {
+    width: var(--fu-logo-width);
+    height: var(--fu-logo-height);
+    flex: 0 0 auto;
+    will-change: transform, opacity;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  .mainSection {
+    padding: 1.25rem 0;
+  }
+  .post {
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+    padding: 0.75rem 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+  }
+  .postImg {
+    width: 192px;
+    height: 128px;
+    object-fit: cover;
+    flex: 0 0 192px;
+  }
+  .postTeaserContent h2 {
+    margin: 0.25rem 0;
+    font-size: 1.25rem;
+  }
+  .postTeaserContent p {
+    margin: 0.25rem 0;
+    color: #444;
+  }
+  .nav,
+  nav {
+    display: flex;
+    gap: 0.75rem;
+    align-items: center;
+  }
+  .logo {
+    max-height: 48px;
+  }
+  /* Reserve space for menu to avoid layout shifts when it renders */
+  .menu {
+    min-height: 44px;
+  }
+  /* Reserve space for home-intro (featured event) so countdown insertion doesn't shift layout) */
+  .home-intro {
+    min-height: 120px;
+  }
+  /* Ensure hero/title visible above the fold */
+  .hero,
+  .postHeader,
+  h1 {
+    visibility: visible;
+  }
+  /* Minimal utilities */
+  .text-small {
+    font-size: 0.85rem;
+  }
+  .tag {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 0.2rem 0.4rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+  }
 </style>

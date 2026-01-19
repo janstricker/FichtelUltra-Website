@@ -1,8 +1,8 @@
 ---
-title: "FKT 12 Gipfel Tour"
-meta_title: "FKT 12 Gipfel Tour"
-summary: "Christian startete einen neuen FKT Versuch für die 12 Gipfel Tour. Ziel: unter 6 Stunden"
-date: "2025-04-08"
+title: 'FKT 12 Gipfel Tour'
+meta_title: 'FKT 12 Gipfel Tour'
+summary: 'Christian startete einen neuen FKT Versuch für die 12 Gipfel Tour. Ziel: unter 6 Stunden'
+date: '2025-04-08'
 tags: ['FKT', '12GT', 'Challenge']
 ---
 
@@ -10,16 +10,17 @@ Ein weiterer Versuch von Christian, die [Fastest Known Time](https://fastestknow
 
 ## Strecke
 
-![Plot des Höhenprofils mit allen Wegpunkten der 12 Gipfel Tour und Daten zur Nährstoffversorgung während dem Run.](images/12gt.jpeg "Detaillierte Planung für den Rekordversuch")
+![Plot des Höhenprofils mit allen Wegpunkten der 12 Gipfel Tour und Daten zur Nährstoffversorgung während dem Run.](images/12gt.jpeg 'Detaillierte Planung für den Rekordversuch')
 
 ## Style
+
 Unsupported: Ich habe von Anfang an alle Verpflegung mitgenommen. Während des Abstiegs nach Karches habe ich meine Flaschen einmal an einer Wasserquelle aufgefüllt. Unterwegs bin ich außer anderen Wanderern, die ich nicht kenne, niemandem begegnet.
 
 ## Bericht
 
 Ich habe das Auto bei der Alten Vorsuchhütte geparkt und ein kurzes Warm-up gemacht. Um 10:00 Uhr bin ich losgelaufen. Auf dem Weg zur Piste hoch fühlten sich meine Beine sehr schwer an. Es schien nicht so, als ob das an diesem Tag eine Spitzenzeit werden würde.
 
-![Trinkflaschen, Gels und weitere Verpflegung liegen auf einem Tisch](images/2.jpeg "Viel Gepäck das mitgeschleppt werden muss.")
+![Trinkflaschen, Gels und weitere Verpflegung liegen auf einem Tisch](images/2.jpeg 'Viel Gepäck das mitgeschleppt werden muss.')
 
 Um 10:09 Uhr bin ich oben auf der Schönburgwarte (Kornberg) angekommen. Beim Downhill hatte ich bereits leichte Krämpfe in beiden inneren Oberschenkelmuskeln, was meine Zweifel noch verstärkte. Im flachen Stück Richtung Kirchenlamitz hatte ich zwar immer noch schwere Beine, aber die Krämpfe wurden weniger.
 
@@ -37,7 +38,7 @@ Um 13:38 Uhr bin ich oben am Asenturm (Ochsenkopf). Langsam spüre die Anstrengu
 
 Um 14:25 Uhr ist die Platte erklommen und dann ein schneller Downhill bis zum Silberhaus-Parkplatz.
 
-![Aussicht über das Fichtelgebirge am Tag des Laufs.](images/1.jpeg "Aussicht von der Platte über das Fichtelgebirge.")
+![Aussicht über das Fichtelgebirge am Tag des Laufs.](images/1.jpeg 'Aussicht von der Platte über das Fichtelgebirge.')
 
 Der Anstieg zur Hohen Matze zieht sich. Um 14:56 Uhr erreiche ich das Gipfelkreuz. Mein Kopf beginnt zu schmerzen, wahrscheinlich habe ich bisher zu wenig Wasser getrunken.
 
@@ -46,9 +47,9 @@ Trotzdem folgt ein zügiger Anstieg, da mir langsam die Zeit ausgeht. Oben am K�
 Um 15:41 Uhr erreiche ich den Großen Haberstein, um 15:47 Uhr den Burgstein Felsen. Jetzt folgt ein Downhill-Sprint auf der Forststraße.
 
 Um 15:55 Uhr komme ich am Denkmal an der Luisenburg an.
-Endzeit: **05:55:33!**. Hier der Beweis auf [Strava](https://www.strava.com/activities/14116665410/overview). 
+Endzeit: **05:55:33!**. Hier der Beweis auf [Strava](https://www.strava.com/activities/14116665410/overview).
 
-![Foto von Christian im Ziel an der Luisenburg.](images/3.jpeg "Knapp aber mein Ziel habe ich geschafft!")
+![Foto von Christian im Ziel an der Luisenburg.](images/3.jpeg 'Knapp aber mein Ziel habe ich geschafft!')
 
 ## Learnings
 
@@ -57,27 +58,27 @@ Die Aussichtstürme hochzugehen, Fotos zu machen und wieder runterzugehen, koste
 
 ## Verpflegung
 
-* 3735 ml Water
-* 1x NDURANZ Nrgy Gel 45
-* 1x SiS Nootropics Gel
-* 320g Maurten 320 Drink Mix
-* 250g NDURANZ Nrgy Unit 90 Drink Mix
-* 9x 4ENERGY Salt Caps
-* 1x NDURANZ Caffein Caps 
+- 3735 ml Water
+- 1x NDURANZ Nrgy Gel 45
+- 1x SiS Nootropics Gel
+- 320g Maurten 320 Drink Mix
+- 250g NDURANZ Nrgy Unit 90 Drink Mix
+- 9x 4ENERGY Salt Caps
+- 1x NDURANZ Caffein Caps
 
 Total: 598g Carbs (101 g/h) 3581mg Sodium (605mg/h).
 Überbleibsel: 1/4 Flasche mit Drink Mix
 
 ## Ausrüstung
 
-* Salomon S/Lab 10L Pack
-* iPhone 11
-* Garmin Fenix 6Pro
-* Schuhe: La Sportiva Prodigio Pro
-* Cap
-* Buff
-* Handschuhe
-* Running tights
-* Long sleeve
-* Regenjacke
-* Rettungsdecke
+- Salomon S/Lab 10L Pack
+- iPhone 11
+- Garmin Fenix 6Pro
+- Schuhe: La Sportiva Prodigio Pro
+- Cap
+- Buff
+- Handschuhe
+- Running tights
+- Long sleeve
+- Regenjacke
+- Rettungsdecke

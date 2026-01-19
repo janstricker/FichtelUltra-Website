@@ -1,0 +1,37 @@
+{
+  "name": "fichtelultra-website",
+  "version": "1.0.0",
+  "description": "Dieses Repository enthält die statische Website der FichtelUltra-Community, erzeugt mit Hugo. Die Seite veröffentlicht Berichte, Event-Informationen, GPX-Tracks und Fotogalerien rund um Läufe und Projekte der Community.",
+  "main": "index.js",
+  "scripts": {
+    "start": "hugo server -D",
+    "build": "hugo --minify",
+    "format": "prettier --write .",
+    "lint": "prettier --check .",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*.{html,css,js,md,json,yaml,yml}": "prettier --write"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janstricker/FichtelUltra-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janstricker/FichtelUltra-Website/issues"
+  },
+  "homepage": "https://github.com/janstricker/FichtelUltra-Website#readme",
+  "devDependencies": {
+    "hugo-bin": "^0.149.2",
+    "husky": "^9.1.7",
+    "lint-staged": "^16.2.7",
+    "prettier": "^3.7.4",
+    "prettier-plugin-go-template": "^0.0.15"
+  },
+  "hugo-bin": {
+    "buildTags": "extended"
+  }
+}

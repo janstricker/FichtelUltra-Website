@@ -18,3 +18,5 @@ disableKinds = ["taxonomy"]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true # Ermöglicht das Rendern von raw HTML in Markdown (z.B. für Bilder)
+    [markup.goldmark.parser]
+      wrapStandAloneImageWithinParagraph = false

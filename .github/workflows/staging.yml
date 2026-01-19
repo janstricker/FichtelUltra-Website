@@ -1,4 +1,3 @@
-
 name: Build and Deploy to FTP (develop branches) # Workflow-Name
 
 on:
@@ -9,7 +8,7 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest # Verwende die neueste Ubuntu-Umgebung
-    environment: Deploy   # <-- Add this line
+    environment: Deploy # <-- Add this line
 
     steps:
       - name: Checkout repository
@@ -23,17 +22,30 @@ jobs:
           hugo-version: 'latest' # Nutze die neueste Hugo-Version
           extended: true # Aktiviere die Extended-Version für SCSS/SASS
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
       - name: Build Hugo site
         # Baut die statische Website mit Hugo
         run: hugo --minify
 
-      - name: Upload via FTP
-        # Lädt das gebaute "public"-Verzeichnis per FTP auf den Server
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.4
+      - name: Install Dependencies
+        run: npm ci --ignore-scripts
+
+      - name: Lint Code
+        run: node node_modules/prettier/bin/prettier.cjs --check .
+
+      - name: Upload via FTP (Docker/lftp)
+        # Run lftp inside Alpine to avoid runner dependency issues
+        uses: docker://alpine:latest
         with:
-          server: ${{ secrets.SERVER }} # FTP-Server-Adresse 
-          username: ${{ secrets.USERNAME }} # FTP-Benutzername 
-          password: ${{ secrets.PASSWORD }} # FTP-Passwort 
-          local-dir: ./public/ # Quellverzeichnis für Upload
-          server-dir: ${{ secrets.PATH }} # Zielverzeichnis auf dem Server (anpassen!)
-          timeout: 300000   # Set timeout to 5 minutes
+          entrypoint: /bin/sh
+          args: -c "apk add --no-cache lftp ca-certificates && lftp -c \"set ssl:verify-certificate no; set mirror:set-permissions no; open -u $FTP_USERNAME,$FTP_PASSWORD $FTP_SERVER; mirror --reverse --verbose --delete --ignore-time --exclude .git/ --exclude node_modules/ ./public/ $FTP_SERVER_DIR; quit\""
+        env:
+          FTP_USERNAME: ${{ secrets.USERNAME }}
+          FTP_PASSWORD: ${{ secrets.PASSWORD }}
+          FTP_SERVER: ${{ secrets.SERVER }}
+          FTP_SERVER_DIR: ${{ secrets.PATH }}

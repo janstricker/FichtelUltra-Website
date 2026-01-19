@@ -1,16 +1,16 @@
-<menu class="menuSidebar">
+<nav class="menuSidebar">
   {{ $menuPages := slice "events" "blog" "info" }}
   <ul class="menu">
     {{ range $name := $menuPages }}
       {{ $section := site.GetPage $name }}
       {{ if $section }}
         {{ $class := $section.Params.color | default "" }}
-        <a class="menu-item {{ $class }}" href="{{ $section.RelPermalink }}">
-          <li>
+        <li class="menu-list-item">
+          <a class="menu-item {{ $class }}" href="{{ $section.RelPermalink }}">
             {{ $section.Title }}
-          </li>
-        </a>
+          </a>
+        </li>
       {{ end }}
     {{ end }}
   </ul>
-</menu>
+</nav>
