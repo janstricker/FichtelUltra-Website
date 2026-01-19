@@ -918,7 +918,7 @@ html {
 
 /* Site banner for pre-order CTA */
 .site-banner {
-  background-image: url(/topo-bg.svg);
+  background-image: url(/inhc-bg.svg);
   background-position: center;
   color: var(--neutral-strongest);
   font-weight: 600;
