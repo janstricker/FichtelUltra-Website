@@ -2,6 +2,7 @@
 title: FichtelUltra 3
 meta_title: FichtelUltra 3
 summary: 'Save the Date!'
+date: 2026-01-19
 event_date: 2026-10-17
 totalLenght: 68 km
 elevation: +1.960 hm / -2.090 hm
